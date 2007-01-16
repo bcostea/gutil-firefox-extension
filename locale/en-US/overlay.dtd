@@ -1,0 +1,41 @@
+<!ENTITY gutil.main.label "GUtil!">
+<!ENTITY gutil.main.options "Options...">
+
+
+<!ENTITY gutil.menu.gmail "GMail">
+<!ENTITY gutil.menu.docs "Docs &amp; Spreadsheets">
+<!ENTITY gutil.menu.blogger "Blogger(Blogspot)">
+<!ENTITY gutil.menu.calendar "Calendar">
+<!ENTITY gutil.menu.video "Video">
+<!ENTITY gutil.menu.maps "Maps">
+<!ENTITY gutil.menu.local "Local">
+<!ENTITY gutil.menu.news "News">
+<!ENTITY gutil.menu.groups "Groups">
+<!ENTITY gutil.menu.directory "Directory">
+<!ENTITY gutil.menu.translate "Translate">
+<!ENTITY gutil.menu.analytics "Analytics">
+<!ENTITY gutil.menu.adsense "AdSense">
+<!ENTITY gutil.menu.base "Base">
+<!ENTITY gutil.menu.wbt "Webmaster Tools">
+<!ENTITY gutil.menu.notebook "Notebook">
+<!ENTITY gutil.menu.acc "My Google Account">
+<!ENTITY gutil.menu.search "Google Search">
+<!ENTITY gutil.menu.image "Image Search">
+<!ENTITY gutil.menu.froogle "Froogle">
+<!ENTITY gutil.menu.reader "Reader">
+<!ENTITY gutil.menu.picasaweb "Picasa Web Albums">
+<!ENTITY gutil.menu.pagecreator "Page Creator">
+<!ENTITY gutil.menu.bookmarks "Bookmarks">
+<!ENTITY gutil.menu.scholar "Scholar">
+<!ENTITY gutil.menu.mtrends "Music Trends">
+
+
+
+<!ENTITY gutil.menu.orkut "Orkut">
+<!ENTITY gutil.menu.blogsearch "Blog Search">
+
+
+
+
+
+

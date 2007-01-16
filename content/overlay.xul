@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://gutil/skin/gutil.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://gutil/locale/overlay.dtd">
+<overlay id="gutil-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/x-javascript" src="chrome://gutil/content/gutil.js"/>
+
+    <menubar id="main-menubar">
+        <menu id="gutil-menu" label="&gutil.main.label;" insertbefore="helpMenu">
+            <menupopup>
+                <menuitem
+                        id="menu_search"
+                        label="&gutil.menu.search;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+
+                <menuitem
+                        id="menu_gmail"
+                        label="&gutil.menu.gmail;"
+                        oncommand="runGMail();"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/gmail14.png"
+                        />
+
+                <menuitem
+                        id="menu_docs"
+                        label="&gutil.menu.docs;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://docs.google.com');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/docs14.png"
+                        />
+
+                <menuitem
+                        id="menu_calendar"
+                        label="&gutil.menu.calendar;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/calendar');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/calendar14.png"
+                        />
+
+                <menuitem
+                        id="menu_base"
+                        label="&gutil.menu.base;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://base.google.com');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/base14.png"
+                        />                
+                <menuitem
+                        id="menu_bookmarks"
+                        label="&gutil.menu.bookmarks;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/bookmarks');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+
+                <menuitem
+                        id="menu_notebook"
+                        label="&gutil.menu.notebook;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/notebook/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/notebook14.png"
+                        />
+
+                <menuitem
+                        id="menu_blogger"
+                        label="&gutil.menu.blogger;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.blogger.com');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/blogger14.png"
+                        />
+
+                <menuitem
+                        id="menu_reader"
+                        label="&gutil.menu.reader;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/reader/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/reader14.png"
+                        />
+
+
+                <menuitem
+                        id="menu_analytics"
+                        label="&gutil.menu.analytics;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('https://www.google.com/analytics/home/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/analytics14.png"
+                        />
+                <menuitem
+                        id="menu_adsense"
+                        label="&gutil.menu.adsense;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('https://www.google.com/adsense');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/adsense14.png"
+                        />
+                <menuitem
+                        id="menu_wbt"
+                        label="&gutil.menu.wbt;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/webmasters/sitemaps');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/wbt14.png"
+                        />
+
+                <menuitem
+                        id="menu_image"
+                        label="&gutil.menu.image;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://images.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+
+                <menuitem
+                        id="menu_blogsearch"
+                        label="&gutil.menu.blogsearch;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/blogsearch');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />                
+                <menuitem
+                        id="menu_scholar"
+                        label="&gutil.menu.scholar;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://scholar.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+
+                <menuitem
+                        id="menu_video"
+                        label="&gutil.menu.video;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://video.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuitem
+                        id="menu_mtrends"
+                        label="&gutil.menu.mtrends;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/trends/music');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/mtrends14.png"
+                        />
+                <menuitem
+                        id="menu_maps"
+                        label="&gutil.menu.maps;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://maps.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuitem
+                        id="menu_froogle"
+                        label="&gutil.menu.froogle;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://froogle.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuitem
+                        id="menu_local"
+                        label="&gutil.menu.local;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://local.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuitem
+                        id="menu_news"
+                        label="&gutil.menu.news;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://news.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuitem
+                        id="menu_groups"
+                        label="&gutil.menu.groups;"
+                        oncommand="runGroups();"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+
+                <menuitem
+                        id="menu_directory"
+                        label="&gutil.menu.directory;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/dirhp');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuitem
+                        id="menu_translate"
+                        label="&gutil.menu.translate;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/language_tools');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuitem
+                        id="menu_picasaweb"
+                        label="&gutil.menu.picasaweb;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://picasaweb.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuitem
+                        id="menu_pagecreator"
+                        label="&gutil.menu.pagecreator;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://pages.google.com');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuitem
+                        id="menu_orkut"
+                        label="&gutil.menu.orkut;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('https://www.orkut.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/orkut14.png"
+                        />
+
+                <menuitem
+                        id="menu_acc"
+                        label="&gutil.menu.acc;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('https://www.google.com/accounts/ManageAccount');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                <menuseparator/>
+                <menuitem
+                        id="options"
+                        label="Options..."
+                        oncommand="window.openDialog('chrome://gutil/content/options.xul', '', 'centerscreen,chrome,modal');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/16.png"
+                        />
+            </menupopup>
+        </menu>
+    </menubar>
+
+    <toolbox id="navigator-toolbox">
+        <toolbarpalette id="BrowserToolbarPalette">
+            <toolbarbutton id="gutil-button" class="toolbarbutton-1 chromeclass-toolbar-additional" type="menu"
+                           label="GUtil"
+                           oncommand="">
+                <menupopup>
+                    <menuitem
+                            id="search"
+                            label="&gutil.menu.search;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+
+                    <menuitem
+                            id="gmail"
+                            label="&gutil.menu.gmail;"
+                            oncommand="runGMail();"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/gmail14.png"
+                            />
+
+                    <menuitem
+                            id="docs"
+                            label="&gutil.menu.docs;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://docs.google.com');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/docs14.png"
+                            />
+
+                    <menuitem
+                            id="calendar"
+                            label="&gutil.menu.calendar;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/calendar');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/calendar14.png"
+                            />
+
+                    <menuitem
+                            id="base"
+                            label="&gutil.menu.base;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://base.google.com');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/base14.png"
+                            />
+                    <menuitem
+                        id="bookmarks"
+                        label="&gutil.menu.bookmarks;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/bookmarks');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                    <menuitem
+                            id="notebook"
+                            label="&gutil.menu.notebook;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/notebook/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/notebook14.png"
+                            />
+
+                    <menuitem
+                            id="blogger"
+                            label="&gutil.menu.blogger;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.blogger.com');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/blogger14.png"
+                            />
+
+                    <menuitem
+                            id="reader"
+                            label="&gutil.menu.reader;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/reader/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/reader14.png"
+                            />
+
+
+                    <menuitem
+                            id="analytics"
+                            label="&gutil.menu.analytics;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('https://www.google.com/analytics/home/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/analytics14.png"
+                            />
+                    <menuitem
+                            id="adsense"
+                            label="&gutil.menu.adsense;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('https://www.google.com/adsense');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/adsense14.png"
+                            />
+                    <menuitem
+                            id="wbt"
+                            label="&gutil.menu.wbt;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/webmasters/sitemaps');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/wbt14.png"
+                            />
+
+                    <menuitem
+                            id="image"
+                            label="&gutil.menu.image;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://images.google.com/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+
+                    <menuitem
+                            id="blogsearch"
+                            label="&gutil.menu.blogsearch;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/blogsearch');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+                    <menuitem
+                        id="scholar"
+                        label="&gutil.menu.scholar;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://scholar.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                    <menuitem
+                            id="video"
+                            label="&gutil.menu.video;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://video.google.com/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+                    <menuitem
+                            id="mtrends"
+                            label="&gutil.menu.mtrends;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/trends/music');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/mtrends14.png"
+                            />
+                    
+                    <menuitem
+                            id="maps"
+                            label="&gutil.menu.maps;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://maps.google.com/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+                    <menuitem
+                            id="froogle"
+                            label="&gutil.menu.froogle;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://froogle.google.com/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+                    <menuitem
+                        id="local"
+                        label="&gutil.menu.local;"
+                        oncommand="getBrowser().selectedTab = getBrowser().addTab('http://local.google.com/');"
+                        class="menuitem-iconic"
+                        image="chrome://gutil/skin/g14.png"
+                        />
+                    <menuitem
+                            id="news"
+                            label="&gutil.menu.news;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://news.google.com/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+                    <menuitem
+                            id="groups"
+                            label="&gutil.menu.groups;"
+                            oncommand="runGroups();"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+
+                    <menuitem
+                            id="directory"
+                            label="&gutil.menu.directory;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/dirhp');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+                    <menuitem
+                            id="translate"
+                            label="&gutil.menu.translate;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://www.google.com/language_tools');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+
+                    <menuitem
+                            id="picasaweb"
+                            label="&gutil.menu.picasaweb;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://picasaweb.google.com/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+                    <menuitem
+                            id="pagecreator"
+                            label="&gutil.menu.pagecreator;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('http://pages.google.com');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+                    <menuitem
+                            id="orkut"
+                            label="&gutil.menu.orkut;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('https://www.orkut.com/');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/orkut14.png"
+                            />
+                    <menuitem
+                            id="acc"
+                            label="&gutil.menu.acc;"
+                            oncommand="getBrowser().selectedTab = getBrowser().addTab('https://www.google.com/accounts/ManageAccount');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/g14.png"
+                            />
+
+                    <menuseparator/>
+                    <menuitem
+                            id="options"
+                            label="Options"
+                            oncommand="window.openDialog('chrome://gutil/content/options.xul', '', 'centerscreen,chrome,modal');"
+                            class="menuitem-iconic"
+                            image="chrome://gutil/skin/16.png"
+                            />
+
+                </menupopup>
+            </toolbarbutton>
+        </toolbarpalette>
+    </toolbox>
+
+</overlay>
