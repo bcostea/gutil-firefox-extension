@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+  
+    <em:id>{9a3fa4df-b5e1-4520-a207-ec1c32ea9fb0}</em:id>
+    <em:name>GUtil!</em:name>
+    <em:version>2.1</em:version>
+    <em:description>Google(R) Utilities in your Firefox Menu and Toolbar</em:description>
+    <em:creator>Bogdan Costea</em:creator>
+    <em:iconURL>chrome://gutil/skin/32.png</em:iconURL>
+
+    <!-- optional items -->
+    <em:homepageURL>http://www.gridpulse.com/gutil/</em:homepageURL>
+    <em:optionsURL>chrome://gutil/content/options.xul</em:optionsURL>
+    <!--em:aboutURL>chrome://sampleext/content/about.xul</em:aboutURL>
+    -->
+    <!--
+    <em:updateURL>http://sampleextension.mozdev.org/update.rdf</em:updateURL-->
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>2.0.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+  </Description>
+
+</RDF>
