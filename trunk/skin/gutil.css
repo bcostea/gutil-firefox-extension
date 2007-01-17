@@ -1,7 +1,7 @@
 #gutil-button { 
-  list-style-image: url("chrome://gutil/skin/24.png"); 
+  list-style-image: url("chrome://gutil/skin/img/gutil_24.png"); 
 }
 
 toolbar[iconsize="small"] #gutil-button {
-  list-style-image: url("chrome://gutil/skin/16.png");
+  list-style-image: url("chrome://gutil/skin/img/gutil_16.png");
 }

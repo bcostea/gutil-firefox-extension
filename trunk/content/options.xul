@@ -15,7 +15,7 @@
             <spacer flex="1"/>
             <vbox pack="center" orient="horizontal">
                 <spacer flex="1"/>
-                <image src='chrome://gutil/skin/128.png' width='128' height='128'/>
+                <image src='chrome://gutil/skin/img/gutil_128.png' width='128' height='128'/>
                 <spacer flex="1"/>
             </vbox>
             <spacer flex="1"/>
@@ -46,95 +46,128 @@
 
 
         <!-- ###################################################################### -->
-        <groupbox pack="top" orient="vertical">
+        <groupbox pack="top" orient="vertical" style='overflow: auto;height:350px;'>
             <caption label="Menu item visibility"/>
-            <vbox oncommand='toggleGutilElement("gutil.menu.gmail","menuHideCheckboxgmail");'>
-                <checkbox id="menuHideCheckboxgmail" label="&gutil.menu.gmail;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.docs","menuHideCheckboxdocs");'>
-                <checkbox id="menuHideCheckboxdocs" label="&gutil.menu.docs;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.blogger","menuHideCheckboxblogger");'>
-                <checkbox id="menuHideCheckboxblogger" label="&gutil.menu.blogger;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.calendar","menuHideCheckboxcalendar");'>
-                <checkbox id="menuHideCheckboxcalendar" label="&gutil.menu.calendar;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.video","menuHideCheckboxvideo");'>
-                <checkbox id="menuHideCheckboxvideo" label="&gutil.menu.video;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.maps","menuHideCheckboxmaps");'>
-                <checkbox id="menuHideCheckboxmaps" label="&gutil.menu.maps;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.local","menuHideCheckboxlocal");'>
-                <checkbox id="menuHideCheckboxlocal" label="&gutil.menu.local;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.news","menuHideCheckboxnews");'>
-                <checkbox id="menuHideCheckboxnews" label="&gutil.menu.news;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.groups","menuHideCheckboxgroups");'>
-                <checkbox id="menuHideCheckboxgroups" label="&gutil.menu.groups;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.directory","menuHideCheckboxdirectory");'>
-                <checkbox id="menuHideCheckboxdirectory" label="&gutil.menu.directory;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.translate","menuHideCheckboxtranslate");'>
-                <checkbox id="menuHideCheckboxtranslate" label="&gutil.menu.translate;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.analytics","menuHideCheckboxanalytics");'>
-                <checkbox id="menuHideCheckboxanalytics" label="&gutil.menu.analytics;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
-                <checkbox id="menuHideCheckboxadsense" label="&gutil.menu.adsense;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.base","menuHideCheckboxbase");'>
-                <checkbox id="menuHideCheckboxbase" label="&gutil.menu.base;"/>
-            </vbox>
-        </groupbox>
-        <groupbox pack="top" orient="vertical">
-            <caption label="Menu item visibility 2"/>
-            <vbox oncommand='toggleGutilElement("gutil.menu.wbt","menuHideCheckboxwbt");'>
-                <checkbox id="menuHideCheckboxwbt" label="&gutil.menu.wbt;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.notebook","menuHideCheckboxnotebook");'>
-                <checkbox id="menuHideCheckboxnotebook" label="&gutil.menu.notebook;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.acc","menuHideCheckboxacc");'>
-                <checkbox id="menuHideCheckboxacc" label="&gutil.menu.acc;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.search","menuHideCheckboxsearch");'>
-                <checkbox id="menuHideCheckboxsearch" label="&gutil.menu.search;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.image","menuHideCheckboximage");'>
-                <checkbox id="menuHideCheckboximage" label="&gutil.menu.image;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.froogle","menuHideCheckboxfroogle");'>
-                <checkbox id="menuHideCheckboxfroogle" label="&gutil.menu.froogle;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.reader","menuHideCheckboxreader");'>
-                <checkbox id="menuHideCheckboxreader" label="&gutil.menu.reader;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.picasaweb","menuHideCheckboxpicasaweb");'>
-                <checkbox id="menuHideCheckboxpicasaweb" label="&gutil.menu.picasaweb;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.pagecreator","menuHideCheckboxpagecreator");'>
-                <checkbox id="menuHideCheckboxpagecreator" label="&gutil.menu.pagecreator;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.orkut","menuHideCheckboxorkut");'>
-                <checkbox id="menuHideCheckboxorkut" label="&gutil.menu.orkut;"/>
-            </vbox>
-            <vbox oncommand='toggleGutilElement("gutil.menu.blogsearch","menuHideCheckboxblogsearch");'>
-                <checkbox id="menuHideCheckboxblogsearch" label="&gutil.menu.blogsearch;"/>
-            </vbox>            
-            <vbox oncommand='toggleGutilElement("gutil.menu.bookmarks","menuHideCheckboxbookmarks");'>
-                <checkbox id="menuHideCheckboxbookmarks" label="&gutil.menu.bookmarks;"/>
-            </vbox>            
-            <vbox oncommand='toggleGutilElement("gutil.menu.scholar","menuHideCheckboxscholar");'>
-                <checkbox id="menuHideCheckboxscholar" label="&gutil.menu.scholar;"/>
-            </vbox>            
-            <vbox oncommand='toggleGutilElement("gutil.menu.mtrends","menuHideCheckboxmtrends");'>
-                <checkbox id="menuHideCheckboxmtrends" label="&gutil.menu.mtrends;"/>
-            </vbox>
+          <vbox oncommand='toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
+<checkbox id="menuHideCheckboxadsense" label="&gutil.menu.adsense;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.analytics","menuHideCheckboxanalytics");'>
+<checkbox id="menuHideCheckboxanalytics" label="&gutil.menu.analytics;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.base","menuHideCheckboxbase");'>
+<checkbox id="menuHideCheckboxbase" label="&gutil.menu.base;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.blogsearch","menuHideCheckboxblogsearch");'>
+<checkbox id="menuHideCheckboxblogsearch" label="&gutil.menu.blogsearch;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.blogger","menuHideCheckboxblogger");'>
+<checkbox id="menuHideCheckboxblogger" label="&gutil.menu.blogger;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.bookmarks","menuHideCheckboxbookmarks");'>
+<checkbox id="menuHideCheckboxbookmarks" label="&gutil.menu.bookmarks;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.books","menuHideCheckboxbooks");'>
+<checkbox id="menuHideCheckboxbooks" label="&gutil.menu.books;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.calendar","menuHideCheckboxcalendar");'>
+<checkbox id="menuHideCheckboxcalendar" label="&gutil.menu.calendar;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.code","menuHideCheckboxcode");'>
+<checkbox id="menuHideCheckboxcode" label="&gutil.menu.code;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.directory","menuHideCheckboxdirectory");'>
+<checkbox id="menuHideCheckboxdirectory" label="&gutil.menu.directory;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.docs","menuHideCheckboxdocs");'>
+<checkbox id="menuHideCheckboxdocs" label="&gutil.menu.docs;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.earth","menuHideCheckboxearth");'>
+<checkbox id="menuHideCheckboxearth" label="&gutil.menu.earth;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.finance","menuHideCheckboxfinance");'>
+<checkbox id="menuHideCheckboxfinance" label="&gutil.menu.finance;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.froogle","menuHideCheckboxfroogle");'>
+<checkbox id="menuHideCheckboxfroogle" label="&gutil.menu.froogle;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.gmail","menuHideCheckboxgmail");'>
+<checkbox id="menuHideCheckboxgmail" label="&gutil.menu.gmail;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.groups","menuHideCheckboxgroups");'>
+<checkbox id="menuHideCheckboxgroups" label="&gutil.menu.groups;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.hello","menuHideCheckboxhello");'>
+<checkbox id="menuHideCheckboxhello" label="&gutil.menu.hello;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.imagelabeler","menuHideCheckboximagelabeler");'>
+<checkbox id="menuHideCheckboximagelabeler" label="&gutil.menu.imagelabeler;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.image","menuHideCheckboximage");'>
+<checkbox id="menuHideCheckboximage" label="&gutil.menu.image;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.translate","menuHideCheckboxtranslate");'>
+<checkbox id="menuHideCheckboxtranslate" label="&gutil.menu.translate;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.local","menuHideCheckboxlocal");'>
+<checkbox id="menuHideCheckboxlocal" label="&gutil.menu.local;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.maps","menuHideCheckboxmaps");'>
+<checkbox id="menuHideCheckboxmaps" label="&gutil.menu.maps;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.mars","menuHideCheckboxmars");'>
+<checkbox id="menuHideCheckboxmars" label="&gutil.menu.mars;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.mtrends","menuHideCheckboxmtrends");'>
+<checkbox id="menuHideCheckboxmtrends" label="&gutil.menu.mtrends;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.news","menuHideCheckboxnews");'>
+<checkbox id="menuHideCheckboxnews" label="&gutil.menu.news;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.notebook","menuHideCheckboxnotebook");'>
+<checkbox id="menuHideCheckboxnotebook" label="&gutil.menu.notebook;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.orkut","menuHideCheckboxorkut");'>
+<checkbox id="menuHideCheckboxorkut" label="&gutil.menu.orkut;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.pack","menuHideCheckboxpack");'>
+<checkbox id="menuHideCheckboxpack" label="&gutil.menu.pack;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.pagecreator","menuHideCheckboxpagecreator");'>
+<checkbox id="menuHideCheckboxpagecreator" label="&gutil.menu.pagecreator;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.patents","menuHideCheckboxpatents");'>
+<checkbox id="menuHideCheckboxpatents" label="&gutil.menu.patents;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.picasaweb","menuHideCheckboxpicasaweb");'>
+<checkbox id="menuHideCheckboxpicasaweb" label="&gutil.menu.picasaweb;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.reader","menuHideCheckboxreader");'>
+<checkbox id="menuHideCheckboxreader" label="&gutil.menu.reader;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.scholar","menuHideCheckboxscholar");'>
+<checkbox id="menuHideCheckboxscholar" label="&gutil.menu.scholar;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.search","menuHideCheckboxsearch");'>
+<checkbox id="menuHideCheckboxsearch" label="&gutil.menu.search;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.sketchup","menuHideCheckboxsketchup");'>
+<checkbox id="menuHideCheckboxsketchup" label="&gutil.menu.sketchup;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.ssearch","menuHideCheckboxssearch");'>
+<checkbox id="menuHideCheckboxssearch" label="&gutil.menu.ssearch;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.suggest","menuHideCheckboxsuggest");'>
+<checkbox id="menuHideCheckboxsuggest" label="&gutil.menu.suggest;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.video","menuHideCheckboxvideo");'>
+<checkbox id="menuHideCheckboxvideo" label="&gutil.menu.video;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.wbt","menuHideCheckboxwbt");'>
+<checkbox id="menuHideCheckboxwbt" label="&gutil.menu.wbt;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.acc","menuHideCheckboxacc");'>
+<checkbox id="menuHideCheckboxacc" label="&gutil.menu.acc;"/>
+</vbox>
         </groupbox>
         <!-- ###################################################################### -->
 
