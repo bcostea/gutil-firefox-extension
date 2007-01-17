@@ -203,34 +203,47 @@ function hideElements()
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
         
-    var elements=new Array("gmail",
-        "docs",
-        "blogger",
-        "calendar",
-        "bookmarks",
-        "scholar",
-        "mtrends",
-        "video",
-        "maps",
-        "local",
-        "news",
-        "groups",
-        "directory",
-        "translate",
-        "analytics",
-        "adsense",
-        "base",
-        "wbt",
-        "notebook",
-        "acc",
-        "search", 
-        "image",
-        "froogle",
-        "reader",
-        "picasaweb",
-        "pagecreator",
-        "orkut",
-        "blogsearch");
+var elements=new Array(
+            "adsense",
+            "analytics",
+            "base",
+            "blogsearch",
+            "blogger",
+            "bookmarks",
+            "books",
+            "calendar",
+            "code",
+            "directory",
+            "docs",
+            "earth",
+            "finance",
+            "froogle",
+            "gmail",
+            "groups",
+            "hello",
+            "imagelabeler",
+            "image",
+            "translate",
+            "local",
+            "maps",
+            "mars",
+            "mtrends",
+            "news",
+            "notebook",
+            "orkut",
+            "pack",
+            "pagecreator",
+            "patents",
+            "picasaweb",
+            "reader",
+            "scholar",
+            "search",
+            "sketchup",
+            "ssearch",
+            "suggest",
+            "video",
+            "wbt"
+            );
 
    for (i=0;i<elements.length;i++)   
    {
@@ -245,14 +258,14 @@ function hideElements()
         //alert("set " + elements[i] + " " + visible);
         if(!visible)
         {
-            document.getElementById("menu_" + elements[i]).setAttribute("hidden",true);
-            document.getElementById(elements[i]).setAttribute("hidden",true);
+            document.getElementById("gutil_menuitem_" + elements[i]).setAttribute("hidden",true);
+            document.getElementById("gutil_toolbaritem_" + elements[i]).setAttribute("hidden",true);
 
         }
         else
         {
-            document.getElementById("menu_" + elements[i]).removeAttribute("hidden");
-            document.getElementById(elements[i]).removeAttribute("hidden");
+            document.getElementById("gutil_menuitem_" + elements[i]).removeAttribute("hidden");
+            document.getElementById("gutil_toolbaritem_" + elements[i]).removeAttribute("hidden");
         }
         
     }
