@@ -274,5 +274,25 @@ var elements=new Array(
 
 
 /***********************************************************************************************************/
+//launch item
+//introduced in 2.1
+
+function gutilExecute(URL, event)
+{
+    switch(event.button)
+    {
+        case 0:
+            getBrowser().selectedTab = getBrowser().addTab(URL);
+        break;
+        case 1:
+            getBrowser().addTab(URL);
+        break;
+        case 2:
+            gBrowser.loadURI(URL);
+        break;
+    }
+}
+
+/***********************************************************************************************************/
 // start it up
 window.addEventListener("load", gutilMain.buttonSetup, false);
