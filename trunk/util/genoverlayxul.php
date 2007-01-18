@@ -25,7 +25,7 @@ echo "<?xml-stylesheet href=\"chrome://gutil/skin/gutil.css\" type=\"text/css\"?
             }
             else
             {
-                echo "<menuitem id=\"gutil_menuitem_".$rows[$i][0]."\" label=\"".$rows[$i][1]."\" oncommand=\"gutilExecute('".$rows[$i][3]."');\" class=\"menuitem-iconic\" image=\"".$rows[$i][4]."\" />\n";
+                echo "<menuitem id=\"gutil_menuitem_".$rows[$i][0]."\" label=\"".$rows[$i][1]."\" oncommand=\"gutilExecute('".$rows[$i][3]."', event);\" class=\"menuitem-iconic\" image=\"".$rows[$i][4]."\" />\n";
             }
        }
 
@@ -48,7 +48,7 @@ echo "<?xml-stylesheet href=\"chrome://gutil/skin/gutil.css\" type=\"text/css\"?
             }
             else
             {
-                echo "<menuitem id=\"gutil_toolbaritem_".$rows[$i][0]."\" label=\"".$rows[$i][1]."\" oncommand=\"gutilExecute('".$rows[$i][3]."');\" class=\"menuitem-iconic\" image=\"".$rows[$i][4]."\" />\n";
+                echo "<menuitem id=\"gutil_toolbaritem_".$rows[$i][0]."\" label=\"".$rows[$i][1]."\" onclick=\"gutilExecute('".$rows[$i][3]."', event);\" class=\"menuitem-iconic\" image=\"".$rows[$i][4]."\" />\n";
             }
        }
 
