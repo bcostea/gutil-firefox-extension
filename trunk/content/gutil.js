@@ -3,6 +3,7 @@
 var gutilMain = {
  buttonSetup : function(){
  
+        newInstallRunOnce();
     	var toolbox = document.getElementById("navigator-toolbox");
     	var toolboxDocument = toolbox.ownerDocument;
         
@@ -151,26 +152,30 @@ var gutilObserver = {
 }
 
 /***********************************************************************************************************/
-// special request - gmail on https
+// special request - gmail on https + hosted
 function runGMail()
 {
    var pref = Components.classes["@mozilla.org/preferences-service;1"]
 			.getService(Components.interfaces.nsIPrefBranch);
      try{
        var bool = pref.getBoolPref("gutil.menu.gmailhttps");
-           if(bool)
+     
+         if(bool)
            {
-                getBrowser().selectedTab = getBrowser().addTab('https://mail.google.com');
+                if(pref.getCharPref("gutil.menu.gmail.hosted","").length>1) return 'https://mail.google.com/hosted/' + pref.getCharPref("gutil.menu.gmail.hosted","");
+                else return 'https://mail.google.com/';
            }else
            {
-                getBrowser().selectedTab = getBrowser().addTab('http://mail.google.com');    
+               if(pref.getCharPref("gutil.menu.gmail.hosted","").length>1) return 'http://mail.google.com/hosted/' + pref.getCharPref("gutil.menu.gmail.hosted","");
+                else return 'http://mail.google.com/';
           }
-       }
+    
+        }
        catch(e)
        {
                pref.setBoolPref("gutil.menu.gmailhttps", false);
-               runGMail();
-       }
+                return 'http://mail.google.com/';
+        }
 }
 
 /***********************************************************************************************************/
@@ -184,10 +189,10 @@ function runGroups()
        var bool = pref.getBoolPref("gutil.menu.groupsbeta");
            if(bool)
            {
-                getBrowser().selectedTab = getBrowser().addTab('http://groups-beta.google.com/');
+                return 'http://groups-beta.google.com/';
            }else
            {
-                getBrowser().selectedTab = getBrowser().addTab('http://groups.google.com');
+                return 'http://groups.google.com';
             }
        }
        catch(e)
@@ -206,6 +211,7 @@ function hideElements()
 var elements=new Array(
             "adsense",
             "analytics",
+            "appd",
             "base",
             "blogsearch",
             "blogger",
@@ -279,6 +285,16 @@ var elements=new Array(
 
 function gutilExecute(URL, event)
 {
+
+    if(event.target.id == 'gutil_toolbaritem_groups' || event.target.id == 'gutil_menuitem_groups')
+    {
+        URL = runGroups();
+    }    
+    if(event.target.id == 'gutil_toolbaritem_gmail' || event.target.id == 'gutil_menuitem_gmail')
+    {
+        URL = runGMail();
+    }
+    
     switch(event.button)
     {
         case 0:
@@ -286,11 +302,42 @@ function gutilExecute(URL, event)
         break;
         case 1:
             getBrowser().addTab(URL);
+            // from utilityOverlay.js, line 197 - good to know
+            closeMenus(event.target);
         break;
         case 2:
             gBrowser.loadURI(URL);
+            closeMenus(event.target);
         break;
     }
+}
+
+
+
+/***********************************************************************************************************/
+//tan ta daaa
+function newInstallRunOnce()
+{
+    var pref = Components.classes["@mozilla.org/preferences-service;1"]
+            .getService(Components.interfaces.nsIPrefBranch);
+    var isthisthefirstrun;
+
+        try{
+            isthisthefirstrun = pref.getBoolPref("gutil.main.firstrun");
+        }
+        catch(e){
+            pref.setBoolPref("gutil.main.firstrun", true);
+        }
+        
+    isthisthefirstrun = pref.getBoolPref("gutil.main.firstrun");
+    //alert(isthisthefirstrun.toString());
+    if(isthisthefirstrun.toString()!="false")
+    {
+        //alert("in if" + isthisthefirstrun.toString());
+        getBrowser().selectedTab = getBrowser().addTab("http://www.gridpulse.com/gutil/update.html");
+    }
+     
+     pref.setBoolPref("gutil.main.firstrun", false);
 }
 
 /***********************************************************************************************************/

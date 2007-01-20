@@ -2,6 +2,7 @@
 var elements=new Array(
             "adsense",
             "analytics",
+            "appd",
             "base",
             "blogsearch",
             "blogger",
@@ -62,6 +63,12 @@ function startup()
     
     check = ggetBoolPref("gutil.menu.groupsbeta");
     checkOption("groupsBetaCheckbox",check);
+    
+    var hg = document.getElementById("hostedGmail");
+    var pref = Components.classes["@mozilla.org/preferences-service;1"]
+        .getService(Components.interfaces.nsIPrefBranch);
+        hg.value=
+            pref.getCharPref("gutil.menu.gmail.hosted","");
     
 }
 
@@ -140,6 +147,7 @@ function optionOk()
 
     var menuHideCheckbox = document.getElementById("menuHideCheckbox");
     var buttonHideCheckbox = document.getElementById("buttonHideCheckbox");
+    var hg = document.getElementById("hostedGmail");
 
     if(menuHideCheckbox.checked)
     {
@@ -163,8 +171,15 @@ function optionOk()
    	            .notifyObservers(null, "gutil:hide-button", "0");   
     }
     
+    //alert(hg.value);
+    
+    var pref = Components.classes["@mozilla.org/preferences-service;1"]
+        .getService(Components.interfaces.nsIPrefBranch);
+        pref.setCharPref("gutil.menu.gmail.hosted",hg.value);
+    
     Components.classes["@mozilla.org/observer-service;1"]
 	    .getService(Components.interfaces.nsIObserverService)
    	        .notifyObservers(null, "gutil:refresh-elements", "0");   
+            
     window.close();
 }
