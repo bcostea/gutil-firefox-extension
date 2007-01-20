@@ -1,42 +1,43 @@
 ID;LABEL;CAPTION en_EN;ONCOMMAND;IMAGE
-adsense;"&gutil.menu.adsense;";Adsense;https://www.google.com/adsense;chrome://gutil/skin/img/generic.png
-analytics;"&gutil.menu.analytics;";Analytics;https://www.google.com/analytics/home/;chrome://gutil/skin/img/generic.png
-base;"&gutil.menu.base;";Base;http://base.google.com;chrome://gutil/skin/img/generic.png
-blogsearch;"&gutil.menu.blogsearch;";Blog Search;http://www.google.com/blogsearch;chrome://gutil/skin/img/generic.png
-blogger;"&gutil.menu.blogger;";Blogger;http://www.blogger.com;chrome://gutil/skin/img/generic.png
-bookmarks;"&gutil.menu.bookmarks;";Bookmarks;http://www.google.com/bookmarks;chrome://gutil/skin/img/generic.png
-books;"&gutil.menu.books;";Books;http://books.google.com/;chrome://gutil/skin/img/generic.png
-calendar;"&gutil.menu.calendar;";Calendar;http://www.google.com/calendar;chrome://gutil/skin/img/generic.png
-code;"&gutil.menu.code;";Code;http://code.google.com/;chrome://gutil/skin/img/generic.png
-directory;"&gutil.menu.directory;";Directory;http://www.google.com/dirhp;chrome://gutil/skin/img/generic.png
-docs;"&gutil.menu.docs;";Docs & Spreadsheets;http://docs.google.com;chrome://gutil/skin/img/generic.png
-earth;"&gutil.menu.earth;";Earth;http://earth.google.com/;chrome://gutil/skin/img/generic.png
-finance;"&gutil.menu.finance;";Finance;http://www.google.com/finance;chrome://gutil/skin/img/generic.png
-froogle;"&gutil.menu.froogle;";Froogle;http://froogle.google.com/;chrome://gutil/skin/img/generic.png
-gmail;"&gutil.menu.gmail;";Gmail;"runGMail();";chrome://gutil/skin/img/generic.png
-groups;"&gutil.menu.groups;";Groups;"runGroups();";chrome://gutil/skin/img/generic.png
-hello;"&gutil.menu.hello;";Hello;http://www.hello.com/;chrome://gutil/skin/img/generic.png
+adsense;"&gutil.menu.adsense;";Adsense;https://www.google.com/adsense;chrome://gutil/skin/img/adsense.png
+analytics;"&gutil.menu.analytics;";Analytics;https://www.google.com/analytics/home/;chrome://gutil/skin/img/analytics.png
+appd;"&gutil.menu.appd;";Apps for your domain;http://www.google.com/a/;chrome://gutil/skin/img/generic.png
+base;"&gutil.menu.base;";Base;http://base.google.com;chrome://gutil/skin/img/base.png
+blogsearch;"&gutil.menu.blogsearch;";Blog Search;http://www.google.com/blogsearch;chrome://gutil/skin/img/search.png
+blogger;"&gutil.menu.blogger;";Blogger;http://www.blogger.com;chrome://gutil/skin/img/blogger.png
+bookmarks;"&gutil.menu.bookmarks;";Bookmarks;http://www.google.com/bookmarks;chrome://gutil/skin/img/bookmarks.png
+books;"&gutil.menu.books;";Books;http://books.google.com/;chrome://gutil/skin/img/books.gif
+calendar;"&gutil.menu.calendar;";Calendar;http://www.google.com/calendar;chrome://gutil/skin/img/calendar.png
+code;"&gutil.menu.code;";Code;http://code.google.com/;chrome://gutil/skin/img/code.gif
+directory;"&gutil.menu.directory;";Directory;http://www.google.com/dirhp;chrome://gutil/skin/img/directory.gif
+docs;"&gutil.menu.docs;";Docs & Spreadsheets;http://docs.google.com;chrome://gutil/skin/img/docs.png
+earth;"&gutil.menu.earth;";Earth;http://earth.google.com/;chrome://gutil/skin/img/earth.gif
+finance;"&gutil.menu.finance;";Finance;http://www.google.com/finance;chrome://gutil/skin/img/finance.gif
+froogle;"&gutil.menu.froogle;";Froogle;http://froogle.google.com/;chrome://gutil/skin/img/froogle.gif
+gmail;"&gutil.menu.gmail;";Gmail;"runGMail();";chrome://gutil/skin/img/gmail.png
+groups;"&gutil.menu.groups;";Groups;"runGroups();";chrome://gutil/skin/img/groups.gif
+hello;"&gutil.menu.hello;";Hello;http://www.hello.com/;chrome://gutil/skin/img/hello.gif
 imagelabeler;"&gutil.menu.imagelabeler;";Image Labeler;http://images.google.com/imagelabeler/;chrome://gutil/skin/img/generic.png
 image;"&gutil.menu.image;";Image Search;http://images.google.com/;chrome://gutil/skin/img/generic.png
 translate;"&gutil.menu.translate;";Language Tools (Translate);http://www.google.com/language_tools;chrome://gutil/skin/img/generic.png
 local;"&gutil.menu.local;";Local (Maps);http://local.google.com/;chrome://gutil/skin/img/generic.png
-maps;"&gutil.menu.maps;";Maps;http://maps.google.com/;chrome://gutil/skin/img/generic.png
+maps;"&gutil.menu.maps;";Maps;http://maps.google.com/;chrome://gutil/skin/img/maps.gif
 mars;"&gutil.menu.mars;";Mars;http://www.google.com/mars/;chrome://gutil/skin/img/generic.png
-mtrends;"&gutil.menu.mtrends;";Music Trends;http://www.google.com/trends/music;chrome://gutil/skin/img/generic.png
-news;"&gutil.menu.news;";News;http://news.google.com/;chrome://gutil/skin/img/generic.png
-notebook;"&gutil.menu.notebook;";Notebook;http://www.google.com/notebook/;chrome://gutil/skin/img/generic.png
-orkut;"&gutil.menu.orkut;";orkut;https://www.orkut.com/;chrome://gutil/skin/img/generic.png
+mtrends;"&gutil.menu.mtrends;";Music Trends;http://www.google.com/trends/music;chrome://gutil/skin/img/mtrends.png
+news;"&gutil.menu.news;";News;http://news.google.com/;chrome://gutil/skin/img/news.gif
+notebook;"&gutil.menu.notebook;";Notebook;http://www.google.com/notebook/;chrome://gutil/skin/img/notebook.png
+orkut;"&gutil.menu.orkut;";orkut;https://www.orkut.com/;chrome://gutil/skin/img/orkut.png
 pack;"&gutil.menu.pack;";Pack;http://pack.google.com/;chrome://gutil/skin/img/generic.png
-pagecreator;"&gutil.menu.pagecreator;";Page Creator;http://pages.google.com;chrome://gutil/skin/img/generic.png
+pagecreator;"&gutil.menu.pagecreator;";Page Creator;http://pages.google.com;chrome://gutil/skin/img/pagecreator.gif
 patents;"&gutil.menu.patents;";Patent Search;http://www.google.com/patents;chrome://gutil/skin/img/generic.png
-picasaweb;"&gutil.menu.picasaweb;";Picasa Web Albums;http://picasaweb.google.com/;chrome://gutil/skin/img/generic.png
-reader;"&gutil.menu.reader;";Reader;http://www.google.com/reader/;chrome://gutil/skin/img/generic.png
-scholar;"&gutil.menu.scholar;";Scholar;http://scholar.google.com/;chrome://gutil/skin/img/generic.png
-search;"&gutil.menu.search;";Search;http://www.google.com/;chrome://gutil/skin/img/generic.png
+picasaweb;"&gutil.menu.picasaweb;";Picasa Web Albums;http://picasaweb.google.com/;chrome://gutil/skin/img/picasaweb.gif
+reader;"&gutil.menu.reader;";Reader;http://www.google.com/reader/;chrome://gutil/skin/img/reader.png
+scholar;"&gutil.menu.scholar;";Scholar;http://scholar.google.com/;chrome://gutil/skin/img/scholar.gif
+search;"&gutil.menu.search;";Search;http://www.google.com/;chrome://gutil/skin/img/search.png
 sketchup;"&gutil.menu.sketchup;";Sketchup;http://www.sketchup.com/;chrome://gutil/skin/img/generic.png
-ssearch;"&gutil.menu.ssearch;";Special Search;http://www.google.com/options/specialsearches.html;chrome://gutil/skin/img/generic.png
+ssearch;"&gutil.menu.ssearch;";Special Search;http://www.google.com/options/specialsearches.html;chrome://gutil/skin/img/search.png
 suggest;"&gutil.menu.suggest;";Suggest;http://www.google.com/webhp?complete=1;chrome://gutil/skin/img/generic.png
-video;"&gutil.menu.video;";Video;http://video.google.com/;chrome://gutil/skin/img/generic.png
-wbt;"&gutil.menu.wbt;";Webmaster Tools;http://www.google.com/webmasters/sitemaps;chrome://gutil/skin/img/generic.png
+video;"&gutil.menu.video;";Video;http://video.google.com/;chrome://gutil/skin/img/video.png
+wbt;"&gutil.menu.wbt;";Webmaster Tools;http://www.google.com/webmasters/sitemaps;chrome://gutil/skin/img/webmaster.png
 ---;;;;chrome://gutil/skin/img/generic.png
 acc;"&gutil.menu.acc;";My Google Account;https://www.google.com/accounts/ManageAccount;chrome://gutil/skin/img/generic.png

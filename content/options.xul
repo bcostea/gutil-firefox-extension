@@ -15,7 +15,7 @@
             <spacer flex="1"/>
             <vbox pack="center" orient="horizontal">
                 <spacer flex="1"/>
-                <image src='chrome://gutil/skin/img/gutil_128.png' width='128' height='128'/>
+                <image src='chrome://gutil/skin/img/gutil_48.png' width='48' height='48'/>
                 <spacer flex="1"/>
             </vbox>
             <spacer flex="1"/>
@@ -42,6 +42,18 @@
                     <checkbox id="groupsBetaCheckbox" label="Use Groups Beta instead of Groups"/>
                 </vbox>
             </groupbox>
+            <groupbox pack="top" orient="vertical">
+                <caption label="Hosted GMail"/>
+                <vbox>
+                    <label>
+                        Insert the domain name in the box below.
+                    </label>
+                    <label>
+                        Please use this only if you know what you're doing!
+                    </label>
+                    <textbox id="hostedGmail"/>
+                </vbox>
+            </groupbox>
         </vbox>
 
 
@@ -53,6 +65,9 @@
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.analytics","menuHideCheckboxanalytics");'>
 <checkbox id="menuHideCheckboxanalytics" label="&gutil.menu.analytics;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.appd","menuHideCheckboxappd");'>
+<checkbox id="menuHideCheckboxappd" label="&gutil.menu.appd;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.base","menuHideCheckboxbase");'>
 <checkbox id="menuHideCheckboxbase" label="&gutil.menu.base;"/>
@@ -164,9 +179,6 @@
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.wbt","menuHideCheckboxwbt");'>
 <checkbox id="menuHideCheckboxwbt" label="&gutil.menu.wbt;"/>
-</vbox>
-<vbox oncommand='toggleGutilElement("gutil.menu.acc","menuHideCheckboxacc");'>
-<checkbox id="menuHideCheckboxacc" label="&gutil.menu.acc;"/>
 </vbox>
         </groupbox>
         <!-- ###################################################################### -->
