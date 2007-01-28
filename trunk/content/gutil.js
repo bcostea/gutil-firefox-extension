@@ -3,7 +3,6 @@
 var gutilMain = {
  buttonSetup : function(){
  
-        newInstallRunOnce();
     	var toolbox = document.getElementById("navigator-toolbox");
     	var toolboxDocument = toolbox.ownerDocument;
         
