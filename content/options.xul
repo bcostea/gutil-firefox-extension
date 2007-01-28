@@ -63,6 +63,9 @@
           <vbox oncommand='toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
 <checkbox id="menuHideCheckboxadsense" label="&gutil.menu.adsense;"/>
 </vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.adwords","menuHideCheckboxadwords");'>
+<checkbox id="menuHideCheckboxadwords" label="&gutil.menu.adwords;"/>
+</vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.analytics","menuHideCheckboxanalytics");'>
 <checkbox id="menuHideCheckboxanalytics" label="&gutil.menu.analytics;"/>
 </vbox>
@@ -131,6 +134,12 @@
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.mars","menuHideCheckboxmars");'>
 <checkbox id="menuHideCheckboxmars" label="&gutil.menu.mars;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.moon","menuHideCheckboxmoon");'>
+<checkbox id="menuHideCheckboxmoon" label="&gutil.menu.moon;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.movies","menuHideCheckboxmovies");'>
+<checkbox id="menuHideCheckboxmovies" label="&gutil.menu.movies;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.mtrends","menuHideCheckboxmtrends");'>
 <checkbox id="menuHideCheckboxmtrends" label="&gutil.menu.mtrends;"/>
