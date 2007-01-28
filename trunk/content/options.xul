@@ -66,6 +66,9 @@
 <vbox oncommand='toggleGutilElement("gutil.menu.adwords","menuHideCheckboxadwords");'>
 <checkbox id="menuHideCheckboxadwords" label="&gutil.menu.adwords;"/>
 </vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.alerts","menuHideCheckboxalerts");'>
+<checkbox id="menuHideCheckboxalerts" label="&gutil.menu.alerts;"/>
+</vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.analytics","menuHideCheckboxanalytics");'>
 <checkbox id="menuHideCheckboxanalytics" label="&gutil.menu.analytics;"/>
 </vbox>

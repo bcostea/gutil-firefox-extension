@@ -2,6 +2,7 @@
 var elements=new Array(
             "adsense",
             "adwords",
+            "alerts",
             "analytics",
             "appd",
             "base",

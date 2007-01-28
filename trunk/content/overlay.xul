@@ -11,6 +11,7 @@
             <menupopup>
 <menuitem id="gutil_menuitem_adsense" label="&gutil.menu.adsense;" onclick="gutilExecute('https://www.google.com/adsense', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/adsense.png" />
 <menuitem id="gutil_menuitem_adwords" label="&gutil.menu.adwords;" onclick="gutilExecute('https://adwords.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/adwords.png" />
+<menuitem id="gutil_menuitem_alerts" label="&gutil.menu.alerts;" onclick="gutilExecute('http://www.google.com/alerts/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/alerts.png" />
 <menuitem id="gutil_menuitem_analytics" label="&gutil.menu.analytics;" onclick="gutilExecute('https://www.google.com/analytics/home/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/analytics.png" />
 <menuitem id="gutil_menuitem_appd" label="&gutil.menu.appd;" onclick="gutilExecute('http://www.google.com/a/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_menuitem_base" label="&gutil.menu.base;" onclick="gutilExecute('http://base.google.com', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/base.png" />
@@ -72,6 +73,7 @@
                 <menupopup>
 <menuitem id="gutil_toolbaritem_adsense" label="&gutil.menu.adsense;" onclick="gutilExecute('https://www.google.com/adsense', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/adsense.png" />
 <menuitem id="gutil_toolbaritem_adwords" label="&gutil.menu.adwords;" onclick="gutilExecute('https://adwords.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/adwords.png" />
+<menuitem id="gutil_toolbaritem_adwords" label="&gutil.menu.alerts;" onclick="gutilExecute('http://www.google.com/alerts/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/alerts.png" />
 <menuitem id="gutil_toolbaritem_analytics" label="&gutil.menu.analytics;" onclick="gutilExecute('https://www.google.com/analytics/home/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/analytics.png" />
 <menuitem id="gutil_toolbaritem_appd" label="&gutil.menu.appd;" onclick="gutilExecute('http://www.google.com/a/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_toolbaritem_base" label="&gutil.menu.base;" onclick="gutilExecute('http://base.google.com', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/base.png" />
