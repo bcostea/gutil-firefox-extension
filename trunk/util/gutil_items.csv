@@ -1,5 +1,6 @@
 ID;LABEL;CAPTION en_EN;ONCOMMAND;IMAGE
 adsense;"&gutil.menu.adsense;";Adsense;https://www.google.com/adsense;chrome://gutil/skin/img/adsense.png
+adwords;"&gutil.menu.adwords;";Adsense;https://adwords.google.com/;chrome://gutil/skin/img/adwords.png
 analytics;"&gutil.menu.analytics;";Analytics;https://www.google.com/analytics/home/;chrome://gutil/skin/img/analytics.png
 appd;"&gutil.menu.appd;";Apps for your domain;http://www.google.com/a/;chrome://gutil/skin/img/generic.png
 base;"&gutil.menu.base;";Base;http://base.google.com;chrome://gutil/skin/img/base.png
@@ -23,6 +24,8 @@ translate;"&gutil.menu.translate;";Language Tools (Translate);http://www.google.
 local;"&gutil.menu.local;";Local (Maps);http://local.google.com/;chrome://gutil/skin/img/generic.png
 maps;"&gutil.menu.maps;";Maps;http://maps.google.com/;chrome://gutil/skin/img/maps.gif
 mars;"&gutil.menu.mars;";Mars;http://www.google.com/mars/;chrome://gutil/skin/img/generic.png
+mars;"&gutil.menu.moon;";Moon;http://www.google.com/moon/;chrome://gutil/skin/img/generic.png
+movies;&gutil.menu.movies;Movies;http://www.google.com/movies;chrome://gutil/skin/img/generic.png
 mtrends;"&gutil.menu.mtrends;";Music Trends;http://www.google.com/trends/music;chrome://gutil/skin/img/mtrends.png
 news;"&gutil.menu.news;";News;http://news.google.com/;chrome://gutil/skin/img/news.gif
 notebook;"&gutil.menu.notebook;";Notebook;http://www.google.com/notebook/;chrome://gutil/skin/img/notebook.png

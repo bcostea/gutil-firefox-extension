@@ -209,6 +209,7 @@ function hideElements()
         
 var elements=new Array(
             "adsense",
+            "adwords",
             "analytics",
             "appd",
             "base",
@@ -232,6 +233,8 @@ var elements=new Array(
             "local",
             "maps",
             "mars",
+            "moon",
+            "movies",
             "mtrends",
             "news",
             "notebook",
