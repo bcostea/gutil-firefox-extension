@@ -1,9 +1,9 @@
 #summary List of services included in GUtil!
 #labels Featured
 
-This pages lists all the services included in GUtil!.
+This pages lists the *46* services included in GUtil!.
 
-   * [https://www.google.com/adsense Adsense]
+  * [https://www.google.com/adsense Adsense]
   * [https://adwords.google.com/ Adwords]
   * [http://www.google.com/alerts/ Alerts]
   * [https://www.google.com/analytics/home/ Analytics]
