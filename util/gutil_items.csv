@@ -1,6 +1,7 @@
 ID;LABEL;CAPTION en_EN;ONCOMMAND;IMAGE
 adsense;"&gutil.menu.adsense;";Adsense;https://www.google.com/adsense;chrome://gutil/skin/img/adsense.png
-adwords;"&gutil.menu.adwords;";Adsense;https://adwords.google.com/;chrome://gutil/skin/img/adwords.png
+adwords;"&gutil.menu.adwords;";Adwords;https://adwords.google.com/;chrome://gutil/skin/img/adwords.png
+alerts;"&gutil.menu.alerts;";Alerts;http://www.google.com/alerts/;chrome://guil/skin/img/alerts.png
 analytics;"&gutil.menu.analytics;";Analytics;https://www.google.com/analytics/home/;chrome://gutil/skin/img/analytics.png
 appd;"&gutil.menu.appd;";Apps for your domain;http://www.google.com/a/;chrome://gutil/skin/img/generic.png
 base;"&gutil.menu.base;";Base;http://base.google.com;chrome://gutil/skin/img/base.png
