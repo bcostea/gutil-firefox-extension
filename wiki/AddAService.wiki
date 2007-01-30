@@ -1,9 +1,12 @@
 #summary How add a service in GUtil!
+#labels Phase-Implementation
 
 Add a Google service in GUtil! is very easy.
 
 A little How To for me :) :
   # Add the service in `./util/gutil_items.csv`
   # Run `gen.bat` or `gen.sh` in `./util/`
+  # Add the item description in the locale file ("overlay.dtd")
+  # Copy the content of ./util/options.xul.part in options.xul (this should be changed, will do it when i have the time)
   # Add the name of the service in `./content/gutil.js` and `./content/options.js`
   # Run `build.bat` or `build.sh` in `./`
