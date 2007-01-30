@@ -35,6 +35,7 @@ var elements=new Array(
             "pack",
             "pagecreator",
             "patents",
+            "personalized",
             "picasaweb",
             "reader",
             "scholar",
