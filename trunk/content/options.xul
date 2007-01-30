@@ -60,7 +60,7 @@
         <!-- ###################################################################### -->
         <groupbox pack="top" orient="vertical" style='overflow: auto;height:350px;'>
             <caption label="Menu item visibility"/>
-          <vbox oncommand='toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
+ <vbox oncommand='toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
 <checkbox id="menuHideCheckboxadsense" label="&gutil.menu.adsense;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.adwords","menuHideCheckboxadwords");'>
@@ -164,6 +164,9 @@
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.patents","menuHideCheckboxpatents");'>
 <checkbox id="menuHideCheckboxpatents" label="&gutil.menu.patents;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.personalized","menuHideCheckboxpersonalized");'>
+<checkbox id="menuHideCheckboxpersonalized" label="&gutil.menu.personalized;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.picasaweb","menuHideCheckboxpicasaweb");'>
 <checkbox id="menuHideCheckboxpicasaweb" label="&gutil.menu.picasaweb;"/>
