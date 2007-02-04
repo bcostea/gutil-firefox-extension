@@ -1,5 +1,5 @@
 <?php 
-/* Warn : correct groups and Gmail Link */
+/* Warn : Gmail Link */
 include('csv2array.php'); 
 $str=file_get_contents('gutil_items.csv');
 $rows=CSV2Array($str);

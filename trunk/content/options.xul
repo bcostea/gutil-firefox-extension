@@ -38,9 +38,6 @@
                 <vbox oncommand='toggleGutilElement("gutil.menu.gmailhttps","gmailSecuredCheckbox");'>
                     <checkbox id="gmailSecuredCheckbox" label="Use secured connection for GMail(https)"/>
                 </vbox>
-                <vbox oncommand='toggleGutilElement("gutil.menu.groupsbeta","groupsBetaCheckbox");'>
-                    <checkbox id="groupsBetaCheckbox" label="Use Groups Beta instead of Groups"/>
-                </vbox>
             </groupbox>
             <groupbox pack="top" orient="vertical">
                 <caption label="Hosted GMail"/>

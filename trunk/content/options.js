@@ -66,9 +66,6 @@ function startup()
     check = ggetBoolPref("gutil.menu.gmailhttps");
     checkOption("gmailSecuredCheckbox",check);
     
-    check = ggetBoolPref("gutil.menu.groupsbeta");
-    checkOption("groupsBetaCheckbox",check);
-    
     var hg = document.getElementById("hostedGmail");
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
