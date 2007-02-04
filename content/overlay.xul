@@ -27,7 +27,7 @@
 <menuitem id="gutil_menuitem_finance" label="&gutil.menu.finance;" onclick="gutilExecute('http://www.google.com/finance', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/finance.gif" />
 <menuitem id="gutil_menuitem_froogle" label="&gutil.menu.froogle;" onclick="gutilExecute('http://froogle.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/froogle.gif" />
 <menuitem id="gutil_menuitem_gmail" label="&gutil.menu.gmail;" onclick="gutilExecute('runGMail();', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/gmail.png" />
-<menuitem id="gutil_menuitem_groups" label="&gutil.menu.groups;" onclick="gutilExecute('runGroups();', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/groups.gif" />
+<menuitem id="gutil_menuitem_groups" label="&gutil.menu.groups;" onclick="gutilExecute('http://groups.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/groups.gif" />
 <menuitem id="gutil_menuitem_hello" label="&gutil.menu.hello;" onclick="gutilExecute('http://www.hello.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/hello.png" />
 <menuitem id="gutil_menuitem_imagelabeler" label="&gutil.menu.imagelabeler;" onclick="gutilExecute('http://images.google.com/imagelabeler/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_menuitem_image" label="&gutil.menu.image;" onclick="gutilExecute('http://images.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
@@ -90,7 +90,7 @@
 <menuitem id="gutil_toolbaritem_finance" label="&gutil.menu.finance;" onclick="gutilExecute('http://www.google.com/finance', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/finance.gif" />
 <menuitem id="gutil_toolbaritem_froogle" label="&gutil.menu.froogle;" onclick="gutilExecute('http://froogle.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/froogle.gif" />
 <menuitem id="gutil_toolbaritem_gmail" label="&gutil.menu.gmail;" onclick="gutilExecute('runGMail();', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/gmail.png" />
-<menuitem id="gutil_toolbaritem_groups" label="&gutil.menu.groups;" onclick="gutilExecute('runGroups();', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/groups.gif" />
+<menuitem id="gutil_toolbaritem_groups" label="&gutil.menu.groups;" onclick="gutilExecute('http://groups.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/groups.gif" />
 <menuitem id="gutil_toolbaritem_hello" label="&gutil.menu.hello;" onclick="gutilExecute('http://www.hello.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/hello.png" />
 <menuitem id="gutil_toolbaritem_imagelabeler" label="&gutil.menu.imagelabeler;" onclick="gutilExecute('http://images.google.com/imagelabeler/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_toolbaritem_image" label="&gutil.menu.image;" onclick="gutilExecute('http://images.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />

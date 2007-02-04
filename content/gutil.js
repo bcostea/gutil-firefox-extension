@@ -178,29 +178,6 @@ function runGMail()
 }
 
 /***********************************************************************************************************/
-// special request - groups beta
-
-function runGroups()
-{
-   var pref = Components.classes["@mozilla.org/preferences-service;1"]
-			.getService(Components.interfaces.nsIPrefBranch);
-     try{
-       var bool = pref.getBoolPref("gutil.menu.groupsbeta");
-           if(bool)
-           {
-                return 'http://groups-beta.google.com/';
-           }else
-           {
-                return 'http://groups.google.com';
-            }
-       }
-       catch(e)
-       {
-               pref.setBoolPref("gutil.menu.groupsbeta", false);
-               runGroups();
-       }
-}
-/***********************************************************************************************************/
 // hide elements that have been checked off from options dialog
 function hideElements()
 {
@@ -290,10 +267,6 @@ var elements=new Array(
 function gutilExecute(URL, event)
 {
 
-    if(event.target.id == 'gutil_toolbaritem_groups' || event.target.id == 'gutil_menuitem_groups')
-    {
-        URL = runGroups();
-    }    
     if(event.target.id == 'gutil_toolbaritem_gmail' || event.target.id == 'gutil_menuitem_gmail')
     {
         URL = runGMail();

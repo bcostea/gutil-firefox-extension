@@ -17,7 +17,7 @@ earth;"&gutil.menu.earth;";Earth;http://earth.google.com/;chrome://gutil/skin/im
 finance;"&gutil.menu.finance;";Finance;http://www.google.com/finance;chrome://gutil/skin/img/finance.gif
 froogle;"&gutil.menu.froogle;";Froogle;http://froogle.google.com/;chrome://gutil/skin/img/froogle.gif
 gmail;"&gutil.menu.gmail;";Gmail;"runGMail();";chrome://gutil/skin/img/gmail.png
-groups;"&gutil.menu.groups;";Groups;"runGroups();";chrome://gutil/skin/img/groups.gif
+groups;"&gutil.menu.groups;";Groups;http://groups.google.com/;chrome://gutil/skin/img/groups.gif
 hello;"&gutil.menu.hello;";Hello;http://www.hello.com/;chrome://gutil/skin/img/hello.png
 imagelabeler;"&gutil.menu.imagelabeler;";Image Labeler;http://images.google.com/imagelabeler/;chrome://gutil/skin/img/generic.png
 image;"&gutil.menu.image;";Image Search;http://images.google.com/;chrome://gutil/skin/img/generic.png
