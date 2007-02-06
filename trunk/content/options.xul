@@ -57,7 +57,7 @@
         <!-- ###################################################################### -->
         <groupbox pack="top" orient="vertical" style='overflow: auto;height:350px;'>
             <caption label="Menu item visibility"/>
- <vbox oncommand='toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
+<vbox oncommand='toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
 <checkbox id="menuHideCheckboxadsense" label="&gutil.menu.adsense;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.adwords","menuHideCheckboxadwords");'>
@@ -186,13 +186,16 @@
 <vbox oncommand='toggleGutilElement("gutil.menu.suggest","menuHideCheckboxsuggest");'>
 <checkbox id="menuHideCheckboxsuggest" label="&gutil.menu.suggest;"/>
 </vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.trends","menuHideCheckboxtrends");'>
+<checkbox id="menuHideCheckboxtrends" label="&gutil.menu.trends;"/>
+</vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.video","menuHideCheckboxvideo");'>
 <checkbox id="menuHideCheckboxvideo" label="&gutil.menu.video;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.wbt","menuHideCheckboxwbt");'>
 <checkbox id="menuHideCheckboxwbt" label="&gutil.menu.wbt;"/>
 </vbox>
-        </groupbox>
+         </groupbox>
         <!-- ###################################################################### -->
 
     </hbox>

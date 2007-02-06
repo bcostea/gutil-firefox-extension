@@ -228,6 +228,7 @@ var elements=new Array(
             "sketchup",
             "ssearch",
             "suggest",
+            "trends",
             "video",
             "wbt"
             );
