@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://gutil/skin/gutil.css" type="text/css"?>
-<!DOCTYPE overlay SYSTEM "chrome://gutil/locale/overlay.dtd">
+<!DOCTYPE overlay SYSTEM 
+	  "chrome://gutil/locale/overlay.dtd">
 <overlay id="gutil-overlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
