@@ -5,7 +5,7 @@
 <!ENTITY gutil.menu.search "Recherche">
 <!ENTITY gutil.menu.gmail "Gmail">
 <!ENTITY gutil.menu.docs "Document et Tableur">
-<!ENTITY gutil.menu.calendar "Agenda">
+<!ENTITY gutil.menu.calendar "Calendrier">
 <!ENTITY gutil.menu.base "Base">
 <!ENTITY gutil.menu.bookmarks "Favoris">
 <!ENTITY gutil.menu.notebook "Bloc-notes">
@@ -13,19 +13,19 @@
 <!ENTITY gutil.menu.reader "Reader">
 <!ENTITY gutil.menu.analytics "Analytics">
 <!ENTITY gutil.menu.adsense "Adsense">
-<!ENTITY gutil.menu.wbt "Outils pour les administrateurs de sites Web">
-<!ENTITY gutil.menu.image "Recherche d'images">
-<!ENTITY gutil.menu.blogsearch "Recherche Blog">
+<!ENTITY gutil.menu.wbt "Outils pour les Webmasters">
+<!ENTITY gutil.menu.image "Recherche d'Images">
+<!ENTITY gutil.menu.blogsearch "Recherche de Blog">
 <!ENTITY gutil.menu.scholar "Scholar">
 <!ENTITY gutil.menu.video "Video">
 <!ENTITY gutil.menu.mtrends "Music Trends">
-<!ENTITY gutil.menu.maps "Maps">
+<!ENTITY gutil.menu.maps "Cartes">
 <!ENTITY gutil.menu.froogle "Froogle">
-<!ENTITY gutil.menu.local "Local (Maps)">
-<!ENTITY gutil.menu.news "Actualités">
+<!ENTITY gutil.menu.local "Local (Cartes)">
+<!ENTITY gutil.menu.news "ActualitÃ©">
 <!ENTITY gutil.menu.groups "Groupes">
 <!ENTITY gutil.menu.directory "Directory">
-<!ENTITY gutil.menu.translate "Outils de langue (Traduction)">
+<!ENTITY gutil.menu.translate "Outils linguistiques (Traduction)">
 <!ENTITY gutil.menu.picasaweb "Albums Web Picasa">
 <!ENTITY gutil.menu.pagecreator "Page Creator">
 <!ENTITY gutil.menu.orkut "orkut">
@@ -37,13 +37,15 @@
 <!ENTITY gutil.menu.earth "Earth">
 <!ENTITY gutil.menu.imagelabeler "Image Labeler">
 <!ENTITY gutil.menu.finance "Finance">
-<!ENTITY gutil.menu.suggest "Suggestion">
-<!ENTITY gutil.menu.patents "Recherche de brevets">
-<!ENTITY gutil.menu.ssearch "Recherches spéciales">
+<!ENTITY gutil.menu.suggest "Suggest">
+<!ENTITY gutil.menu.patents "Recherche de brevet">
+<!ENTITY gutil.menu.ssearch "Recherche spÃ©ciale">
 <!ENTITY gutil.menu.mars "Mars">
-<!ENTITY gutil.menu.moon "Lune">
 <!ENTITY gutil.menu.acc "Mon compte Google">
 <!ENTITY gutil.menu.appd "Apps pour Votre Domaine">
 <!ENTITY gutil.menu.movies "Films">
 <!ENTITY gutil.menu.adwords "Adwords">
+<!ENTITY gutil.menu.moon "Lune">
 <!ENTITY gutil.menu.alerts "Alertes">
+<!ENTITY gutil.menu.personalized "Accueil PersonalisÃ©">
+<!ENTITY gutil.menu.trends "Tendances">
