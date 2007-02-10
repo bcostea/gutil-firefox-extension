@@ -1,0 +1,12 @@
+#summary The multiple ways to get GUtil!
+#labels Featured
+
+= For end users =
+The latest stable version of GUtil! is on the [https://addons.mozilla.org Firefox add-ons site] : https://addons.mozilla.org/firefox/3755/
+
+= For developpers =
+GUtil! is hosted with [http://code.google.com/hosting/ Google Code Hosting].
+You can get the source through [http://code.google.com/p/gutil-firefox-extension/source anonymous svn] _via_ [http://subversion.tigris.org Subversion] :
+{{{
+svn checkout http://gutil-firefox-extension.googlecode.com/svn/trunk/ gutil-firefox-extension
+}}}
