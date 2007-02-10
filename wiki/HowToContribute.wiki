@@ -1,0 +1,30 @@
+#summary What can you do to help and improve GUtil!
+#labels Featured,Phase-Implementation
+
+Gutil! is a free software. The source code is released as [http://www.mozilla.org/MPL/ Mozilla Public License 1.1].
+
+All your contributions will be released under this license.
+
+= I want to help !=
+Thank you !
+First, [HowGetGutil get GUtil!].
+
+Then, what you can do :
+
+==Reporting bugs==
+Install GUtil!, use it and find (non-existant ;) bugs.
+If you find a bug, you can [http://code.google.com/p/gutil-firefox-extension/issues/entry fill a report] in [http://code.google.com/p/gutil-firefox-extension/issues/list the project bugzilla].
+
+==Adding feature==
+ * [HowGetGutil Get svn version of GUtil!].
+ * Modify the source code (the source is XUL or Javascipt. It is very easy :).
+ * Generate the patch (`svn diff`)
+ * [http://code.google.com/p/gutil-firefox-extension/issues/entry Open a bug/request feature] and attach the patch.
+
+==Translate GUtil!==
+You can speak English ? You speak an another language ? *You can contribute to GUtil!*
+ * Just download [http://code.google.com/p/gutil-firefox-extension/issues/entry this file].
+ * Translate the content between the "..."
+ * Open a bug and attach your translated file
+
+Thank you for contributing to Gutil!
