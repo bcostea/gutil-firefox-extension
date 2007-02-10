@@ -49,3 +49,13 @@
 <!ENTITY gutil.menu.alerts "Alerts">
 <!ENTITY gutil.menu.personalized "Personalized Home">
 <!ENTITY gutil.menu.trends "Trends">
+
+
+<!ENTITY gutil.options.title "Google Utilities Options!">
+<!ENTITY gutil.options.settings "Settings">
+<!ENTITY gutil.options.hidemenu "Hide GUtil! Menu">
+<!ENTITY gutil.options.hidebutton "Hide GUtil! Button">
+<!ENTITY gutil.options.securedgmail "Use secured connection for GMail (https)">
+<!ENTITY gutil.options.domain "Insert the domain name in the box below.">
+<!ENTITY gutil.options.warning "Please use this only if you know what you're doing!">
+<!ENTITY gutil.options.menuvisibility "Menu item visibility" >

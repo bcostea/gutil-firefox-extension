@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
-<!DOCTYPE window SYSTEM "chrome://gutil/locale/options.dtd">
+<!DOCTYPE overlay SYSTEM "chrome://gutil/locale/overlay.dtd">
 
 <window class="dialog"
-        title="Google Utilities Options"
+        title="&gutil.options.title;"
         onload="sizeToContent(); startup();"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
@@ -26,27 +26,27 @@
                 <description onclick="visitHomePage()" class="text-link">http://www.gridpulse.com/gutil/</description>
             </hbox>
             <groupbox pack="top" orient="vertical">
-                <caption label="Settings"/>
+                <caption label="&gutil.options.settings;"/>
                 <vbox oncommand='toggleGutilElement("gutil.menu.hidden","menuHideCheckbox");'>
-                    <checkbox id="menuHideCheckbox" label="Hide GUtil! Menu"/>
+                    <checkbox id="menuHideCheckbox" label="&gutil.options.hidemenu;"/>
                 </vbox>
 
                 <vbox oncommand='toggleGutilElement("gutil.button.hidden","buttonHideCheckbox");'>
-                    <checkbox id="buttonHideCheckbox" label="Hide GUtil! Button"/>
+                    <checkbox id="buttonHideCheckbox" label="&gutil.options.hidebutton;"/>
                 </vbox>
 
                 <vbox oncommand='toggleGutilElement("gutil.menu.gmailhttps","gmailSecuredCheckbox");'>
-                    <checkbox id="gmailSecuredCheckbox" label="Use secured connection for GMail(https)"/>
+                    <checkbox id="gmailSecuredCheckbox" label="&gutil.options.securedgmail;"/>
                 </vbox>
             </groupbox>
             <groupbox pack="top" orient="vertical">
                 <caption label="Hosted GMail"/>
                 <vbox>
                     <label>
-                        Insert the domain name in the box below.
+                        &gutil.options.domain;
                     </label>
                     <label>
-                        Please use this only if you know what you're doing!
+                        &gutil.options.warning;
                     </label>
                     <textbox id="hostedGmail"/>
                 </vbox>
@@ -56,7 +56,7 @@
 
         <!-- ###################################################################### -->
         <groupbox pack="top" orient="vertical" style='overflow: auto;height:350px;'>
-            <caption label="Menu item visibility"/>
+            <caption label="&gutil.options.menuvisibility;"/>
 <vbox oncommand='toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
 <checkbox id="menuHideCheckboxadsense" label="&gutil.menu.adsense;"/>
 </vbox>
