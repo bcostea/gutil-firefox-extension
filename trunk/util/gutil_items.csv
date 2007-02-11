@@ -9,7 +9,7 @@ blogsearch;"&gutil.menu.blogsearch;";Blog Search;http://www.google.com/blogsearc
 blogger;"&gutil.menu.blogger;";Blogger;http://www.blogger.com;chrome://gutil/skin/img/blogger.png
 bookmarks;"&gutil.menu.bookmarks;";Bookmarks;http://www.google.com/bookmarks;chrome://gutil/skin/img/bookmarks.png
 books;"&gutil.menu.books;";Books;http://books.google.com/;chrome://gutil/skin/img/books.png
-calendar;"&gutil.menu.calendar;";Calendar;http://www.google.com/calendar;chrome://gutil/skin/img/calendar.png
+calendar;"&gutil.menu.calendar;";Calendar;"runCalendar();";chrome://gutil/skin/img/calendar.png
 code;"&gutil.menu.code;";Code;http://code.google.com/;chrome://gutil/skin/img/code.png
 directory;"&gutil.menu.directory;";Directory;http://www.google.com/dirhp;chrome://gutil/skin/img/directory.png
 docs;"&gutil.menu.docs;";Docs & Spreadsheets;http://docs.google.com;chrome://gutil/skin/img/docs_and_spreadsheets.png
@@ -34,7 +34,7 @@ orkut;"&gutil.menu.orkut;";orkut;https://www.orkut.com/;chrome://gutil/skin/img/
 pack;"&gutil.menu.pack;";Pack;http://pack.google.com/;chrome://gutil/skin/img/pack.png
 pagecreator;"&gutil.menu.pagecreator;";Page Creator;http://pages.google.com;chrome://gutil/skin/img/pagecreator.png
 patents;"&gutil.menu.patents;";Patent Search;http://www.google.com/patents;chrome://gutil/skin/img/generic.png
-personalized;"&gutil.menu.personalized;";Personalized Homepage;http://www.google.com/ig;chrome://gutil/skin/img/generic.png
+personalized;"&gutil.menu.personalized;";Personalized Homepage;"runPersonalized();";chrome://gutil/skin/img/generic.png
 picasaweb;"&gutil.menu.picasaweb;";Picasa Web Albums;http://picasaweb.google.com/;chrome://gutil/skin/img/picasaweb.png
 reader;"&gutil.menu.reader;";Reader;http://www.google.com/reader/;chrome://gutil/skin/img/reader.png
 scholar;"&gutil.menu.scholar;";Scholar;http://scholar.google.com/;chrome://gutil/skin/img/scholar.png

@@ -40,7 +40,7 @@
                 </vbox>
             </groupbox>
             <groupbox pack="top" orient="vertical">
-                <caption label="Hosted GMail"/>
+                <caption label="&gutil.options.hosted;"/>
                 <vbox>
                     <label>
                         &gutil.options.domain;
@@ -48,7 +48,7 @@
                     <label>
                         &gutil.options.warning;
                     </label>
-                    <textbox id="hostedGmail"/>
+                    <textbox id="hostedDomain"/>
                 </vbox>
             </groupbox>
         </vbox>

@@ -59,3 +59,4 @@
 <!ENTITY gutil.options.domain "Insert the domain name in the box below.">
 <!ENTITY gutil.options.warning "Please use this only if you know what you're doing!">
 <!ENTITY gutil.options.menuvisibility "Menu item visibility" >
+<!ENTITY gutil.options.hosted "Google Apps Domain" >
