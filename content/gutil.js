@@ -161,11 +161,11 @@ function runGMail()
      
          if(bool)
            {
-                if(pref.getCharPref("gutil.menu.gmail.hosted","").length>1) return 'https://mail.google.com/hosted/' + pref.getCharPref("gutil.menu.gmail.hosted","");
+                if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) return 'https://mail.google.com/hosted/' + pref.getCharPref("gutil.menu.hosted.domain","");
                 else return 'https://mail.google.com/';
            }else
            {
-               if(pref.getCharPref("gutil.menu.gmail.hosted","").length>1) return 'http://mail.google.com/hosted/' + pref.getCharPref("gutil.menu.gmail.hosted","");
+               if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) return 'http://mail.google.com/hosted/' + pref.getCharPref("gutil.menu.hosted.domain","");
                 else return 'http://mail.google.com/';
           }
     
@@ -175,6 +175,32 @@ function runGMail()
                pref.setBoolPref("gutil.menu.gmailhttps", false);
                 return 'http://mail.google.com/';
         }
+}
+/***********************************************************************************************************/
+// special request - hosted & partnerpages
+function runPersonalized()
+{
+   var pref = Components.classes["@mozilla.org/preferences-service;1"]
+			.getService(Components.interfaces.nsIPrefBranch);
+        if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) {
+		return 'http://partnerpage.google.com/' + pref.getCharPref("gutil.menu.hosted.domain","");
+        } else {
+		return 'http://www.google.com/ig';
+        }
+ 
+}
+/***********************************************************************************************************/
+// special request - hosted & calnedar
+function runCalendar()
+{
+   var pref = Components.classes["@mozilla.org/preferences-service;1"]
+			.getService(Components.interfaces.nsIPrefBranch);
+        if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) {
+		return 'http://www.google.com/calendar/a/' + pref.getCharPref("gutil.menu.hosted.domain","");
+        } else {
+		return 'http://www.google.com/calendar/';
+        }
+ 
 }
 
 /***********************************************************************************************************/
@@ -271,7 +297,14 @@ function gutilExecute(URL, event)
     if(event.target.id == 'gutil_toolbaritem_gmail' || event.target.id == 'gutil_menuitem_gmail')
     {
         URL = runGMail();
+    } else if (event.target.id == 'gutil_toolbaritem_personalized' || event.target.id == 'gutil_menuitem_personalized')
+    {
+        URL = runPersonalized();
+    } else if (event.target.id == 'gutil_toolbaritem_calendar' || event.target.id == 'gutil_menuitem_calendar')
+    {
+        URL = runCalendar();
     }
+
     
     switch(event.button)
     {

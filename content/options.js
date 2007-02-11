@@ -67,11 +67,11 @@ function startup()
     check = ggetBoolPref("gutil.menu.gmailhttps");
     checkOption("gmailSecuredCheckbox",check);
     
-    var hg = document.getElementById("hostedGmail");
+    var hg = document.getElementById("hostedDomain");
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
         hg.value=
-            pref.getCharPref("gutil.menu.gmail.hosted","");
+            pref.getCharPref("gutil.menu.hosted.domain","");
     
 }
 
@@ -150,7 +150,7 @@ function optionOk()
 
     var menuHideCheckbox = document.getElementById("menuHideCheckbox");
     var buttonHideCheckbox = document.getElementById("buttonHideCheckbox");
-    var hg = document.getElementById("hostedGmail");
+    var hg = document.getElementById("hostedDomain");
 
     if(menuHideCheckbox.checked)
     {
@@ -174,11 +174,11 @@ function optionOk()
    	            .notifyObservers(null, "gutil:hide-button", "0");   
     }
     
-    //alert(hg.value);
+    // alert(hg.value);
     
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
-        pref.setCharPref("gutil.menu.gmail.hosted",hg.value);
+        pref.setCharPref("gutil.menu.hosted.domain",hg.value);
     
     Components.classes["@mozilla.org/observer-service;1"]
 	    .getService(Components.interfaces.nsIObserverService)
