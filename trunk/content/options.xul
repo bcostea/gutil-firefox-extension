@@ -90,8 +90,14 @@
 <vbox oncommand='toggleGutilElement("gutil.menu.calendar","menuHideCheckboxcalendar");'>
 <checkbox id="menuHideCheckboxcalendar" label="&gutil.menu.calendar;"/>
 </vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.checkout","menuHideCheckboxcheckout");'>
+<checkbox id="menuHideCheckboxcheckout" label="&gutil.menu.checkout;"/>
+</vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.code","menuHideCheckboxcode");'>
 <checkbox id="menuHideCheckboxcode" label="&gutil.menu.code;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.coop","menuHideCheckboxcoop");'>
+<checkbox id="menuHideCheckboxcoop" label="&gutil.menu.coop;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.directory","menuHideCheckboxdirectory");'>
 <checkbox id="menuHideCheckboxdirectory" label="&gutil.menu.directory;"/>

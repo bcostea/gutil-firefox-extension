@@ -49,6 +49,8 @@
 <!ENTITY gutil.menu.alerts "Alertes">
 <!ENTITY gutil.menu.personalized "Accueil Personalisé">
 <!ENTITY gutil.menu.trends "Tendances">
+<!ENTITY gutil.menu.checkout "Checkout">
+<!ENTITY gutil.menu.coop "Coop">
 
 <!ENTITY gutil.options.title "Options de Google Utilities !">
 <!ENTITY gutil.options.settings "Paramètres">
