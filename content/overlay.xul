@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://gutil/skin/gutil.css" type="text/css"?>
-<!DOCTYPE overlay SYSTEM 
-	  "chrome://gutil/locale/overlay.dtd">
+<!DOCTYPE overlay SYSTEM "chrome://gutil/locale/overlay.dtd">
 <overlay id="gutil-overlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
@@ -21,7 +20,9 @@
 <menuitem id="gutil_menuitem_bookmarks" label="&gutil.menu.bookmarks;" onclick="gutilExecute('http://www.google.com/bookmarks', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/bookmarks.png" />
 <menuitem id="gutil_menuitem_books" label="&gutil.menu.books;" onclick="gutilExecute('http://books.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/books.png" />
 <menuitem id="gutil_menuitem_calendar" label="&gutil.menu.calendar;" onclick="gutilExecute('runCalendar();', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/calendar.png" />
+<menuitem id="gutil_menuitem_checkout" label="&gutil.menu.checkout;" onclick="gutilExecute('http://checkout.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/checkout.png" />
 <menuitem id="gutil_menuitem_code" label="&gutil.menu.code;" onclick="gutilExecute('http://code.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/code.png" />
+<menuitem id="gutil_menuitem_coop" label="&gutil.menu.coop;" onclick="gutilExecute('http://www.google.com/coop/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 <menuitem id="gutil_menuitem_directory" label="&gutil.menu.directory;" onclick="gutilExecute('http://www.google.com/dirhp', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/directory.png" />
 <menuitem id="gutil_menuitem_docs" label="&gutil.menu.docs;" onclick="gutilExecute('http://docs.google.com', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/docs_and_spreadsheets.png" />
 <menuitem id="gutil_menuitem_earth" label="&gutil.menu.earth;" onclick="gutilExecute('http://earth.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/earth.png" />
@@ -85,7 +86,9 @@
 <menuitem id="gutil_toolbaritem_bookmarks" label="&gutil.menu.bookmarks;" onclick="gutilExecute('http://www.google.com/bookmarks', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/bookmarks.png" />
 <menuitem id="gutil_toolbaritem_books" label="&gutil.menu.books;" onclick="gutilExecute('http://books.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/books.png" />
 <menuitem id="gutil_toolbaritem_calendar" label="&gutil.menu.calendar;" onclick="gutilExecute('runCalendar();', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/calendar.png" />
+<menuitem id="gutil_toolbaritem_checkout" label="&gutil.menu.checkout;" onclick="gutilExecute('http://checkout.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/checkout.png" />
 <menuitem id="gutil_toolbaritem_code" label="&gutil.menu.code;" onclick="gutilExecute('http://code.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/code.png" />
+<menuitem id="gutil_toolbaritem_coop" label="&gutil.menu.coop;" onclick="gutilExecute('http://www.google.com/coop/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 <menuitem id="gutil_toolbaritem_directory" label="&gutil.menu.directory;" onclick="gutilExecute('http://www.google.com/dirhp', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/directory.png" />
 <menuitem id="gutil_toolbaritem_docs" label="&gutil.menu.docs;" onclick="gutilExecute('http://docs.google.com', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/docs_and_spreadsheets.png" />
 <menuitem id="gutil_toolbaritem_earth" label="&gutil.menu.earth;" onclick="gutilExecute('http://earth.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/earth.png" />

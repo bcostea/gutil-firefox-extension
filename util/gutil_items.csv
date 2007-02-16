@@ -10,7 +10,9 @@ blogger;"&gutil.menu.blogger;";Blogger;http://www.blogger.com;chrome://gutil/ski
 bookmarks;"&gutil.menu.bookmarks;";Bookmarks;http://www.google.com/bookmarks;chrome://gutil/skin/img/bookmarks.png
 books;"&gutil.menu.books;";Books;http://books.google.com/;chrome://gutil/skin/img/books.png
 calendar;"&gutil.menu.calendar;";Calendar;"runCalendar();";chrome://gutil/skin/img/calendar.png
+checkout;"&gutil.menu.checkout;";Checkout;http://checkout.google.com/;chrome://gutil/skin/img/checkout.png
 code;"&gutil.menu.code;";Code;http://code.google.com/;chrome://gutil/skin/img/code.png
+coop;"&gutil.menu.coop;";Coop;http://www.google.com/coop/;chrome://gutil/skin/img/search.png
 directory;"&gutil.menu.directory;";Directory;http://www.google.com/dirhp;chrome://gutil/skin/img/directory.png
 docs;"&gutil.menu.docs;";Docs & Spreadsheets;http://docs.google.com;chrome://gutil/skin/img/docs_and_spreadsheets.png
 earth;"&gutil.menu.earth;";Earth;http://earth.google.com/;chrome://gutil/skin/img/earth.png
