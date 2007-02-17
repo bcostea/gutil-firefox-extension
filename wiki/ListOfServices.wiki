@@ -1,7 +1,7 @@
 #summary List of services included in GUtil!
 #labels Featured
 
-This pages lists the *47* services included in GUtil!.
+This pages lists the *49* services included in GUtil!.
 
   # [https://www.google.com/adsense http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/adsense.png] [https://www.google.com/adsense Adsense]
   # [https://adwords.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/adwords.png] [https://adwords.google.com/ Adwords]
