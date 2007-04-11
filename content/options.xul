@@ -23,6 +23,9 @@
                 <label value="Bogdan Alexandru Costea &lt;bogdan@gridpulse.com&gt;"/>
             </hbox>
             <hbox>
+                <label value="chtitux &lt;chtitux@gmail.com&gt;"/>
+            </hbox>
+            <hbox>
                 <description onclick="visitHomePage()" class="text-link">http://www.gridpulse.com/gutil/</description>
             </hbox>
             <groupbox pack="top" orient="vertical">
