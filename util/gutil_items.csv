@@ -17,10 +17,10 @@ directory;"&gutil.menu.directory;";Directory;http://www.google.com/dirhp;chrome:
 docs;"&gutil.menu.docs;";Docs & Spreadsheets;http://docs.google.com;chrome://gutil/skin/img/docs_and_spreadsheets.png
 earth;"&gutil.menu.earth;";Earth;http://earth.google.com/;chrome://gutil/skin/img/earth.png
 finance;"&gutil.menu.finance;";Finance;http://www.google.com/finance;chrome://gutil/skin/img/finance.png
-froogle;"&gutil.menu.froogle;";Froogle;http://froogle.google.com/;chrome://gutil/skin/img/froogle.png
 gmail;"&gutil.menu.gmail;";Gmail;"runGMail();";chrome://gutil/skin/img/gmail.png
 groups;"&gutil.menu.groups;";Groups;http://groups.google.com/;chrome://gutil/skin/img/groups.png
 hello;"&gutil.menu.hello;";Hello;http://www.hello.com/;chrome://gutil/skin/img/hello.png
+history;"&gutil.menu.history;";Web History;http://www.google.com/history/;chrome://gutil/skin/img/generic.png
 imagelabeler;"&gutil.menu.imagelabeler;";Image Labeler;http://images.google.com/imagelabeler/;chrome://gutil/skin/img/generic.png
 image;"&gutil.menu.image;";Image Search;http://images.google.com/;chrome://gutil/skin/img/generic.png
 translate;"&gutil.menu.translate;";Language Tools (Translate);http://www.google.com/language_tools;chrome://gutil/skin/img/translate.png
@@ -38,6 +38,7 @@ pagecreator;"&gutil.menu.pagecreator;";Page Creator;http://pages.google.com;chro
 patents;"&gutil.menu.patents;";Patent Search;http://www.google.com/patents;chrome://gutil/skin/img/generic.png
 personalized;"&gutil.menu.personalized;";Personalized Homepage;"runPersonalized();";chrome://gutil/skin/img/generic.png
 picasaweb;"&gutil.menu.picasaweb;";Picasa Web Albums;http://picasaweb.google.com/;chrome://gutil/skin/img/picasaweb.png
+productsearch;"&gutil.menu.productsearch;";Product Search;http://www.google.com/products;chrome://gutil/skin/img/froogle.png
 reader;"&gutil.menu.reader;";Reader;http://www.google.com/reader/;chrome://gutil/skin/img/reader.png
 scholar;"&gutil.menu.scholar;";Scholar;http://scholar.google.com/;chrome://gutil/skin/img/scholar.png
 search;"&gutil.menu.search;";Search;http://www.google.com/;chrome://gutil/skin/img/search.png

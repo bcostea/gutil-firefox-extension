@@ -20,7 +20,7 @@
 <!ENTITY gutil.menu.video "Video">
 <!ENTITY gutil.menu.mtrends "Music Trends">
 <!ENTITY gutil.menu.maps "Maps">
-<!ENTITY gutil.menu.froogle "Froogle">
+<!ENTITY gutil.menu.productsearch "Product Search">
 <!ENTITY gutil.menu.local "Local (Maps)">
 <!ENTITY gutil.menu.news "News">
 <!ENTITY gutil.menu.groups "Groups">
@@ -51,7 +51,7 @@
 <!ENTITY gutil.menu.trends "Trends">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.coop "Coop">
-
+<!ENTITY gutil.menu.history "Web History">
 
 <!ENTITY gutil.options.title "Google Utilities Options!">
 <!ENTITY gutil.options.settings "Settings">

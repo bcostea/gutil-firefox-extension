@@ -3,6 +3,9 @@ overlay	chrome://browser/content/browser.xul	chrome://gutil/content/overlay.xul
 
 locale	gutil	en-US	jar:chrome/gutil.jar!/locale/en-US/
 locale	gutil	fr-FR	jar:chrome/gutil.jar!/locale/fr-FR/
+locale	gutil	ro-RO	jar:chrome/gutil.jar!/locale/ro-RO/
+locale	gutil	ru-RU	jar:chrome/gutil.jar!/locale/ru-RU/
+
 skin	gutil	classic/1.0	jar:chrome/gutil.jar!/skin/
 style	chrome://global/content/customizeToolbar.xul	chrome://gutil/skin/gutil.css
 
