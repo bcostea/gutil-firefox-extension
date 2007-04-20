@@ -114,9 +114,6 @@
 <vbox oncommand='toggleGutilElement("gutil.menu.finance","menuHideCheckboxfinance");'>
 <checkbox id="menuHideCheckboxfinance" label="&gutil.menu.finance;"/>
 </vbox>
-<vbox oncommand='toggleGutilElement("gutil.menu.froogle","menuHideCheckboxfroogle");'>
-<checkbox id="menuHideCheckboxfroogle" label="&gutil.menu.froogle;"/>
-</vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.gmail","menuHideCheckboxgmail");'>
 <checkbox id="menuHideCheckboxgmail" label="&gutil.menu.gmail;"/>
 </vbox>
@@ -125,6 +122,9 @@
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.hello","menuHideCheckboxhello");'>
 <checkbox id="menuHideCheckboxhello" label="&gutil.menu.hello;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.history","menuHideCheckboxhistory");'>
+<checkbox id="menuHideCheckboxhistory" label="&gutil.menu.history;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.imagelabeler","menuHideCheckboximagelabeler");'>
 <checkbox id="menuHideCheckboximagelabeler" label="&gutil.menu.imagelabeler;"/>
@@ -176,6 +176,9 @@
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.picasaweb","menuHideCheckboxpicasaweb");'>
 <checkbox id="menuHideCheckboxpicasaweb" label="&gutil.menu.picasaweb;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.productsearch","menuHideCheckboxproductsearch");'>
+<checkbox id="menuHideCheckboxproductsearch" label="&gutil.menu.productsearch;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.reader","menuHideCheckboxreader");'>
 <checkbox id="menuHideCheckboxreader" label="&gutil.menu.reader;"/>

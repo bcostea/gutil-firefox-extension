@@ -20,7 +20,7 @@
 <!ENTITY gutil.menu.video "Видео (на англ.)">
 <!ENTITY gutil.menu.mtrends "Хит-парад (на англ.)">
 <!ENTITY gutil.menu.maps "Карты">
-<!ENTITY gutil.menu.froogle "Froogle (на англ.)">
+<!ENTITY gutil.menu.productsearch "Product Search (на англ.)">
 <!ENTITY gutil.menu.local "Local (Maps) (на англ.)">
 <!ENTITY gutil.menu.news "Новости">
 <!ENTITY gutil.menu.groups "Группы">
@@ -51,7 +51,7 @@
 <!ENTITY gutil.menu.trends "Trends">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.coop "Coop">
-
+<!ENTITY gutil.menu.history "Web History">
 
 <!ENTITY gutil.options.title "Настройки Google Utilities!">
 <!ENTITY gutil.options.settings "Настройки">
