@@ -32,7 +32,7 @@ movies;"&gutil.menu.movies;";Movies;http://www.google.com/movies;chrome://gutil/
 mtrends;"&gutil.menu.mtrends;";Music Trends;http://www.google.com/trends/music;chrome://gutil/skin/img/mtrends.png
 news;"&gutil.menu.news;";News;http://news.google.com/;chrome://gutil/skin/img/news.png
 notebook;"&gutil.menu.notebook;";Notebook;http://www.google.com/notebook/;chrome://gutil/skin/img/notebook.png
-orkut;"&gutil.menu.orkut;";orkut;https://www.orkut.com/;chrome://gutil/skin/img/orkut.png
+orkut;"&gutil.menu.orkut;";orkut;http://www.orkut.com/;chrome://gutil/skin/img/orkut.png
 pack;"&gutil.menu.pack;";Pack;http://pack.google.com/;chrome://gutil/skin/img/pack.png
 pagecreator;"&gutil.menu.pagecreator;";Page Creator;http://pages.google.com;chrome://gutil/skin/img/pagecreator.png
 patents;"&gutil.menu.patents;";Patent Search;http://www.google.com/patents;chrome://gutil/skin/img/generic.png
