@@ -1,4 +1,4 @@
-<!ENTITY gutil.main.label "GUtil!">
+﻿<!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Nustatymai...">
 <!ENTITY gutil.menu.acc "Mano Google paskyra">
 <!ENTITY gutil.menu.adsense "Adsense">
@@ -37,7 +37,7 @@
 <!ENTITY gutil.menu.pack "Paketas">
 <!ENTITY gutil.menu.pagecreator "Puslapių kūrėjas">
 <!ENTITY gutil.menu.patents "Patentų paieška">
-<!ENTITY gutil.menu.personalized "Suasmenintas namų puslapis">
+<!ENTITY gutil.menu.personalized "iGoogle">
 <!ENTITY gutil.menu.picasaweb "Picasa žiniatinklio albumai">
 <!ENTITY gutil.menu.productsearch "Produktų paieška">
 <!ENTITY gutil.menu.reader "Skaitytojas">
