@@ -1,4 +1,4 @@
-<!ENTITY gutil.main.label "GUtil!">
+﻿<!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Options...">
 
 
@@ -47,7 +47,7 @@
 <!ENTITY gutil.menu.adwords "Adwords">
 <!ENTITY gutil.menu.moon "Lune">
 <!ENTITY gutil.menu.alerts "Alertes">
-<!ENTITY gutil.menu.personalized "Accueil Personalisé">
+<!ENTITY gutil.menu.personalized "iGoogle">
 <!ENTITY gutil.menu.trends "Tendances">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.coop "Coop">
