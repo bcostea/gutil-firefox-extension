@@ -228,6 +228,7 @@ var elements=new Array(
             "directory",
             "docs",
             "earth",
+            "experimental",
             "finance",
             "gmail",
             "groups",
@@ -235,6 +236,7 @@ var elements=new Array(
             "history",
             "imagelabeler",
             "image",
+            "labs",
             "translate",
             "local",
             "maps",
@@ -259,7 +261,8 @@ var elements=new Array(
             "suggest",
             "trends",
             "video",
-            "wbt"
+            "wbt",
+            "acc"
             );
 
    for (i=0;i<elements.length;i++)   

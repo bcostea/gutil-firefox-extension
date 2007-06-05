@@ -52,6 +52,8 @@
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.coop "Coop">
 <!ENTITY gutil.menu.history "Web History">
+<!ENTITY gutil.menu.labs "Labs">
+<!ENTITY gutil.menu.experimental "Experimental">
 
 <!ENTITY gutil.options.title "Настройки Google Utilities!">
 <!ENTITY gutil.options.settings "Настройки">
