@@ -50,6 +50,9 @@
 <!ENTITY gutil.menu.trends "Trends">
 <!ENTITY gutil.menu.video "Video">
 <!ENTITY gutil.menu.wbt "Administratoriaus priemonės">
+<!ENTITY gutil.menu.labs "Labs">
+<!ENTITY gutil.menu.experimental "Experimental">
+
 <!ENTITY gutil.options.domain "Įveskite domeno vardą į laukelį žemiau">
 <!ENTITY gutil.options.hidebutton "Slėpti GUtil! mygtuką">
 <!ENTITY gutil.options.hidemenu "Slėpti GUtil! meniu">
