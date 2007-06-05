@@ -54,6 +54,7 @@
 <!ENTITY gutil.menu.history "Web History">
 <!ENTITY gutil.menu.labs "Labs">
 <!ENTITY gutil.menu.experimental "Experimental">
+<!ENTITY gutil.menu.sets "Sets">
 
 <!ENTITY gutil.options.title "Настройки Google Utilities!">
 <!ENTITY gutil.options.settings "Настройки">

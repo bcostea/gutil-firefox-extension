@@ -45,6 +45,7 @@ var elements=new Array(
             "reader",
             "scholar",
             "search",
+            "sets",
             "sketchup",
             "ssearch",
             "suggest",

@@ -44,6 +44,7 @@ productsearch;"&gutil.menu.productsearch;";Product Search;http://www.google.com/
 reader;"&gutil.menu.reader;";Reader;http://www.google.com/reader/;chrome://gutil/skin/img/reader.png
 scholar;"&gutil.menu.scholar;";Scholar;http://scholar.google.com/;chrome://gutil/skin/img/scholar.png
 search;"&gutil.menu.search;";Search;http://www.google.com/;chrome://gutil/skin/img/search.png
+sets;"&gutil.menu.sets;";Sets;http://http://labs.google.com/sets;chrome://gutil/skin/img/labs.png
 sketchup;"&gutil.menu.sketchup;";Sketchup;http://www.sketchup.com/;chrome://gutil/skin/img/generic.png
 ssearch;"&gutil.menu.ssearch;";Special Search;http://www.google.com/options/specialsearches.html;chrome://gutil/skin/img/search.png
 suggest;"&gutil.menu.suggest;";Suggest;http://www.google.com/webhp?complete=1;chrome://gutil/skin/img/generic.png
