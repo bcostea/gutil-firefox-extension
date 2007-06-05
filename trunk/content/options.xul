@@ -195,6 +195,9 @@
 <vbox oncommand='toggleGutilElement("gutil.menu.search","menuHideCheckboxsearch");'>
 <checkbox id="menuHideCheckboxsearch" label="&gutil.menu.search;"/>
 </vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.sets","menuHideCheckboxsets");'>
+<checkbox id="menuHideCheckboxsets" label="&gutil.menu.sets;"/>
+</vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.sketchup","menuHideCheckboxsketchup");'>
 <checkbox id="menuHideCheckboxsketchup" label="&gutil.menu.sketchup;"/>
 </vbox>

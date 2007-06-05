@@ -1,4 +1,4 @@
-﻿<!ENTITY gutil.main.label "GUtil!">
+<!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Nustatymai...">
 <!ENTITY gutil.menu.acc "Mano Google paskyra">
 <!ENTITY gutil.menu.adsense "Adsense">
@@ -52,6 +52,7 @@
 <!ENTITY gutil.menu.wbt "Administratoriaus priemonės">
 <!ENTITY gutil.menu.labs "Labs">
 <!ENTITY gutil.menu.experimental "Experimental">
+<!ENTITY gutil.menu.sets "Sets">
 
 <!ENTITY gutil.options.domain "Įveskite domeno vardą į laukelį žemiau">
 <!ENTITY gutil.options.hidebutton "Slėpti GUtil! mygtuką">

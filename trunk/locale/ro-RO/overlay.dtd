@@ -1,4 +1,4 @@
-﻿<!ENTITY gutil.main.label "GUtil!">
+<!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Opţiuni...">
 
 
@@ -54,6 +54,7 @@
 <!ENTITY gutil.menu.history "Web History">
 <!ENTITY gutil.menu.labs "Labs">
 <!ENTITY gutil.menu.experimental "Experimental">
+<!ENTITY gutil.menu.sets "Sets">
 
 <!ENTITY gutil.options.title "Opţiuni Google Utilities!">
 <!ENTITY gutil.options.settings "Setări">
