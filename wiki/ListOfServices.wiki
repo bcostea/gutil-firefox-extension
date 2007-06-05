@@ -1,7 +1,7 @@
 #summary List of services included in GUtil!
 #labels Featured
 
-This pages lists the *50* services included in GUtil!.
+This pages lists the *53* services included in GUtil!.
 
   # [https://www.google.com/adsense http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/adsense.png] [https://www.google.com/adsense Adsense]
   # [https://adwords.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/adwords.png] [https://adwords.google.com/ Adwords]
@@ -20,6 +20,7 @@ This pages lists the *50* services included in GUtil!.
   # [http://www.google.com/dirhp http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/directory.png] [http://www.google.com/dirhp Directory]
   # [http://docs.google.com http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/docs_and_spreadsheets.png] [http://docs.google.com Docs & Spreadsheets]
   # [http://earth.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/earth.png] [http://earth.google.com/ Earth]
+  # [http://www.google.com/experimental/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/labs.png] [http://www.google.com/experimental/ Experimental]
   # [http://www.google.com/finance http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/finance.png] [http://www.google.com/finance Finance]
   # [https://gmail.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/gmail.png] [https://gmail.com/ Gmail] (and hosted)
   # [http://groups.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/groups.png] [http://groups.google.com/ Groups]
@@ -27,6 +28,7 @@ This pages lists the *50* services included in GUtil!.
   # [http://www.google.com/history/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://www.google.com/history/ Web History]
   # [http://images.google.com/imagelabeler/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://images.google.com/imagelabeler/ Image Labeler]
   # [http://images.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://images.google.com/ Image Search]
+  # [http://labs.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/labs.png] [http://labs.google.com/ Labs]
   # [http://www.google.com/language_tools http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/translate.png] [http://www.google.com/language_tools Language Tools (Translate)]
   # [http://local.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/maps.png] [http://local.google.com/ Local (Maps)]
   # [http://maps.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/maps.png] [http://maps.google.com/ Maps]
@@ -46,6 +48,7 @@ This pages lists the *50* services included in GUtil!.
   # [http://www.google.com/reader/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/reader.png] [http://www.google.com/reader/ Reader]
   # [http://scholar.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/scholar.png] [http://scholar.google.com/ Scholar]
   # [http://www.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/search.png] [http://www.google.com/ Search]
+  # [http://labs.google.com/sets http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/labs.png] [http://labs.google.com/sets Sets]
   # [http://www.sketchup.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://www.sketchup.com/ Sketchup]
   # [http://www.google.com/options/specialsearches.html http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/search.png] [http://www.google.com/options/specialsearches.html Special Search]
   # [http://www.google.com/webhp?complete=1 http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://www.google.com/webhp?complete=1 Suggest]
