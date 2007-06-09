@@ -178,7 +178,7 @@ function runGMail()
 }
 /***********************************************************************************************************/
 // special request - hosted & partnerpages
-function runPersonalized()
+function runiGoogle()
 {
    var pref = Components.classes["@mozilla.org/preferences-service;1"]
 			.getService(Components.interfaces.nsIPrefBranch);
@@ -234,6 +234,7 @@ var elements=new Array(
             "groups",
             "hello",
             "history",
+            "igoogle",
             "imagelabeler",
             "image",
             "labs",
@@ -250,7 +251,6 @@ var elements=new Array(
             "pack",
             "pagecreator",
             "patents",
-            "personalized",
             "picasaweb",
             "productsearch",
             "reader",
@@ -304,9 +304,9 @@ function gutilExecute(URL, event)
     if(event.target.id == 'gutil_toolbaritem_gmail' || event.target.id == 'gutil_menuitem_gmail')
     {
         URL = runGMail();
-    } else if (event.target.id == 'gutil_toolbaritem_personalized' || event.target.id == 'gutil_menuitem_personalized')
+    } else if (event.target.id == 'gutil_toolbaritem_igoogle' || event.target.id == 'gutil_menuitem_igoogle')
     {
-        URL = runPersonalized();
+        URL = runiGoogle();
     } else if (event.target.id == 'gutil_toolbaritem_calendar' || event.target.id == 'gutil_menuitem_calendar')
     {
         URL = runCalendar();
