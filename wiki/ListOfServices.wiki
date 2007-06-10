@@ -1,7 +1,7 @@
 #summary List of services included in GUtil!
 #labels Featured
 
-This pages lists the *53* services included in GUtil!.
+This pages lists the *55* services included in GUtil!.
 
   # [https://www.google.com/adsense http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/adsense.png] [https://www.google.com/adsense Adsense]
   # [https://adwords.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/adwords.png] [https://adwords.google.com/ Adwords]
@@ -17,6 +17,7 @@ This pages lists the *53* services included in GUtil!.
   # [http://checkout.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/checkout.png] [http://checkout.google.com/ Checkout]
   # [http://code.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/code.png] [http://code.google.com/ Code]
   # [http://www.google.com/coop/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/search.png] [http://www.google.com/coop/ Coop]
+  # [http://www.google.com/searchhistory/items?op=rec_rd&cd=ifb&hl=en http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/dice.png] [http://www.google.com/searchhistory/items?op=rec_rd&cd=ifb&hl=en Dice]
   # [http://www.google.com/dirhp http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/directory.png] [http://www.google.com/dirhp Directory]
   # [http://docs.google.com http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/docs_and_spreadsheets.png] [http://docs.google.com Docs & Spreadsheets]
   # [http://earth.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/earth.png] [http://earth.google.com/ Earth]
@@ -49,10 +50,11 @@ This pages lists the *53* services included in GUtil!.
   # [http://scholar.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/scholar.png] [http://scholar.google.com/ Scholar]
   # [http://www.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/search.png] [http://www.google.com/ Search]
   # [http://labs.google.com/sets http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/labs.png] [http://labs.google.com/sets Sets]
-  # [http://www.sketchup.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://www.sketchup.com/ Sketchup]
+  # [http://www.sketchup.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/sketchup.png] [http://www.sketchup.com/ Sketchup]
   # [http://www.google.com/options/specialsearches.html http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/search.png] [http://www.google.com/options/specialsearches.html Special Search]
   # [http://www.google.com/webhp?complete=1 http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://www.google.com/webhp?complete=1 Suggest]
   # [http://www.google.com/trends http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/trends.png] [http://www.google.com/trends Trends]
   # [http://video.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/video.png] [http://video.google.com/ Video]
+  # [http://sketchup.google.com/3dwarehouse/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/3dwarehouse.png] [http://sketchup.google.com/3dwarehouse/ 3D Warehouse]
   # [http://www.google.com/webmasters/sitemaps http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/webmaster.png] [http://www.google.com/webmasters/sitemaps Webmaster Tools]
   # [https://www.google.com/accounts/ManageAccount http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [https://www.google.com/accounts/ManageAccount My Google Account]
