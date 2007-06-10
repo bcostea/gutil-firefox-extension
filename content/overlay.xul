@@ -23,6 +23,7 @@
 <menuitem id="gutil_menuitem_checkout" label="&gutil.menu.checkout;" onclick="gutilExecute('http://checkout.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/checkout.png" />
 <menuitem id="gutil_menuitem_code" label="&gutil.menu.code;" onclick="gutilExecute('http://code.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/code.png" />
 <menuitem id="gutil_menuitem_coop" label="&gutil.menu.coop;" onclick="gutilExecute('http://www.google.com/coop/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
+<menuitem id="gutil_menuitem_dice" label="&gutil.menu.dice;" onclick="gutilExecute('http://www.google.com/searchhistory/items?op=rec_rd&amp;cd=ifb&amp;hl=en', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/dice.png" />
 <menuitem id="gutil_menuitem_directory" label="&gutil.menu.directory;" onclick="gutilExecute('http://www.google.com/dirhp', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/directory.png" />
 <menuitem id="gutil_menuitem_docs" label="&gutil.menu.docs;" onclick="gutilExecute('http://docs.google.com', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/docs_and_spreadsheets.png" />
 <menuitem id="gutil_menuitem_earth" label="&gutil.menu.earth;" onclick="gutilExecute('http://earth.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/earth.png" />
@@ -55,11 +56,12 @@
 <menuitem id="gutil_menuitem_scholar" label="&gutil.menu.scholar;" onclick="gutilExecute('http://scholar.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/scholar.png" />
 <menuitem id="gutil_menuitem_search" label="&gutil.menu.search;" onclick="gutilExecute('http://www.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 <menuitem id="gutil_menuitem_sets" label="&gutil.menu.sets;" onclick="gutilExecute('http://labs.google.com/sets', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/labs.png" />
-<menuitem id="gutil_menuitem_sketchup" label="&gutil.menu.sketchup;" onclick="gutilExecute('http://www.sketchup.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
+<menuitem id="gutil_menuitem_sketchup" label="&gutil.menu.sketchup;" onclick="gutilExecute('http://www.sketchup.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/sketchup.png" />
 <menuitem id="gutil_menuitem_ssearch" label="&gutil.menu.ssearch;" onclick="gutilExecute('http://www.google.com/options/specialsearches.html', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 <menuitem id="gutil_menuitem_suggest" label="&gutil.menu.suggest;" onclick="gutilExecute('http://www.google.com/webhp?complete=1', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_menuitem_trends" label="&gutil.menu.trends;" onclick="gutilExecute('http://www.google.com/trends', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/trends.png" />
 <menuitem id="gutil_menuitem_video" label="&gutil.menu.video;" onclick="gutilExecute('http://video.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/video.png" />
+<menuitem id="gutil_menuitem_warehouse" label="&gutil.menu.warehouse;" onclick="gutilExecute('http://sketchup.google.com/3dwarehouse/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/3dwarehouse.png" />
 <menuitem id="gutil_menuitem_wbt" label="&gutil.menu.wbt;" onclick="gutilExecute('http://www.google.com/webmasters/sitemaps', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/webmaster.png" />
 <menuseparator/>
 <menuitem id="gutil_menuitem_acc" label="&gutil.menu.acc;" onclick="gutilExecute('https://www.google.com/accounts/ManageAccount', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
@@ -93,6 +95,7 @@
 <menuitem id="gutil_toolbaritem_checkout" label="&gutil.menu.checkout;" onclick="gutilExecute('http://checkout.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/checkout.png" />
 <menuitem id="gutil_toolbaritem_code" label="&gutil.menu.code;" onclick="gutilExecute('http://code.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/code.png" />
 <menuitem id="gutil_toolbaritem_coop" label="&gutil.menu.coop;" onclick="gutilExecute('http://www.google.com/coop/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
+<menuitem id="gutil_toolbaritem_dice" label="&gutil.menu.dice;" onclick="gutilExecute('http://www.google.com/searchhistory/items?op=rec_rd&amp;cd=ifb&amp;hl=en', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/dice.png" />
 <menuitem id="gutil_toolbaritem_directory" label="&gutil.menu.directory;" onclick="gutilExecute('http://www.google.com/dirhp', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/directory.png" />
 <menuitem id="gutil_toolbaritem_docs" label="&gutil.menu.docs;" onclick="gutilExecute('http://docs.google.com', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/docs_and_spreadsheets.png" />
 <menuitem id="gutil_toolbaritem_earth" label="&gutil.menu.earth;" onclick="gutilExecute('http://earth.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/earth.png" />
@@ -125,11 +128,12 @@
 <menuitem id="gutil_toolbaritem_scholar" label="&gutil.menu.scholar;" onclick="gutilExecute('http://scholar.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/scholar.png" />
 <menuitem id="gutil_toolbaritem_search" label="&gutil.menu.search;" onclick="gutilExecute('http://www.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 <menuitem id="gutil_toolbaritem_sets" label="&gutil.menu.sets;" onclick="gutilExecute('http://labs.google.com/sets', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/labs.png" />
-<menuitem id="gutil_toolbaritem_sketchup" label="&gutil.menu.sketchup;" onclick="gutilExecute('http://www.sketchup.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
+<menuitem id="gutil_toolbaritem_sketchup" label="&gutil.menu.sketchup;" onclick="gutilExecute('http://www.sketchup.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/sketchup.png" />
 <menuitem id="gutil_toolbaritem_ssearch" label="&gutil.menu.ssearch;" onclick="gutilExecute('http://www.google.com/options/specialsearches.html', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 <menuitem id="gutil_toolbaritem_suggest" label="&gutil.menu.suggest;" onclick="gutilExecute('http://www.google.com/webhp?complete=1', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_toolbaritem_trends" label="&gutil.menu.trends;" onclick="gutilExecute('http://www.google.com/trends', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/trends.png" />
 <menuitem id="gutil_toolbaritem_video" label="&gutil.menu.video;" onclick="gutilExecute('http://video.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/video.png" />
+<menuitem id="gutil_toolbaritem_warehouse" label="&gutil.menu.warehouse;" onclick="gutilExecute('http://sketchup.google.com/3dwarehouse/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/3dwarehouse.png" />
 <menuitem id="gutil_toolbaritem_wbt" label="&gutil.menu.wbt;" onclick="gutilExecute('http://www.google.com/webmasters/sitemaps', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/webmaster.png" />
 <menuseparator/>
 <menuitem id="gutil_toolbaritem_acc" label="&gutil.menu.acc;" onclick="gutilExecute('https://www.google.com/accounts/ManageAccount', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />

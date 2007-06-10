@@ -14,6 +14,7 @@ var elements=new Array(
             "checkout",
             "code",
             "coop",
+            "dice",
             "directory",
             "docs",
             "earth",
@@ -51,6 +52,7 @@ var elements=new Array(
             "suggest",
             "trends",
             "video",
+            "warehouse",
             "wbt",
             "acc"
             );

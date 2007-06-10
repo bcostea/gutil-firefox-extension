@@ -102,6 +102,9 @@
 <vbox oncommand='toggleGutilElement("gutil.menu.coop","menuHideCheckboxcoop");'>
 <checkbox id="menuHideCheckboxcoop" label="&gutil.menu.coop;"/>
 </vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.dice","menuHideCheckboxdice");'>
+<checkbox id="menuHideCheckboxdice" label="&gutil.menu.dice;"/>
+</vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.directory","menuHideCheckboxdirectory");'>
 <checkbox id="menuHideCheckboxdirectory" label="&gutil.menu.directory;"/>
 </vbox>
@@ -212,6 +215,9 @@
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.video","menuHideCheckboxvideo");'>
 <checkbox id="menuHideCheckboxvideo" label="&gutil.menu.video;"/>
+</vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.warehouse","menuHideCheckboxwarehouse");'>
+<checkbox id="menuHideCheckboxwarehouse" label="&gutil.menu.warehouse;"/>
 </vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.wbt","menuHideCheckboxwbt");'>
 <checkbox id="menuHideCheckboxwbt" label="&gutil.menu.wbt;"/>

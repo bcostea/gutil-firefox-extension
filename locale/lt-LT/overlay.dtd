@@ -53,6 +53,8 @@
 <!ENTITY gutil.menu.labs "Labs">
 <!ENTITY gutil.menu.experimental "Experimental">
 <!ENTITY gutil.menu.sets "Sets">
+<!ENTITY gutil.menu.dice "Dice">
+<!ENTITY gutil.menu.warehouse "3D Warehouse">
 
 <!ENTITY gutil.options.domain "Įveskite domeno vardą į laukelį žemiau">
 <!ENTITY gutil.options.hidebutton "Slėpti GUtil! mygtuką">
