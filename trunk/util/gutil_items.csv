@@ -13,6 +13,7 @@ calendar;"&gutil.menu.calendar;";Calendar;"runCalendar();";chrome://gutil/skin/i
 checkout;"&gutil.menu.checkout;";Checkout;http://checkout.google.com/;chrome://gutil/skin/img/checkout.png
 code;"&gutil.menu.code;";Code;http://code.google.com/;chrome://gutil/skin/img/code.png
 coop;"&gutil.menu.coop;";Coop;http://www.google.com/coop/;chrome://gutil/skin/img/search.png
+dice;"&gutil.menu.dice;";Dice;"http://www.google.com/searchhistory/items?op=rec_rd&amp;cd=ifb&amp;hl=en";chrome://gutil/skin/img/dice.png
 directory;"&gutil.menu.directory;";Directory;http://www.google.com/dirhp;chrome://gutil/skin/img/directory.png
 docs;"&gutil.menu.docs;";Docs & Spreadsheets;http://docs.google.com;chrome://gutil/skin/img/docs_and_spreadsheets.png
 earth;"&gutil.menu.earth;";Earth;http://earth.google.com/;chrome://gutil/skin/img/earth.png
@@ -45,11 +46,12 @@ reader;"&gutil.menu.reader;";Reader;http://www.google.com/reader/;chrome://gutil
 scholar;"&gutil.menu.scholar;";Scholar;http://scholar.google.com/;chrome://gutil/skin/img/scholar.png
 search;"&gutil.menu.search;";Search;http://www.google.com/;chrome://gutil/skin/img/search.png
 sets;"&gutil.menu.sets;";Sets;http://labs.google.com/sets;chrome://gutil/skin/img/labs.png
-sketchup;"&gutil.menu.sketchup;";Sketchup;http://www.sketchup.com/;chrome://gutil/skin/img/generic.png
+sketchup;"&gutil.menu.sketchup;";Sketchup;http://www.sketchup.com/;chrome://gutil/skin/img/sketchup.png
 ssearch;"&gutil.menu.ssearch;";Special Search;http://www.google.com/options/specialsearches.html;chrome://gutil/skin/img/search.png
 suggest;"&gutil.menu.suggest;";Suggest;http://www.google.com/webhp?complete=1;chrome://gutil/skin/img/generic.png
 trends;"&gutil.menu.trends;";Trends;http://www.google.com/trends;chrome://gutil/skin/img/trends.png
 video;"&gutil.menu.video;";Video;http://video.google.com/;chrome://gutil/skin/img/video.png
+warehouse;"&gutil.menu.warehouse;";Warehouse;http://sketchup.google.com/3dwarehouse/;chrome://gutil/skin/img/3dwarehouse.png
 wbt;"&gutil.menu.wbt;";Webmaster Tools;http://www.google.com/webmasters/sitemaps;chrome://gutil/skin/img/webmaster.png
 ---;;;;chrome://gutil/skin/img/generic.png
 acc;"&gutil.menu.acc;";My Google Account;https://www.google.com/accounts/ManageAccount;chrome://gutil/skin/img/generic.png
