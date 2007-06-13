@@ -45,7 +45,7 @@ This pages lists the *55* services included in GUtil!.
   # [http://www.google.com/patents http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://www.google.com/patents Patent Search]
   # [http://www.google.com/ig http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://www.google.com/ig Personalized Homepage]
   # [http://picasaweb.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/picasaweb.png] [http://picasaweb.google.com/ Picasa Web Albums]
-  # [http://www.google.com/products http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/froogle.png] [http://www.google.com/ Products Search]
+  # [http://www.google.com/products http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/froogle.png] [http://www.google.com/products Products Search]
   # [http://www.google.com/reader/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/reader.png] [http://www.google.com/reader/ Reader]
   # [http://scholar.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/scholar.png] [http://scholar.google.com/ Scholar]
   # [http://www.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/search.png] [http://www.google.com/ Search]
