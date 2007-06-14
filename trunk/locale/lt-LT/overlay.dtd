@@ -1,5 +1,7 @@
 <!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Nustatymai...">
+
+
 <!ENTITY gutil.menu.acc "Mano Google paskyra">
 <!ENTITY gutil.menu.adsense "Adsense">
 <!ENTITY gutil.menu.adwords "Adwords">
@@ -15,9 +17,11 @@
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.code "Kodas">
 <!ENTITY gutil.menu.coop "Co-op">
+<!ENTITY gutil.menu.dice "Dice">
 <!ENTITY gutil.menu.directory "Katalogas">
 <!ENTITY gutil.menu.docs "Dokumentai ir Skaičiuoklės">
 <!ENTITY gutil.menu.earth "Žemė">
+<!ENTITY gutil.menu.experimental "Experimental">
 <!ENTITY gutil.menu.finance "Finansai">
 <!ENTITY gutil.menu.gmail "Gmail">
 <!ENTITY gutil.menu.groups "Grupės">
@@ -25,6 +29,7 @@
 <!ENTITY gutil.menu.history "Interneto retrospektyva">
 <!ENTITY gutil.menu.image "Vaizdų paieška">
 <!ENTITY gutil.menu.imagelabeler "Vaizdų aprašymas">
+<!ENTITY gutil.menu.labs "Labs">
 <!ENTITY gutil.menu.local "Vietinis (Žemėlapiai)">
 <!ENTITY gutil.menu.maps "Žemėlapiai">
 <!ENTITY gutil.menu.mars "Marsas">
@@ -37,24 +42,21 @@
 <!ENTITY gutil.menu.pack "Paketas">
 <!ENTITY gutil.menu.pagecreator "Puslapių kūrėjas">
 <!ENTITY gutil.menu.patents "Patentų paieška">
-<!ENTITY gutil.menu.personalized "iGoogle">
 <!ENTITY gutil.menu.picasaweb "Picasa žiniatinklio albumai">
 <!ENTITY gutil.menu.productsearch "Produktų paieška">
 <!ENTITY gutil.menu.reader "Skaitytojas">
 <!ENTITY gutil.menu.scholar "Scholar">
 <!ENTITY gutil.menu.search "Paieška">
+<!ENTITY gutil.menu.sets "Sets">
 <!ENTITY gutil.menu.sketchup "Sketchup">
 <!ENTITY gutil.menu.ssearch "Specialioji paieška">
 <!ENTITY gutil.menu.suggest "Pasiūlymai">
 <!ENTITY gutil.menu.translate "Kalbos įrankiai (Vertimas)">
 <!ENTITY gutil.menu.trends "Trends">
 <!ENTITY gutil.menu.video "Video">
-<!ENTITY gutil.menu.wbt "Administratoriaus priemonės">
-<!ENTITY gutil.menu.labs "Labs">
-<!ENTITY gutil.menu.experimental "Experimental">
-<!ENTITY gutil.menu.sets "Sets">
-<!ENTITY gutil.menu.dice "Dice">
 <!ENTITY gutil.menu.warehouse "3D Warehouse">
+<!ENTITY gutil.menu.wbt "Administratoriaus priemonės">
+
 
 <!ENTITY gutil.options.domain "Įveskite domeno vardą į laukelį žemiau">
 <!ENTITY gutil.options.hidebutton "Slėpti GUtil! mygtuką">
@@ -65,3 +67,5 @@
 <!ENTITY gutil.options.settings "Nustatymai">
 <!ENTITY gutil.options.title "GUtil! nustatymai">
 <!ENTITY gutil.options.warning "Naudokite tik jei žinote, ką darote!">
+
+

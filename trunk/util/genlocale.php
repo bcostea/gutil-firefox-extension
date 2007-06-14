@@ -5,7 +5,7 @@ $rows=CSV2Array($str);
 
     for($i=1;$i<count($rows);$i++)
        {
-        echo "<!ENTITY ".$rows[$i][1]." \"".$rows[$i][2]."\">\n";
+        echo "<!ENTITY ".substr($rows[$i][1],1,-1)." \"".$rows[$i][2]."\">\n";
        }
 
 ?>

@@ -2,68 +2,71 @@
 <!ENTITY gutil.main.options "Настройки...">
 
 
-<!ENTITY gutil.menu.search "Поиск в Интернете">
-<!ENTITY gutil.menu.gmail "Gmail">
-<!ENTITY gutil.menu.docs "Документы и электронные таблицы">
-<!ENTITY gutil.menu.calendar "Календарь">
-<!ENTITY gutil.menu.base "Base (на англ.)">
-<!ENTITY gutil.menu.bookmarks "Закладки">
-<!ENTITY gutil.menu.notebook "Блокнот (на англ.)">
-<!ENTITY gutil.menu.blogger "Блоггер (на англ.)">
-<!ENTITY gutil.menu.reader "Reader (на англ.)">
-<!ENTITY gutil.menu.analytics "Analytics">
-<!ENTITY gutil.menu.adsense "Adsense">
-<!ENTITY gutil.menu.wbt "Инструменты для веб-мастеров">
-<!ENTITY gutil.menu.image "Картинки">
-<!ENTITY gutil.menu.blogsearch "Поиск по блогам">
-<!ENTITY gutil.menu.scholar "Поиск по статьям (на англ.)">
-<!ENTITY gutil.menu.video "Видео (на англ.)">
-<!ENTITY gutil.menu.mtrends "Хит-парад (на англ.)">
-<!ENTITY gutil.menu.maps "Карты">
-<!ENTITY gutil.menu.productsearch "Product Search (на англ.)">
-<!ENTITY gutil.menu.local "Local (Maps) (на англ.)">
-<!ENTITY gutil.menu.news "Новости">
-<!ENTITY gutil.menu.groups "Группы">
-<!ENTITY gutil.menu.directory "Каталог">
-<!ENTITY gutil.menu.translate "Переводчик">
-<!ENTITY gutil.menu.picasaweb "Picasa">
-<!ENTITY gutil.menu.pagecreator "Создание сайтов (на англ.)">
-<!ENTITY gutil.menu.orkut "orkut">
-<!ENTITY gutil.menu.code "Код (на англ.)">
-<!ENTITY gutil.menu.books "Поиск по книгам (на англ.)">
-<!ENTITY gutil.menu.hello "Hello (на англ.)">
-<!ENTITY gutil.menu.pack "Полезные программы">
-<!ENTITY gutil.menu.sketchup "Sketchup (на англ.)">
-<!ENTITY gutil.menu.earth "Earth (на англ.)">
-<!ENTITY gutil.menu.imagelabeler "Image Labeler (на англ.)">
-<!ENTITY gutil.menu.finance "Финансовая информация (на англ.)">
-<!ENTITY gutil.menu.suggest "Поиск с предложениями">
-<!ENTITY gutil.menu.patents "Поиск по патентам (на англ.)">
-<!ENTITY gutil.menu.ssearch "Поиск по областям (на англ.)">
-<!ENTITY gutil.menu.mars "Карта Марса (на англ.)">
 <!ENTITY gutil.menu.acc "Мой аккаунт">
-<!ENTITY gutil.menu.appd "Службы Google для Вашего домена">
-<!ENTITY gutil.menu.movies "Сеансы фильма">
+<!ENTITY gutil.menu.adsense "Adsense">
 <!ENTITY gutil.menu.adwords "Adwords">
-<!ENTITY gutil.menu.moon "Карта Луны (на англ.)">
 <!ENTITY gutil.menu.alerts "Оповещения">
-<!ENTITY gutil.menu.igoogle "iGoogle">
-<!ENTITY gutil.menu.trends "Trends">
+<!ENTITY gutil.menu.analytics "Analytics">
+<!ENTITY gutil.menu.appd "Службы Google для Вашего домена">
+<!ENTITY gutil.menu.base "Base (на англ.)">
+<!ENTITY gutil.menu.blogger "Блоггер (на англ.)">
+<!ENTITY gutil.menu.blogsearch "Поиск по блогам">
+<!ENTITY gutil.menu.bookmarks "Закладки">
+<!ENTITY gutil.menu.books "Поиск по книгам (на англ.)">
+<!ENTITY gutil.menu.calendar "Календарь">
 <!ENTITY gutil.menu.checkout "Checkout">
+<!ENTITY gutil.menu.code "Код (на англ.)">
 <!ENTITY gutil.menu.coop "Coop">
-<!ENTITY gutil.menu.history "Web History">
-<!ENTITY gutil.menu.labs "Labs">
-<!ENTITY gutil.menu.experimental "Experimental">
-<!ENTITY gutil.menu.sets "Sets">
 <!ENTITY gutil.menu.dice "Dice">
+<!ENTITY gutil.menu.directory "Каталог">
+<!ENTITY gutil.menu.docs "Документы и электронные таблицы">
+<!ENTITY gutil.menu.earth "Earth (на англ.)">
+<!ENTITY gutil.menu.experimental "Experimental">
+<!ENTITY gutil.menu.finance "Финансовая информация (на англ.)">
+<!ENTITY gutil.menu.gmail "Gmail">
+<!ENTITY gutil.menu.groups "Группы">
+<!ENTITY gutil.menu.hello "Hello (на англ.)">
+<!ENTITY gutil.menu.history "Web History">
+<!ENTITY gutil.menu.igoogle "iGoogle">
+<!ENTITY gutil.menu.image "Картинки">
+<!ENTITY gutil.menu.imagelabeler "Image Labeler (на англ.)">
+<!ENTITY gutil.menu.labs "Labs">
+<!ENTITY gutil.menu.local "Local (Maps) (на англ.)">
+<!ENTITY gutil.menu.maps "Карты">
+<!ENTITY gutil.menu.mars "Карта Марса (на англ.)">
+<!ENTITY gutil.menu.moon "Карта Луны (на англ.)">
+<!ENTITY gutil.menu.movies "Сеансы фильма">
+<!ENTITY gutil.menu.mtrends "Хит-парад (на англ.)">
+<!ENTITY gutil.menu.news "Новости">
+<!ENTITY gutil.menu.notebook "Блокнот (на англ.)">
+<!ENTITY gutil.menu.orkut "orkut">
+<!ENTITY gutil.menu.pack "Полезные программы">
+<!ENTITY gutil.menu.pagecreator "Создание сайтов (на англ.)">
+<!ENTITY gutil.menu.patents "Поиск по патентам (на англ.)">
+<!ENTITY gutil.menu.picasaweb "Picasa">
+<!ENTITY gutil.menu.productsearch "Product Search (на англ.)">
+<!ENTITY gutil.menu.reader "Reader (на англ.)">
+<!ENTITY gutil.menu.scholar "Поиск по статьям (на англ.)">
+<!ENTITY gutil.menu.search "Поиск в Интернете">
+<!ENTITY gutil.menu.sets "Sets">
+<!ENTITY gutil.menu.sketchup "Sketchup (на англ.)">
+<!ENTITY gutil.menu.ssearch "Поиск по областям (на англ.)">
+<!ENTITY gutil.menu.suggest "Поиск с предложениями">
+<!ENTITY gutil.menu.translate "Переводчик">
+<!ENTITY gutil.menu.trends "Trends">
+<!ENTITY gutil.menu.video "Видео (на англ.)">
 <!ENTITY gutil.menu.warehouse "3D Warehouse">
+<!ENTITY gutil.menu.wbt "Инструменты для веб-мастеров">
 
-<!ENTITY gutil.options.title "Настройки Google Utilities!">
-<!ENTITY gutil.options.settings "Настройки">
-<!ENTITY gutil.options.hidemenu "Не показывать меню GUtil!">
-<!ENTITY gutil.options.hidebutton "Не показывать кнопку GUtil!">
-<!ENTITY gutil.options.securedgmail "Использовать защищенное соединение (https) для GMail">
+
 <!ENTITY gutil.options.domain "Впишите имя домена в поле внизу.">
-<!ENTITY gutil.options.warning "Используйте эту настройку ТОЛЬКО если вы знаете, что делаете!">
-<!ENTITY gutil.options.menuvisibility "Показывать в меню:">
+<!ENTITY gutil.options.hidebutton "Не показывать кнопку GUtil!">
+<!ENTITY gutil.options.hidemenu "Не показывать меню GUtil!">
 <!ENTITY gutil.options.hosted "Домен для Google Apps">
+<!ENTITY gutil.options.menuvisibility "Показывать в меню:">
+<!ENTITY gutil.options.securedgmail "Использовать защищенное соединение (https) для GMail">
+<!ENTITY gutil.options.settings "Настройки">
+<!ENTITY gutil.options.title "Настройки Google Utilities!">
+<!ENTITY gutil.options.warning "Используйте эту настройку ТОЛЬКО если вы знаете, что делаете!">
+
+
