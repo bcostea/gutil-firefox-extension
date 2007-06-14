@@ -2,61 +2,69 @@
 <!ENTITY gutil.main.options "Options...">
 
 
-<!ENTITY gutil.menu.search "Search">
-<!ENTITY gutil.menu.gmail "Gmail">
-<!ENTITY gutil.menu.docs "Docs  Spreadsheets">
-<!ENTITY gutil.menu.calendar "Calendar">
-<!ENTITY gutil.menu.base "Base">
-<!ENTITY gutil.menu.bookmarks "Bookmarks">
-<!ENTITY gutil.menu.notebook "Notebook">
-<!ENTITY gutil.menu.blogger "Blogger">
-<!ENTITY gutil.menu.reader "Reader">
-<!ENTITY gutil.menu.analytics "Analytics">
 <!ENTITY gutil.menu.adsense "Adsense">
-<!ENTITY gutil.menu.wbt "Webmaster Tools">
-<!ENTITY gutil.menu.image "Image Search">
-<!ENTITY gutil.menu.blogsearch "Blog Search">
-<!ENTITY gutil.menu.scholar "Scholar">
-<!ENTITY gutil.menu.video "Video">
-<!ENTITY gutil.menu.mtrends "Music Trends">
-<!ENTITY gutil.menu.maps "Maps">
-<!ENTITY gutil.menu.productsearch "Product Search">
-<!ENTITY gutil.menu.local "Local (Maps)">
-<!ENTITY gutil.menu.news "News">
-<!ENTITY gutil.menu.groups "Groups">
-<!ENTITY gutil.menu.directory "Directory">
-<!ENTITY gutil.menu.translate "Language Tools (Translate)">
-<!ENTITY gutil.menu.picasaweb "Picasa Web Albums">
-<!ENTITY gutil.menu.pagecreator "Page Creator">
-<!ENTITY gutil.menu.orkut "orkut">
-<!ENTITY gutil.menu.code "Code">
-<!ENTITY gutil.menu.books "Books">
-<!ENTITY gutil.menu.hello "Hello">
-<!ENTITY gutil.menu.pack "Pack">
-<!ENTITY gutil.menu.sketchup "Sketchup">
-<!ENTITY gutil.menu.earth "Earth">
-<!ENTITY gutil.menu.imagelabeler "Image Labeler">
-<!ENTITY gutil.menu.finance "Finance">
-<!ENTITY gutil.menu.suggest "Suggest">
-<!ENTITY gutil.menu.patents "Patent Search">
-<!ENTITY gutil.menu.ssearch "Special Search">
-<!ENTITY gutil.menu.mars "Mars">
-<!ENTITY gutil.menu.acc "My Google Account">
-<!ENTITY gutil.menu.appd "Apps for your domain">
-<!ENTITY gutil.menu.movies "Movies">
 <!ENTITY gutil.menu.adwords "Adwords">
-<!ENTITY gutil.menu.moon "Moon">
 <!ENTITY gutil.menu.alerts "Alerts">
-<!ENTITY gutil.menu.igoogle "iGoogle">
-<!ENTITY gutil.menu.trends "Trends">
+<!ENTITY gutil.menu.analytics "Analytics">
+<!ENTITY gutil.menu.appd "Apps for your domain">
+<!ENTITY gutil.menu.archives "Archive Search">
+<!ENTITY gutil.menu.base "Base">
+<!ENTITY gutil.menu.blogsearch "Blog Search">
+<!ENTITY gutil.menu.blogger "Blogger">
+<!ENTITY gutil.menu.bookmarks "Bookmarks">
+<!ENTITY gutil.menu.books "Books">
+<!ENTITY gutil.menu.calendar "Calendar">
+<!ENTITY gutil.menu.catalogs "Catalogs">
 <!ENTITY gutil.menu.checkout "Checkout">
+<!ENTITY gutil.menu.code "Code">
+<!ENTITY gutil.menu.codesearch "Code Search">
 <!ENTITY gutil.menu.coop "Coop">
-<!ENTITY gutil.menu.history "Web History">
-<!ENTITY gutil.menu.labs "Labs">
-<!ENTITY gutil.menu.experimental "Experimental">
-<!ENTITY gutil.menu.sets "Sets">
 <!ENTITY gutil.menu.dice "Dice">
-<!ENTITY gutil.menu.warehouse "3D Warehouse">
+<!ENTITY gutil.menu.directory "Directory">
+<!ENTITY gutil.menu.docs "Docs & Spreadsheets">
+<!ENTITY gutil.menu.earth "Earth">
+<!ENTITY gutil.menu.experimental "Experimental">
+<!ENTITY gutil.menu.finance "Finance">
+<!ENTITY gutil.menu.gmail "Gmail">
+<!ENTITY gutil.menu.groups "Groups">
+<!ENTITY gutil.menu.hello "Hello">
+<!ENTITY gutil.menu.history "Web History">
+<!ENTITY gutil.menu.igoogle "iGoogle">
+<!ENTITY gutil.menu.imagelabeler "Image Labeler">
+<!ENTITY gutil.menu.image "Image Search">
+<!ENTITY gutil.menu.labs "Labs">
+<!ENTITY gutil.menu.local "Local (Maps)">
+<!ENTITY gutil.menu.maps "Maps">
+<!ENTITY gutil.menu.mars "Mars">
+<!ENTITY gutil.menu.moon "Moon">
+<!ENTITY gutil.menu.movies "Movies">
+<!ENTITY gutil.menu.mtrends "Music Trends">
+<!ENTITY gutil.menu.musicsearch "Music Search">
+<!ENTITY gutil.menu.news "News">
+<!ENTITY gutil.menu.notebook "Notebook">
+<!ENTITY gutil.menu.orkut "orkut">
+<!ENTITY gutil.menu.pack "Pack">
+<!ENTITY gutil.menu.pagecreator "Page Creator">
+<!ENTITY gutil.menu.patents "Patent Search">
+<!ENTITY gutil.menu.picasaweb "Picasa Web Albums">
+<!ENTITY gutil.menu.productsearch "Product Search">
+<!ENTITY gutil.menu.reader "Reader">
+<!ENTITY gutil.menu.relatedlinks "Related Links">
+<!ENTITY gutil.menu.ridefinder "Ride Finder">
+<!ENTITY gutil.menu.scholar "Scholar">
+<!ENTITY gutil.menu.search "Search">
+<!ENTITY gutil.menu.sets "Sets">
+<!ENTITY gutil.menu.sketchup "Sketchup">
+<!ENTITY gutil.menu.ssearch "Special Search">
+<!ENTITY gutil.menu.suggest "Suggest">
+<!ENTITY gutil.menu.transit "Transit">
+<!ENTITY gutil.menu.translate "Language Tools (Translate)">
+<!ENTITY gutil.menu.trends "Trends">
+<!ENTITY gutil.menu.video "Video">
+<!ENTITY gutil.menu.warehouse "Warehouse">
+<!ENTITY gutil.menu.wbt "Webmaster Tools">
+<!ENTITY gutil.menu.acc "My Google Account">
+
 
 <!ENTITY gutil.options.title "Google Utilities Options!">
 <!ENTITY gutil.options.settings "Settings">
@@ -65,5 +73,7 @@
 <!ENTITY gutil.options.securedgmail "Use secured connection for GMail (https)">
 <!ENTITY gutil.options.domain "Insert the domain name in the box below.">
 <!ENTITY gutil.options.warning "Please use this only if you know what you're doing!">
-<!ENTITY gutil.options.menuvisibility "Menu item visibility" >
-<!ENTITY gutil.options.hosted "Google Apps Domain" >
+<!ENTITY gutil.options.menuvisibility "Menu item visibility">
+<!ENTITY gutil.options.hosted "Google Apps Domain">
+
+
