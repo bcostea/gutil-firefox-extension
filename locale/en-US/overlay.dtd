@@ -2,6 +2,7 @@
 <!ENTITY gutil.main.options "Options...">
 
 
+<!ENTITY gutil.menu.acc "My Google Account">
 <!ENTITY gutil.menu.adsense "Adsense">
 <!ENTITY gutil.menu.adwords "Adwords">
 <!ENTITY gutil.menu.alerts "Alerts">
@@ -9,8 +10,8 @@
 <!ENTITY gutil.menu.appd "Apps for your domain">
 <!ENTITY gutil.menu.archives "Archive Search">
 <!ENTITY gutil.menu.base "Base">
-<!ENTITY gutil.menu.blogsearch "Blog Search">
 <!ENTITY gutil.menu.blogger "Blogger">
+<!ENTITY gutil.menu.blogsearch "Blog Search">
 <!ENTITY gutil.menu.bookmarks "Bookmarks">
 <!ENTITY gutil.menu.books "Books">
 <!ENTITY gutil.menu.calendar "Calendar">
@@ -30,8 +31,8 @@
 <!ENTITY gutil.menu.hello "Hello">
 <!ENTITY gutil.menu.history "Web History">
 <!ENTITY gutil.menu.igoogle "iGoogle">
-<!ENTITY gutil.menu.imagelabeler "Image Labeler">
 <!ENTITY gutil.menu.image "Image Search">
+<!ENTITY gutil.menu.imagelabeler "Image Labeler">
 <!ENTITY gutil.menu.labs "Labs">
 <!ENTITY gutil.menu.local "Local (Maps)">
 <!ENTITY gutil.menu.maps "Maps">
@@ -63,17 +64,16 @@
 <!ENTITY gutil.menu.video "Video">
 <!ENTITY gutil.menu.warehouse "Warehouse">
 <!ENTITY gutil.menu.wbt "Webmaster Tools">
-<!ENTITY gutil.menu.acc "My Google Account">
 
 
-<!ENTITY gutil.options.title "Google Utilities Options!">
-<!ENTITY gutil.options.settings "Settings">
-<!ENTITY gutil.options.hidemenu "Hide GUtil! Menu">
-<!ENTITY gutil.options.hidebutton "Hide GUtil! Button">
-<!ENTITY gutil.options.securedgmail "Use secured connection for GMail (https)">
 <!ENTITY gutil.options.domain "Insert the domain name in the box below.">
-<!ENTITY gutil.options.warning "Please use this only if you know what you're doing!">
-<!ENTITY gutil.options.menuvisibility "Menu item visibility">
+<!ENTITY gutil.options.hidebutton "Hide GUtil! Button">
+<!ENTITY gutil.options.hidemenu "Hide GUtil! Menu">
 <!ENTITY gutil.options.hosted "Google Apps Domain">
+<!ENTITY gutil.options.menuvisibility "Menu item visibility">
+<!ENTITY gutil.options.securedgmail "Use secured connection for GMail (https)">
+<!ENTITY gutil.options.settings "Settings">
+<!ENTITY gutil.options.title "Google Utilities Options!">
+<!ENTITY gutil.options.warning "Please use this only if you know what you're doing!">
 
 

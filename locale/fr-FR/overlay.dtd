@@ -8,14 +8,17 @@
 <!ENTITY gutil.menu.alerts "Alertes">
 <!ENTITY gutil.menu.analytics "Analytics">
 <!ENTITY gutil.menu.appd "Apps pour Votre Domaine">
+<!ENTITY gutil.menu.archives "Recherche d'archives">
 <!ENTITY gutil.menu.base "Base">
 <!ENTITY gutil.menu.blogger "Blogger">
 <!ENTITY gutil.menu.blogsearch "Recherche de Blog">
 <!ENTITY gutil.menu.bookmarks "Favoris">
 <!ENTITY gutil.menu.books "Livres">
 <!ENTITY gutil.menu.calendar "Calendrier">
+<!ENTITY gutil.menu.catalogs "Catalogs">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.code "Code">
+<!ENTITY gutil.menu.codesearch "Code Search">
 <!ENTITY gutil.menu.coop "Coop">
 <!ENTITY gutil.menu.dice "Dés (page suggérée)">
 <!ENTITY gutil.menu.directory "Directory">
@@ -37,6 +40,7 @@
 <!ENTITY gutil.menu.moon "Lune">
 <!ENTITY gutil.menu.movies "Films">
 <!ENTITY gutil.menu.mtrends "Music Trends">
+<!ENTITY gutil.menu.musicsearch "Music Search">
 <!ENTITY gutil.menu.news "Actualité">
 <!ENTITY gutil.menu.notebook "Bloc-notes">
 <!ENTITY gutil.menu.orkut "orkut">
@@ -46,12 +50,15 @@
 <!ENTITY gutil.menu.picasaweb "Albums Web Picasa">
 <!ENTITY gutil.menu.productsearch "Recherche de produits">
 <!ENTITY gutil.menu.reader "Reader">
+<!ENTITY gutil.menu.relatedlinks "Related Links">
+<!ENTITY gutil.menu.ridefinder "Ride Finder">
 <!ENTITY gutil.menu.scholar "Scholar">
 <!ENTITY gutil.menu.search "Recherche">
 <!ENTITY gutil.menu.sets "Sets">
 <!ENTITY gutil.menu.sketchup "Sketchup">
 <!ENTITY gutil.menu.ssearch "Recherche spéciale">
 <!ENTITY gutil.menu.suggest "Suggest">
+<!ENTITY gutil.menu.transit "Transit">
 <!ENTITY gutil.menu.translate "Outils linguistiques (Traduction)">
 <!ENTITY gutil.menu.trends "Tendances">
 <!ENTITY gutil.menu.video "Video">
