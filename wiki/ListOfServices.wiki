@@ -40,7 +40,7 @@ This pages lists the *62* services included in GUtil!.
   # [http://moon.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://moon.google.com/ Moon]
   # [http://www.google.com/movies http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/generic.png] [http://www.google.com/movies Movies]
   # [http://www.google.com/trends/music http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/mtrends.png] [http://www.google.com/trends/music Music Trends]
-  # [http://www.google.com/musicsearch http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/search.png] [http://www.google.com/musicsearch Music Search]
+  # [http://www.google.com/musicsearch?q= http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/search.png] [http://www.google.com/musicsearch?q= Music Search]
   # [http://news.google.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/news.png] [http://news.google.com/ News]
   # [http://www.google.com/notebook/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/notebook.png] [http://www.google.com/notebook/ Notebook]
   # [https://www.orkut.com/ http://gutil-firefox-extension.googlecode.com/svn/trunk/skin/img/orkut.png] [https://www.orkut.com/ orkut]
