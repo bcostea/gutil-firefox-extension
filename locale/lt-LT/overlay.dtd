@@ -8,14 +8,17 @@
 <!ENTITY gutil.menu.alerts "Pranešimai">
 <!ENTITY gutil.menu.analytics "Analitika">
 <!ENTITY gutil.menu.appd "Apps jūsų domenui">
+<!ENTITY gutil.menu.archives "Archyvų paieška">
 <!ENTITY gutil.menu.base "Bazė">
 <!ENTITY gutil.menu.blogger "Blogger">
 <!ENTITY gutil.menu.blogsearch "Blog paieška">
 <!ENTITY gutil.menu.bookmarks "Žymos">
 <!ENTITY gutil.menu.books "Knygų paieška">
 <!ENTITY gutil.menu.calendar "Kalendorius">
+<!ENTITY gutil.menu.catalogs "Katalogai">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.code "Kodas">
+<!ENTITY gutil.menu.codesearch "Kodo paieška">
 <!ENTITY gutil.menu.coop "Co-op">
 <!ENTITY gutil.menu.dice "Mesti kauliuką">
 <!ENTITY gutil.menu.directory "Katalogas">
@@ -27,6 +30,7 @@
 <!ENTITY gutil.menu.groups "Grupės">
 <!ENTITY gutil.menu.hello "Hello">
 <!ENTITY gutil.menu.history "Interneto retrospektyva">
+<!ENTITY gutil.menu.igoogle "iGoogle">
 <!ENTITY gutil.menu.image "Vaizdų paieška">
 <!ENTITY gutil.menu.imagelabeler "Vaizdų aprašymas">
 <!ENTITY gutil.menu.labs "Tyrimai">
@@ -36,6 +40,7 @@
 <!ENTITY gutil.menu.moon "Mėnulis">
 <!ENTITY gutil.menu.movies "Filmai">
 <!ENTITY gutil.menu.mtrends "Populiariausia muzika">
+<!ENTITY gutil.menu.musicsearch "Muzikos paieška">
 <!ENTITY gutil.menu.news "Naujienos">
 <!ENTITY gutil.menu.notebook "Užrašai">
 <!ENTITY gutil.menu.orkut "orkut">
@@ -45,14 +50,17 @@
 <!ENTITY gutil.menu.picasaweb "Picasa žiniatinklio albumai">
 <!ENTITY gutil.menu.productsearch "Produktų paieška">
 <!ENTITY gutil.menu.reader "Skaitytuvė">
+<!ENTITY gutil.menu.relatedlinks "Susijusios nuorodos">
+<!ENTITY gutil.menu.ridefinder "Transporto paieška">
 <!ENTITY gutil.menu.scholar "Mokykla">
 <!ENTITY gutil.menu.search "Paieška">
 <!ENTITY gutil.menu.sets "Rinkiniai">
 <!ENTITY gutil.menu.sketchup "Sketchup">
 <!ENTITY gutil.menu.ssearch "Specialioji paieška">
 <!ENTITY gutil.menu.suggest "Pasiūlymai">
+<!ENTITY gutil.menu.transit "Tranzitas">
 <!ENTITY gutil.menu.translate "Kalbos įrankiai (Vertimas)">
-<!ENTITY gutil.menu.trends "Trends">
+<!ENTITY gutil.menu.trends "Kryptys">
 <!ENTITY gutil.menu.video "Video">
 <!ENTITY gutil.menu.warehouse "3D Dirbtuvė">
 <!ENTITY gutil.menu.wbt "Administratoriaus priemonės">

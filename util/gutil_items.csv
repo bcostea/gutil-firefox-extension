@@ -36,7 +36,7 @@ mars;"&gutil.menu.mars;";Mars;http://www.google.com/mars/;chrome://gutil/skin/im
 moon;"&gutil.menu.moon;";Moon;http://moon.google.com/;chrome://gutil/skin/img/generic.png
 movies;"&gutil.menu.movies;";Movies;http://www.google.com/movies;chrome://gutil/skin/img/generic.png
 mtrends;"&gutil.menu.mtrends;";Music Trends;http://www.google.com/trends/music;chrome://gutil/skin/img/mtrends.png
-musicsearch;"&gutil.menu.musicsearch;";Music Search;http://www.google.com/musicsearch;chrome://gutil/skin/img/search.png
+musicsearch;"&gutil.menu.musicsearch;";Music Search;http://www.google.com/musicsearch?q=;chrome://gutil/skin/img/search.png
 news;"&gutil.menu.news;";News;http://news.google.com/;chrome://gutil/skin/img/news.png
 notebook;"&gutil.menu.notebook;";Notebook;http://www.google.com/notebook/;chrome://gutil/skin/img/notebook.png
 orkut;"&gutil.menu.orkut;";orkut;http://www.orkut.com/;chrome://gutil/skin/img/orkut.png
