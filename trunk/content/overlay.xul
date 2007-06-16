@@ -46,7 +46,7 @@
 <menuitem id="gutil_menuitem_moon" label="&gutil.menu.moon;" onclick="gutilExecute('http://moon.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_menuitem_movies" label="&gutil.menu.movies;" onclick="gutilExecute('http://www.google.com/movies', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_menuitem_mtrends" label="&gutil.menu.mtrends;" onclick="gutilExecute('http://www.google.com/trends/music', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/mtrends.png" />
-<menuitem id="gutil_menuitem_musicsearch" label="&gutil.menu.musicsearch;" onclick="gutilExecute('http://www.google.com/musicsearch', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
+<menuitem id="gutil_menuitem_musicsearch" label="&gutil.menu.musicsearch;" onclick="gutilExecute('http://www.google.com/musicsearch?q=', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 <menuitem id="gutil_menuitem_news" label="&gutil.menu.news;" onclick="gutilExecute('http://news.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/news.png" />
 <menuitem id="gutil_menuitem_notebook" label="&gutil.menu.notebook;" onclick="gutilExecute('http://www.google.com/notebook/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/notebook.png" />
 <menuitem id="gutil_menuitem_orkut" label="&gutil.menu.orkut;" onclick="gutilExecute('http://www.orkut.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/orkut.png" />
@@ -125,7 +125,7 @@
 <menuitem id="gutil_toolbaritem_moon" label="&gutil.menu.moon;" onclick="gutilExecute('http://moon.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_toolbaritem_movies" label="&gutil.menu.movies;" onclick="gutilExecute('http://www.google.com/movies', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_toolbaritem_mtrends" label="&gutil.menu.mtrends;" onclick="gutilExecute('http://www.google.com/trends/music', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/mtrends.png" />
-<menuitem id="gutil_toolbaritem_musicsearch" label="&gutil.menu.musicsearch;" onclick="gutilExecute('http://www.google.com/musicsearch', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
+<menuitem id="gutil_toolbaritem_musicsearch" label="&gutil.menu.musicsearch;" onclick="gutilExecute('http://www.google.com/musicsearch?q=', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 <menuitem id="gutil_toolbaritem_news" label="&gutil.menu.news;" onclick="gutilExecute('http://news.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/news.png" />
 <menuitem id="gutil_toolbaritem_notebook" label="&gutil.menu.notebook;" onclick="gutilExecute('http://www.google.com/notebook/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/notebook.png" />
 <menuitem id="gutil_toolbaritem_orkut" label="&gutil.menu.orkut;" onclick="gutilExecute('http://www.orkut.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/orkut.png" />
