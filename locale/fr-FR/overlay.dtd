@@ -15,7 +15,7 @@
 <!ENTITY gutil.menu.bookmarks "Favoris">
 <!ENTITY gutil.menu.books "Livres">
 <!ENTITY gutil.menu.calendar "Calendrier">
-<!ENTITY gutil.menu.catalogs "Catalogs">
+<!ENTITY gutil.menu.catalogs "Catalogues">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.code "Code">
 <!ENTITY gutil.menu.codesearch "Code Search">
@@ -24,7 +24,7 @@
 <!ENTITY gutil.menu.directory "Directory">
 <!ENTITY gutil.menu.docs "Document et Tableur">
 <!ENTITY gutil.menu.earth "Earth">
-<!ENTITY gutil.menu.experimental "Experimental">
+<!ENTITY gutil.menu.experimental "Expérimental">
 <!ENTITY gutil.menu.finance "Finance">
 <!ENTITY gutil.menu.gmail "Gmail">
 <!ENTITY gutil.menu.groups "Groupes">
@@ -39,8 +39,8 @@
 <!ENTITY gutil.menu.mars "Mars">
 <!ENTITY gutil.menu.moon "Lune">
 <!ENTITY gutil.menu.movies "Films">
-<!ENTITY gutil.menu.mtrends "Music Trends">
-<!ENTITY gutil.menu.musicsearch "Music Search">
+<!ENTITY gutil.menu.mtrends "Tendances Musique">
+<!ENTITY gutil.menu.musicsearch "Recherche de musique">
 <!ENTITY gutil.menu.news "Actualité">
 <!ENTITY gutil.menu.notebook "Bloc-notes">
 <!ENTITY gutil.menu.orkut "orkut">
@@ -50,7 +50,7 @@
 <!ENTITY gutil.menu.picasaweb "Albums Web Picasa">
 <!ENTITY gutil.menu.productsearch "Recherche de produits">
 <!ENTITY gutil.menu.reader "Reader">
-<!ENTITY gutil.menu.relatedlinks "Related Links">
+<!ENTITY gutil.menu.relatedlinks "Liens relatifs">
 <!ENTITY gutil.menu.ridefinder "Ride Finder">
 <!ENTITY gutil.menu.scholar "Scholar">
 <!ENTITY gutil.menu.search "Recherche">
@@ -61,11 +61,13 @@
 <!ENTITY gutil.menu.transit "Transit">
 <!ENTITY gutil.menu.translate "Outils linguistiques (Traduction)">
 <!ENTITY gutil.menu.trends "Tendances">
-<!ENTITY gutil.menu.video "Video">
+<!ENTITY gutil.menu.video "Vidéo">
 <!ENTITY gutil.menu.warehouse "Banque d'images 3D">
 <!ENTITY gutil.menu.wbt "Outils pour les Webmasters">
 
 
+<!ENTITY gutil.options.allvisible "Afficher tous les items">
+<!ENTITY gutil.options.discover "Découvrir tous les services">
 <!ENTITY gutil.options.domain "Insérez le nom du domaine dans la boîte ci-dessous">
 <!ENTITY gutil.options.hidebutton "Masquer le boutton GUtil!">
 <!ENTITY gutil.options.hidemenu "Masquer le menu GUtil!">

@@ -66,6 +66,8 @@
 <!ENTITY gutil.menu.wbt "Webmaster Tools">
 
 
+<!ENTITY gutil.options.allvisible "Display all the items">
+<!ENTITY gutil.options.discover "Discover all the services">
 <!ENTITY gutil.options.domain "Insert the domain name in the box below.">
 <!ENTITY gutil.options.hidebutton "Hide GUtil! Button">
 <!ENTITY gutil.options.hidemenu "Hide GUtil! Menu">
