@@ -202,3 +202,17 @@ function optionOk()
             
     window.close();
 }
+
+/* ************ */
+// Make All the services visible
+function  AllVisible()
+{
+    var pref = Components.classes["@mozilla.org/preferences-service;1"]
+        .getService(Components.interfaces.nsIPrefBranch);
+    
+    for (i=0;i<elements.length;i++) {
+        pref.setBoolPref("gutil.menu." + elements[i], true)
+        checkOption("menuHideCheckbox"+ elements[i], true);
+    }
+    return true;
+}

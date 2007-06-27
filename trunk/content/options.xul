@@ -54,6 +54,12 @@
                     <textbox id="hostedDomain"/>
                 </vbox>
             </groupbox>
+            <groupbox pack="top" orient="vertical">
+                <caption label="&gutil.options.discover;"/>
+                <vbox>
+                     <button label="&gutil.options.allvisible;" oncommand="AllVisible();"/>
+                </vbox>
+            </groupbox>
         </vbox>
 
 

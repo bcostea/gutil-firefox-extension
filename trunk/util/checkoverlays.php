@@ -47,7 +47,7 @@ foreach($files as $locale => $path) {
 	foreach ($original as $key => $value) {
 		foreach($value as $id => $translation) {
 			if(!isset($translated[$key][$id]))
-				print "$locale translation for gutil.$key.$id missing. Please add and adapat <!ENTITY gutil.$key.$id \"".$translation."\">\n";
+				print "$locale translation for gutil.$key.$id missing. Please add and adapt <!ENTITY gutil.$key.$id \"".$translation."\">\n";
 			else
 				$overlay .= "<!ENTITY gutil.$key.$id \"".$translated[$key][$id]."\">\n";
 		}

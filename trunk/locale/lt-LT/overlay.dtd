@@ -66,6 +66,8 @@
 <!ENTITY gutil.menu.wbt "Administratoriaus priemonės">
 
 
+<!ENTITY gutil.options.allvisible "Display all the items">
+<!ENTITY gutil.options.discover "Discover all the services">
 <!ENTITY gutil.options.domain "Įveskite domeno vardą į laukelį žemiau">
 <!ENTITY gutil.options.hidebutton "Slėpti GUtil! mygtuką">
 <!ENTITY gutil.options.hidemenu "Slėpti GUtil! meniu">

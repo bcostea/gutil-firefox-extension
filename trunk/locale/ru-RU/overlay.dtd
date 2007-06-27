@@ -8,14 +8,17 @@
 <!ENTITY gutil.menu.alerts "Оповещения">
 <!ENTITY gutil.menu.analytics "Analytics">
 <!ENTITY gutil.menu.appd "Службы Google для Вашего домена">
+<!ENTITY gutil.menu.archives "Archive Search">
 <!ENTITY gutil.menu.base "Base (на англ.)">
 <!ENTITY gutil.menu.blogger "Блоггер (на англ.)">
 <!ENTITY gutil.menu.blogsearch "Поиск по блогам">
 <!ENTITY gutil.menu.bookmarks "Закладки">
 <!ENTITY gutil.menu.books "Поиск по книгам (на англ.)">
 <!ENTITY gutil.menu.calendar "Календарь">
+<!ENTITY gutil.menu.catalogs "Catalogs">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.code "Код (на англ.)">
+<!ENTITY gutil.menu.codesearch "Code Search">
 <!ENTITY gutil.menu.coop "Coop">
 <!ENTITY gutil.menu.dice "Dice">
 <!ENTITY gutil.menu.directory "Каталог">
@@ -37,6 +40,7 @@
 <!ENTITY gutil.menu.moon "Карта Луны (на англ.)">
 <!ENTITY gutil.menu.movies "Сеансы фильма">
 <!ENTITY gutil.menu.mtrends "Хит-парад (на англ.)">
+<!ENTITY gutil.menu.musicsearch "Music Search">
 <!ENTITY gutil.menu.news "Новости">
 <!ENTITY gutil.menu.notebook "Блокнот (на англ.)">
 <!ENTITY gutil.menu.orkut "orkut">
@@ -46,12 +50,15 @@
 <!ENTITY gutil.menu.picasaweb "Picasa">
 <!ENTITY gutil.menu.productsearch "Product Search (на англ.)">
 <!ENTITY gutil.menu.reader "Reader (на англ.)">
+<!ENTITY gutil.menu.relatedlinks "Related Links">
+<!ENTITY gutil.menu.ridefinder "Ride Finder">
 <!ENTITY gutil.menu.scholar "Поиск по статьям (на англ.)">
 <!ENTITY gutil.menu.search "Поиск в Интернете">
 <!ENTITY gutil.menu.sets "Sets">
 <!ENTITY gutil.menu.sketchup "Sketchup (на англ.)">
 <!ENTITY gutil.menu.ssearch "Поиск по областям (на англ.)">
 <!ENTITY gutil.menu.suggest "Поиск с предложениями">
+<!ENTITY gutil.menu.transit "Transit">
 <!ENTITY gutil.menu.translate "Переводчик">
 <!ENTITY gutil.menu.trends "Trends">
 <!ENTITY gutil.menu.video "Видео (на англ.)">
@@ -59,6 +66,8 @@
 <!ENTITY gutil.menu.wbt "Инструменты для веб-мастеров">
 
 
+<!ENTITY gutil.options.allvisible "Display all the items">
+<!ENTITY gutil.options.discover "Discover all the services">
 <!ENTITY gutil.options.domain "Впишите имя домена в поле внизу.">
 <!ENTITY gutil.options.hidebutton "Не показывать кнопку GUtil!">
 <!ENTITY gutil.options.hidemenu "Не показывать меню GUtil!">
