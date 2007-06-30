@@ -1,7 +1,7 @@
-#summary How add a service in GUtil!
+#summary How to add a service in GUtil!
 #labels Phase-Implementation
 
-Add a Google service in GUtil! is very easy.
+Adding a Google service in GUtil! is very easy.
 
 A little How To for me :) :
   # Add the service in `./util/gutil_items.csv`
