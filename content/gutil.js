@@ -1,3 +1,75 @@
+// cheaper this way
+var elements=new Array(
+            "adsense",
+            "adwords",
+            "alerts",
+            "analytics",
+            "appd",
+            "archives",
+            "base",
+            "blogsearch",
+            "blogger",
+            "bookmarks",
+            "books",
+            "calendar",
+            "catalogs",
+            "checkout",
+            "code",
+            "codesearch",
+            "coop",
+            "dice",
+            "directory",
+            "docs",
+            "earth",
+            "experimental",
+            "finance",
+            "gmail",
+            "groups",
+            "hello",
+            "history",
+            "igoogle",
+            "imagelabeler",
+            "image",
+            "labs",
+            "local",
+            "maps",
+            "mars",
+            "moon",
+            "movies",
+            "mtrends",
+            "musicsearch",
+            "news",
+            "notebook",
+            "orkut",
+            "pack",
+            "pagecreator",
+            "patents",
+            "picasaweb",
+            "productsearch",
+            "reader",
+            "relatedlinks",
+            "ridefinder",
+            "scholar",
+            "search",
+            "sets",
+            "sketchup",
+            "ssearch",
+            "suggest",
+            "transit",
+            "translate",
+            "trends",
+            "video",
+            "warehouse",
+            "wbt",
+            "acc",
+            // dirty lazy hack for chevron
+            "chevron"
+            );
+            
+//global marker to check for chevron action
+var watchOutForChevronAction=false;
+
+
 /************************************************************************************************************************/
 // Callable from below 
 var gutilMain = {
@@ -209,71 +281,6 @@ function hideElements()
 {
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
-        
-var elements=new Array(
-            "adsense",
-            "adwords",
-            "alerts",
-            "analytics",
-            "appd",
-            "archives",
-            "base",
-            "blogsearch",
-            "blogger",
-            "bookmarks",
-            "books",
-            "calendar",
-            "catalogs",
-            "checkout",
-            "code",
-            "codesearch",
-            "coop",
-            "dice",
-            "directory",
-            "docs",
-            "earth",
-            "experimental",
-            "finance",
-            "gmail",
-            "groups",
-            "hello",
-            "history",
-            "igoogle",
-            "imagelabeler",
-            "image",
-            "labs",
-            "local",
-            "maps",
-            "mars",
-            "moon",
-            "movies",
-            "mtrends",
-            "musicsearch",
-            "news",
-            "notebook",
-            "orkut",
-            "pack",
-            "pagecreator",
-            "patents",
-            "picasaweb",
-            "productsearch",
-            "reader",
-            "relatedlinks",
-            "ridefinder",
-            "scholar",
-            "search",
-            "sets",
-            "sketchup",
-            "ssearch",
-            "suggest",
-            "transit",
-            "translate",
-            "trends",
-            "video",
-            "warehouse",
-            "wbt",
-            "acc"
-            );
 
    for (i=0;i<elements.length;i++)   
    {
@@ -337,8 +344,28 @@ function gutilExecute(URL, event)
             closeMenus(event.target);
         break;
     }
+    
+    //this means the chevron functionality has been used
+    if(watchOutForChevronAction)
+    {
+        watchOutForChevronAction=false;
+        //restoring elements
+        hideElements();
+    }
 }
 
+/***********************************************************************************************************/
+//chevron action
+//introduced in 2.1.9
+function executeChevron()
+{
+  for (i=0;i<elements.length;i++)   
+   {
+            document.getElementById("gutil_menuitem_" + elements[i]).removeAttribute("hidden");
+            document.getElementById("gutil_toolbaritem_" + elements[i]).removeAttribute("hidden");
+    }
+    watchOutForChevronAction=true;
+}
 
 
 /***********************************************************************************************************/
