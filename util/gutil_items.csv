@@ -18,7 +18,7 @@ codesearch;"&gutil.menu.codesearch;";Code Search;http://www.google.com/codesearc
 coop;"&gutil.menu.coop;";Coop;http://www.google.com/coop/;chrome://gutil/skin/img/search.png
 dice;"&gutil.menu.dice;";Dice;"http://www.google.com/searchhistory/items?op=rec_rd&amp;cd=ifb&amp;hl=en";chrome://gutil/skin/img/dice.png
 directory;"&gutil.menu.directory;";Directory;http://www.google.com/dirhp;chrome://gutil/skin/img/directory.png
-docs;"&gutil.menu.docs;";Docs & Spreadsheets;http://docs.google.com/;chrome://gutil/skin/img/docs_and_spreadsheets.png
+docs;"&gutil.menu.docs;";Docs and Spreadsheets;http://docs.google.com/;chrome://gutil/skin/img/docs_and_spreadsheets.png
 earth;"&gutil.menu.earth;";Earth;http://earth.google.com/;chrome://gutil/skin/img/earth.png
 experimental;"&gutil.menu.experimental;";Experimental;http://www.google.com/experimental/;chrome://gutil/skin/img/labs.png
 finance;"&gutil.menu.finance;";Finance;http://www.google.com/finance;chrome://gutil/skin/img/finance.png
