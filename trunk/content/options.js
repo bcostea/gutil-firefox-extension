@@ -63,6 +63,9 @@ var elements=new Array(
             "wbt",
             "acc"
             );
+            
+// this is used for the toggleAllItems function
+var booleanToggleAll=true;
 
 /*************************************************************************************************/
 // Option Dialog entry point
@@ -82,6 +85,9 @@ function startup()
     
     check = ggetBoolPref("gutil.menu.gmailhttps");
     checkOption("gmailSecuredCheckbox",check);
+    
+    check = ggetBoolPref("gutil.menu.chevron");
+    checkOption("chevronCheckbox",check);
     
     var hg = document.getElementById("hostedDomain");
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
@@ -205,14 +211,16 @@ function optionOk()
 
 /* ************ */
 // Make All the services visible
-function  AllVisible()
+function  toggleAllItems()
 {
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
     
     for (i=0;i<elements.length;i++) {
-        pref.setBoolPref("gutil.menu." + elements[i], true)
-        checkOption("menuHideCheckbox"+ elements[i], true);
+        pref.setBoolPref("gutil.menu." + elements[i], booleanToggleAll)
+        checkOption("menuHideCheckbox"+ elements[i], booleanToggleAll);
     }
+    
+    booleanToggleAll=!booleanToggleAll;
     return true;
 }

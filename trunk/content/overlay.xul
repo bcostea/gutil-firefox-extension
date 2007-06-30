@@ -79,6 +79,15 @@
                 class="menuitem-iconic"
                 image="chrome://gutil/skin/img/gutil_16.png"
                 />
+                
+            <menuitem
+                id="gutil_menuitem_chevron"
+                label="&gutil.menu.chevron;"
+                oncommand="executeChevron();"
+                class="menuitem-iconic"
+                image="chrome://gutil/skin/img/chevron.png"
+                />
+                
 
             </menupopup>
         </menu>
@@ -158,6 +167,17 @@
                 class="menuitem-iconic"
                 image="chrome://gutil/skin/img/gutil_16.png"
                 />
+                
+                 <menuitem
+                id="gutil_toolbaritem_chevron"
+                label="&gutil.menu.chevron;"
+                oncommand="executeChevron();"
+                class="menuitem-iconic"
+                image="chrome://gutil/skin/img/chevron.png"
+                />
+                
+                                
+                
                     </menupopup>
             </toolbarbutton>
         </toolbarpalette>
