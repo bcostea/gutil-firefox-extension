@@ -1,4 +1,4 @@
-<!ENTITY gutil.main.label "GUtil!">
+﻿<!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Opţiuni...">
 
 
@@ -65,9 +65,13 @@
 <!ENTITY gutil.menu.warehouse "3D Warehouse">
 <!ENTITY gutil.menu.wbt "Webmaster Tools">
 
+<!ENTITY gutil.options.discover "Item options(foloseşte cu grijă)">
+<!ENTITY gutil.options.checkuncheckall "Bifează/debifează tot">
+<!ENTITY gutil.options.enablechevron "Activează chevron">
+<!ENTITY gutil.options.swapbuttons "Schimba acţiunile click dreapta şi stânga?">
 
-<!ENTITY gutil.options.allvisible "Display all the items">
-<!ENTITY gutil.options.discover "Discover all the services">
+<!ENTITY gutil.menu.chevron "Descoperă">
+
 <!ENTITY gutil.options.domain "Adaugă numele domeniului în caseta de mai jos.">
 <!ENTITY gutil.options.hidebutton "Ascunde butonul GUtil!">
 <!ENTITY gutil.options.hidemenu "Ascunde meniul GUtil!">

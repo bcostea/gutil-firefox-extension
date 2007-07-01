@@ -66,8 +66,13 @@
 <!ENTITY gutil.menu.wbt "Outils pour les Webmasters">
 
 
-<!ENTITY gutil.options.allvisible "Afficher tous les items">
-<!ENTITY gutil.options.discover "Découvrir tous les services">
+<!ENTITY gutil.options.discover "Item options(use with care)">
+<!ENTITY gutil.options.checkuncheckall "Check/uncheck all items">
+<!ENTITY gutil.options.enablechevron "Enable chevron">
+<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
+
+<!ENTITY gutil.menu.chevron "Expand">
+
 <!ENTITY gutil.options.domain "Insérez le nom du domaine dans la boîte ci-dessous">
 <!ENTITY gutil.options.hidebutton "Masquer le boutton GUtil!">
 <!ENTITY gutil.options.hidemenu "Masquer le menu GUtil!">
