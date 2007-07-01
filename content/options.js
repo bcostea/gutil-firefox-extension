@@ -89,6 +89,10 @@ function startup()
     check = ggetBoolPref("gutil.menu.chevron");
     checkOption("chevronCheckbox",check);
     
+    check = false;
+    check = ggetBoolPref("gutil.options.swapbuttons");
+    checkOption("swapButtonsCheckbox",check);
+    
     var hg = document.getElementById("hostedDomain");
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
@@ -159,7 +163,14 @@ function ggetBoolPref(prefName)
         ret = pref.getBoolPref(prefName);
     }
     catch(e){
-        pref.setBoolPref(prefName, true);
+        if(prefName=="gutil.options.swapbuttons")
+        {
+            //this really has to default to false, so that we don't disturb the user's habits and feel
+            pref.setBoolPref(prefName, false);
+            ret=false;
+        }
+        else
+            pref.setBoolPref(prefName, true);
     }
     
     // alert(prefName + " " + ret);

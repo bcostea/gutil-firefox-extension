@@ -316,6 +316,17 @@ function hideElements()
 
 function gutilExecute(URL, event)
 {
+    var pref = Components.classes["@mozilla.org/preferences-service;1"]
+        .getService(Components.interfaces.nsIPrefBranch);
+    var swapped=false;
+    
+    try{
+        swapped = pref.getBoolPref("gutil.options.swapbuttons");
+    }
+    catch(e){
+        pref.setBoolPref("gutil.options.swapbuttons", false);
+    }
+    
 
     if(event.target.id == 'gutil_toolbaritem_gmail' || event.target.id == 'gutil_menuitem_gmail')
     {
@@ -332,7 +343,10 @@ function gutilExecute(URL, event)
     switch(event.button)
     {
         case 0:
-            getBrowser().selectedTab = getBrowser().addTab(URL);
+            if(!swapped)
+                getBrowser().selectedTab = getBrowser().addTab(URL);
+            else        
+                gBrowser.loadURI(URL);
         break;
         case 1:
             getBrowser().addTab(URL);
@@ -340,7 +354,11 @@ function gutilExecute(URL, event)
             closeMenus(event.target);
         break;
         case 2:
-            gBrowser.loadURI(URL);
+            if(swapped)
+                getBrowser().selectedTab = getBrowser().addTab(URL);
+            else        
+                gBrowser.loadURI(URL);
+            
             closeMenus(event.target);
         break;
     }
@@ -370,6 +388,7 @@ function executeChevron()
 
 /***********************************************************************************************************/
 //tan ta daaa
+// TODO: remember to cleanly remove this on next version
 function newInstallRunOnce()
 {
     var pref = Components.classes["@mozilla.org/preferences-service;1"]

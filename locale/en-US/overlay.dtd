@@ -65,9 +65,10 @@
 <!ENTITY gutil.menu.warehouse "Warehouse">
 <!ENTITY gutil.menu.wbt "Webmaster Tools">
 
-<!ENTITY gutil.options.discover "Item options">
+<!ENTITY gutil.options.discover "Item options(use with care)">
 <!ENTITY gutil.options.checkuncheckall "Check/uncheck all items">
 <!ENTITY gutil.options.enablechevron "Enable chevron">
+<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
 
 <!ENTITY gutil.menu.chevron "Expand">
 

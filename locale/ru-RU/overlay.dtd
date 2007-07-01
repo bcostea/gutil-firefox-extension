@@ -65,9 +65,13 @@
 <!ENTITY gutil.menu.warehouse "3D Warehouse">
 <!ENTITY gutil.menu.wbt "Инструменты для веб-мастеров">
 
+<!ENTITY gutil.options.discover "Item options(use with care)">
+<!ENTITY gutil.options.checkuncheckall "Check/uncheck all items">
+<!ENTITY gutil.options.enablechevron "Enable chevron">
+<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
 
-<!ENTITY gutil.options.allvisible "Display all the items">
-<!ENTITY gutil.options.discover "Discover all the services">
+<!ENTITY gutil.menu.chevron "Expand">
+
 <!ENTITY gutil.options.domain "Впишите имя домена в поле внизу.">
 <!ENTITY gutil.options.hidebutton "Не показывать кнопку GUtil!">
 <!ENTITY gutil.options.hidemenu "Не показывать меню GUtil!">

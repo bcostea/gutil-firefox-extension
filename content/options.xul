@@ -41,6 +41,15 @@
                 <vbox oncommand='toggleGutilElement("gutil.menu.gmailhttps","gmailSecuredCheckbox");'>
                     <checkbox id="gmailSecuredCheckbox" label="&gutil.options.securedgmail;"/>
                 </vbox>
+                
+                
+                <vbox oncommand='toggleGutilElement("gutil.options.swapbuttons","swapButtonsCheckbox");'>
+                    <checkbox id="swapButtonsCheckbox" label="&gutil.options.swapbuttons;"/>
+                </vbox>
+                <vbox oncommand='toggleGutilElement("gutil.menu.chevron","chevronCheckbox");'>
+                    <checkbox id="chevronCheckbox" label="&gutil.options.enablechevron;"/>
+                </vbox>
+                
             </groupbox>
             <groupbox pack="top" orient="vertical">
                 <caption label="&gutil.options.hosted;"/>
@@ -58,9 +67,6 @@
                 <caption label="&gutil.options.discover;"/>
                 <vbox>
                      <button label="&gutil.options.checkuncheckall;" oncommand="toggleAllItems();"/>
-                </vbox>
-                <vbox oncommand='toggleGutilElement("gutil.menu.chevron","chevronCheckbox");'>
-                    <checkbox id="chevronCheckbox" label="&gutil.options.enablechevron;"/>
                 </vbox>
             </groupbox>
         </vbox>
