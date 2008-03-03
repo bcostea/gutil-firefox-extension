@@ -168,6 +168,9 @@
 <vbox oncommand='toggleGutilElement("gutil.menu.labs","menuHideCheckboxlabs");'>
 <checkbox id="menuHideCheckboxlabs" label="&gutil.menu.labs;"/>
 </vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.linuxrepo","menuHideCheckboxlinuxrepo");'>
+<checkbox id="menuHideCheckboxlinuxrepo" label="&gutil.menu.linuxrepo;"/>
+</vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.local","menuHideCheckboxlocal");'>
 <checkbox id="menuHideCheckboxlocal" label="&gutil.menu.local;"/>
 </vbox>

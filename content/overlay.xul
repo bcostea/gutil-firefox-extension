@@ -40,6 +40,7 @@
 <menuitem id="gutil_menuitem_imagelabeler" label="&gutil.menu.imagelabeler;" onclick="gutilExecute('http://images.google.com/imagelabeler/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_menuitem_image" label="&gutil.menu.image;" onclick="gutilExecute('http://images.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_menuitem_labs" label="&gutil.menu.labs;" onclick="gutilExecute('http://labs.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/labs.png" />
+<menuitem id="gutil_menuitem_linuxrepo" label="&gutil.menu.linuxrepo;" onclick="gutilExecute('http://www.google.com/linuxrepositories/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/labs.png" />
 <menuitem id="gutil_menuitem_local" label="&gutil.menu.local;" onclick="gutilExecute('http://local.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/maps.png" />
 <menuitem id="gutil_menuitem_maps" label="&gutil.menu.maps;" onclick="gutilExecute('http://maps.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/maps.png" />
 <menuitem id="gutil_menuitem_mars" label="&gutil.menu.mars;" onclick="gutilExecute('http://www.google.com/mars/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
@@ -128,6 +129,7 @@
 <menuitem id="gutil_toolbaritem_imagelabeler" label="&gutil.menu.imagelabeler;" onclick="gutilExecute('http://images.google.com/imagelabeler/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_toolbaritem_image" label="&gutil.menu.image;" onclick="gutilExecute('http://images.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
 <menuitem id="gutil_toolbaritem_labs" label="&gutil.menu.labs;" onclick="gutilExecute('http://labs.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/labs.png" />
+<menuitem id="gutil_toolbaritem_linuxrepo" label="&gutil.menu.linuxrepo;" onclick="gutilExecute('http://www.google.com/linuxrepositories/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/labs.png" />
 <menuitem id="gutil_toolbaritem_local" label="&gutil.menu.local;" onclick="gutilExecute('http://local.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/maps.png" />
 <menuitem id="gutil_toolbaritem_maps" label="&gutil.menu.maps;" onclick="gutilExecute('http://maps.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/maps.png" />
 <menuitem id="gutil_toolbaritem_mars" label="&gutil.menu.mars;" onclick="gutilExecute('http://www.google.com/mars/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />

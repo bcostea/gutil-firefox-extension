@@ -1,4 +1,4 @@
-<!ENTITY gutil.main.label "GUtil!">
+﻿<!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Nustatymai...">
 
 
@@ -34,6 +34,7 @@
 <!ENTITY gutil.menu.image "Vaizdų paieška">
 <!ENTITY gutil.menu.imagelabeler "Vaizdų aprašymas">
 <!ENTITY gutil.menu.labs "Tyrimai">
+<!ENTITY gutil.menu.linuxrepo "Linux Software Repositories">
 <!ENTITY gutil.menu.local "Vietinis (Žemėlapiai)">
 <!ENTITY gutil.menu.maps "Žemėlapiai">
 <!ENTITY gutil.menu.mars "Marsas">

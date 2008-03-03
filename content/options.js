@@ -31,6 +31,7 @@ var elements=new Array(
             "imagelabeler",
             "image",
             "labs",
+            "linuxrepo",
             "local",
             "maps",
             "mars",

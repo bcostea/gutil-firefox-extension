@@ -34,6 +34,7 @@
 <!ENTITY gutil.menu.image "Image Search">
 <!ENTITY gutil.menu.imagelabeler "Image Labeler">
 <!ENTITY gutil.menu.labs "Labs">
+<!ENTITY gutil.menu.linuxrepo "Linux Software Repositories">
 <!ENTITY gutil.menu.local "Local (Maps)">
 <!ENTITY gutil.menu.maps "Maps">
 <!ENTITY gutil.menu.mars "Mars">
