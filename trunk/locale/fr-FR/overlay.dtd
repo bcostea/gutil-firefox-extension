@@ -1,4 +1,4 @@
-<!ENTITY gutil.main.label "GUtil!">
+﻿<!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Options...">
 
 
@@ -34,6 +34,7 @@
 <!ENTITY gutil.menu.image "Recherche d'Images">
 <!ENTITY gutil.menu.imagelabeler "Image Labeler">
 <!ENTITY gutil.menu.labs "Labs">
+<!ENTITY gutil.menu.linuxrepo "Linux Software Repositories">
 <!ENTITY gutil.menu.local "Local (Cartes)">
 <!ENTITY gutil.menu.maps "Cartes">
 <!ENTITY gutil.menu.mars "Mars">

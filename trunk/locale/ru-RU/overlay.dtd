@@ -1,4 +1,4 @@
-<!ENTITY gutil.main.label "Google">
+﻿<!ENTITY gutil.main.label "Google">
 <!ENTITY gutil.main.options "Настройки...">
 
 
@@ -34,6 +34,7 @@
 <!ENTITY gutil.menu.image "Картинки">
 <!ENTITY gutil.menu.imagelabeler "Image Labeler (на англ.)">
 <!ENTITY gutil.menu.labs "Labs">
+<!ENTITY gutil.menu.linuxrepo "Linux Software Repositories">
 <!ENTITY gutil.menu.local "Local (Maps) (на англ.)">
 <!ENTITY gutil.menu.maps "Карты">
 <!ENTITY gutil.menu.mars "Карта Марса (на англ.)">
