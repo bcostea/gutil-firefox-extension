@@ -90,6 +90,9 @@
 <vbox oncommand='toggleGutilElement("gutil.menu.appd","menuHideCheckboxappd");'>
 <checkbox id="menuHideCheckboxappd" label="&gutil.menu.appd;"/>
 </vbox>
+<vbox oncommand='toggleGutilElement("gutil.menu.appen","menuHideCheckboxappen");'>
+<checkbox id="menuHideCheckboxappen" label="&gutil.menu.appen;"/>
+</vbox>
 <vbox oncommand='toggleGutilElement("gutil.menu.archives","menuHideCheckboxarchives");'>
 <checkbox id="menuHideCheckboxarchives" label="&gutil.menu.archives;"/>
 </vbox>

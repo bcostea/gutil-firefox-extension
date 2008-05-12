@@ -5,6 +5,7 @@ var elements=new Array(
             "alerts",
             "analytics",
             "appd",
+	    "appen",
             "archives",
             "base",
             "blogsearch",
