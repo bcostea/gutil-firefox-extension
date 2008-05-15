@@ -1,4 +1,5 @@
 // cheaper this way
+// FIXME: change this to a nice configurable object in next version (3.0)
 var elements=new Array(
             "adsense",
             "adwords",
@@ -23,6 +24,7 @@ var elements=new Array(
             "docs",
             "earth",
             "experimental",
+	    "feedburner",
             "finance",
             "gmail",
             "groups",
@@ -278,6 +280,21 @@ function runCalendar()
 }
 
 /***********************************************************************************************************/
+// special request - apps for your domain, with domain
+// since 2.3.1
+function runApps()
+{
+   var pref = Components.classes["@mozilla.org/preferences-service;1"]
+			.getService(Components.interfaces.nsIPrefBranch);
+        if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) {
+		return 'http://www.google.com/a/' + pref.getCharPref("gutil.menu.hosted.domain","");
+        } else {
+		return 'http://www.google.com/a/';
+        }
+ 
+}
+
+/***********************************************************************************************************/
 // hide elements that have been checked off from options dialog
 function hideElements()
 {
@@ -339,9 +356,11 @@ function gutilExecute(URL, event)
     } else if (event.target.id == 'gutil_toolbaritem_calendar' || event.target.id == 'gutil_menuitem_calendar')
     {
         URL = runCalendar();
+    }else if (event.target.id == 'gutil_toolbaritem_appd' || event.target.id == 'gutil_menuitem_appd')
+    {
+        URL = runApps();
     }
 
-    
     switch(event.button)
     {
         case 0:
@@ -391,6 +410,7 @@ function executeChevron()
 /***********************************************************************************************************/
 //tan ta daaa
 // TODO: remember to cleanly remove this on next version
+// FIXME: remove this in next version (3.0)
 function newInstallRunOnce()
 {
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
