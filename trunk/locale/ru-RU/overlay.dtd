@@ -26,6 +26,7 @@
 <!ENTITY gutil.menu.docs "Документы и электронные таблицы">
 <!ENTITY gutil.menu.earth "Earth (на англ.)">
 <!ENTITY gutil.menu.experimental "Experimental">
+<!ENTITY gutil.menu.feedburner "Feedburner">
 <!ENTITY gutil.menu.finance "Финансовая информация (на англ.)">
 <!ENTITY gutil.menu.gmail "Gmail">
 <!ENTITY gutil.menu.groups "Группы">

@@ -1,4 +1,5 @@
 //cheaper this way ;)
+// FIXME: change this to a nice configurable object in next version(3.0)
 var elements=new Array(
             "adsense",
             "adwords",
@@ -23,6 +24,7 @@ var elements=new Array(
             "docs",
             "earth",
             "experimental",
+	    "feedburner",
             "finance",
             "gmail",
             "groups",
@@ -119,10 +121,8 @@ function toggleGutilElement(elementName, elementObject)
 // Just sets the 'checked' attribute to 'checked' value
 function checkOption(checkBoxId, checked)
 {
-    // alert("trying to mark " + checkBoxId);
     var theCheckBox = document.getElementById(checkBoxId);
     theCheckBox.setAttribute("checked",checked);
-
 }
 
 /*************************************************************************************************/
@@ -209,11 +209,9 @@ function optionOk()
    	            .notifyObservers(null, "gutil:hide-button", "0");   
     }
     
-    // alert(hg.value);
-    
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
-        pref.setCharPref("gutil.menu.hosted.domain",hg.value);
+    pref.setCharPref("gutil.menu.hosted.domain",hg.value);
     
     Components.classes["@mozilla.org/observer-service;1"]
 	    .getService(Components.interfaces.nsIObserverService)

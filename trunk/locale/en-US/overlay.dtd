@@ -26,6 +26,7 @@
 <!ENTITY gutil.menu.docs "Docs and Spreadsheets">
 <!ENTITY gutil.menu.earth "Earth">
 <!ENTITY gutil.menu.experimental "Experimental">
+<!ENTITY gutil.menu.feedburner "Feedburner">
 <!ENTITY gutil.menu.finance "Finance">
 <!ENTITY gutil.menu.gmail "Gmail">
 <!ENTITY gutil.menu.groups "Groups">
