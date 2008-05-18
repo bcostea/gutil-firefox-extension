@@ -14,7 +14,7 @@
 		<menuitem id="gutil_menuitem_alerts" label="&gutil.menu.alerts;" onclick="gutilExecute('http://www.google.com/alerts/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/alerts.png" />
 		<menuitem id="gutil_menuitem_analytics" label="&gutil.menu.analytics;" onclick="gutilExecute('https://www.google.com/analytics/home/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/analytics.png" />
 		<menuitem id="gutil_menuitem_appd" label="&gutil.menu.appd;" onclick="gutilExecute('runApps();', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
-		<menuitem id="gutil_menuitem_appen" label="&gutil.menu.appen;" onclick="gutilExecute('http://code.google.com/appengine/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/generic.png" />
+		<menuitem id="gutil_menuitem_appen" label="&gutil.menu.appen;" onclick="gutilExecute('http://code.google.com/appengine/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/appengine.png" />
 		<menuitem id="gutil_menuitem_archives" label="&gutil.menu.archives;" onclick="gutilExecute('http://news.google.com/archivesearch', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 		<menuitem id="gutil_menuitem_base" label="&gutil.menu.base;" onclick="gutilExecute('http://base.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/base.png" />
 		<menuitem id="gutil_menuitem_blogsearch" label="&gutil.menu.blogsearch;" onclick="gutilExecute('http://www.google.com/blogsearch', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
