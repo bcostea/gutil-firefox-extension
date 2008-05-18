@@ -1,4 +1,4 @@
-﻿<!ENTITY gutil.main.label "GUtil!">
+<!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Opţiuni...">
 
 
@@ -12,12 +12,14 @@
 <!ENTITY gutil.menu.archives "Archive Search">
 <!ENTITY gutil.menu.base "Base">
 <!ENTITY gutil.menu.blogger "Blogger">
+<!ENTITY gutil.menu.bloggerindraft "Blogger in Draft">
 <!ENTITY gutil.menu.blogsearch "Blog Search">
 <!ENTITY gutil.menu.bookmarks "Bookmarks">
 <!ENTITY gutil.menu.books "Books">
 <!ENTITY gutil.menu.calendar "Calendar">
 <!ENTITY gutil.menu.catalogs "Catalogs">
 <!ENTITY gutil.menu.checkout "Checkout">
+<!ENTITY gutil.menu.chevron "Descoperă">
 <!ENTITY gutil.menu.code "Code">
 <!ENTITY gutil.menu.codesearch "Code Search">
 <!ENTITY gutil.menu.coop "Coop">
@@ -68,20 +70,18 @@
 <!ENTITY gutil.menu.warehouse "3D Warehouse">
 <!ENTITY gutil.menu.wbt "Webmaster Tools">
 
-<!ENTITY gutil.options.discover "Item options(foloseşte cu grijă)">
+
 <!ENTITY gutil.options.checkuncheckall "Bifează/debifează tot">
-<!ENTITY gutil.options.enablechevron "Activează chevron">
-<!ENTITY gutil.options.swapbuttons "Schimba acţiunile click dreapta şi stânga?">
-
-<!ENTITY gutil.menu.chevron "Descoperă">
-
+<!ENTITY gutil.options.discover "Item options(foloseşte cu grijă)">
 <!ENTITY gutil.options.domain "Adaugă numele domeniului în caseta de mai jos.">
+<!ENTITY gutil.options.enablechevron "Activează chevron">
 <!ENTITY gutil.options.hidebutton "Ascunde butonul GUtil!">
 <!ENTITY gutil.options.hidemenu "Ascunde meniul GUtil!">
 <!ENTITY gutil.options.hosted "Domeniul Google Apps">
 <!ENTITY gutil.options.menuvisibility "Vizibilitate meniuri">
 <!ENTITY gutil.options.securedgmail "Foloseşte o conexiune securizată pentru GMail (https)">
 <!ENTITY gutil.options.settings "Setări">
+<!ENTITY gutil.options.swapbuttons "Schimba acţiunile click dreapta şi stânga?">
 <!ENTITY gutil.options.title "Opţiuni Google Utilities!">
 <!ENTITY gutil.options.warning "Nu folosi această setare decât dacă ştii la ce foloseşte!">
 

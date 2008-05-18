@@ -19,6 +19,8 @@
 		<menuitem id="gutil_menuitem_base" label="&gutil.menu.base;" onclick="gutilExecute('http://base.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/base.png" />
 		<menuitem id="gutil_menuitem_blogsearch" label="&gutil.menu.blogsearch;" onclick="gutilExecute('http://www.google.com/blogsearch', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/search.png" />
 		<menuitem id="gutil_menuitem_blogger" label="&gutil.menu.blogger;" onclick="gutilExecute('http://www.blogger.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/blogger.png" />
+		<menuitem id="gutil_menuitem_bloggerindraft" label="&gutil.menu.bloggerindraft;" onclick="gutilExecute('http://draft.blogger.com/', event);" class="menuitem-icon
+ic" image="chrome://gutil/skin/img/bloggerindraft.png" />
 		<menuitem id="gutil_menuitem_bookmarks" label="&gutil.menu.bookmarks;" onclick="gutilExecute('http://www.google.com/bookmarks', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/bookmarks.png" />
 		<menuitem id="gutil_menuitem_books" label="&gutil.menu.books;" onclick="gutilExecute('http://books.google.com/', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/books.png" />
 		<menuitem id="gutil_menuitem_calendar" label="&gutil.menu.calendar;" onclick="gutilExecute('runCalendar();', event);" class="menuitem-iconic" image="chrome://gutil/skin/img/calendar.png" />

@@ -12,12 +12,14 @@
 <!ENTITY gutil.menu.archives "Archive Search">
 <!ENTITY gutil.menu.base "Base">
 <!ENTITY gutil.menu.blogger "Blogger">
+<!ENTITY gutil.menu.bloggerindraft "Blogger in Draft">
 <!ENTITY gutil.menu.blogsearch "Blog Search">
 <!ENTITY gutil.menu.bookmarks "Bookmarks">
 <!ENTITY gutil.menu.books "Books">
 <!ENTITY gutil.menu.calendar "Calendar">
 <!ENTITY gutil.menu.catalogs "Catalogs">
 <!ENTITY gutil.menu.checkout "Checkout">
+<!ENTITY gutil.menu.chevron "Expand">
 <!ENTITY gutil.menu.code "Code">
 <!ENTITY gutil.menu.codesearch "Code Search">
 <!ENTITY gutil.menu.coop "Coop">
@@ -68,21 +70,18 @@
 <!ENTITY gutil.menu.warehouse "Warehouse">
 <!ENTITY gutil.menu.wbt "Webmaster Tools">
 
-<!ENTITY gutil.options.discover "Item options(use with care)">
+
 <!ENTITY gutil.options.checkuncheckall "Check/uncheck all items">
-<!ENTITY gutil.options.enablechevron "Enable chevron">
-<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
-
-<!ENTITY gutil.menu.chevron "Expand">
-
-
+<!ENTITY gutil.options.discover "Item options(use with care)">
 <!ENTITY gutil.options.domain "Insert the domain name in the box below.">
+<!ENTITY gutil.options.enablechevron "Enable chevron">
 <!ENTITY gutil.options.hidebutton "Hide GUtil! Button">
 <!ENTITY gutil.options.hidemenu "Hide GUtil! Menu">
 <!ENTITY gutil.options.hosted "Google Apps Domain">
 <!ENTITY gutil.options.menuvisibility "Menu item visibility">
 <!ENTITY gutil.options.securedgmail "Use secured connection for GMail (https)">
 <!ENTITY gutil.options.settings "Settings">
+<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
 <!ENTITY gutil.options.title "Google Utilities Options!">
 <!ENTITY gutil.options.warning "Please use this only if you know what you're doing!">
 

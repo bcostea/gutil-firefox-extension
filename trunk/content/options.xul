@@ -105,6 +105,9 @@
 		<vbox oncommand='toggleGutilElement("gutil.menu.blogger","menuHideCheckboxblogger");'>
 			<checkbox id="menuHideCheckboxblogger" label="&gutil.menu.blogger;"/>
 		</vbox>
+		<vbox oncommand='toggleGutilElement("gutil.menu.bloggerindraft","menuHideCheckboxbloggerindraft");'>
+			<checkbox id="menuHideCheckboxbloggerindraft" label="&gutil.menu.bloggerindraft;"/>
+		</vbox>
 		<vbox oncommand='toggleGutilElement("gutil.menu.bookmarks","menuHideCheckboxbookmarks");'>
 			<checkbox id="menuHideCheckboxbookmarks" label="&gutil.menu.bookmarks;"/>
 		</vbox>

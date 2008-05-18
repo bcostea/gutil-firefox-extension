@@ -11,6 +11,7 @@ var elements=new Array(
             "base",
             "blogsearch",
             "blogger",
+            "bloggerindraft",
             "bookmarks",
             "books",
             "calendar",

@@ -1,4 +1,4 @@
-﻿<!ENTITY gutil.main.label "GUtil!">
+<!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Nustatymai...">
 
 
@@ -12,12 +12,14 @@
 <!ENTITY gutil.menu.archives "Archyvų paieška">
 <!ENTITY gutil.menu.base "Bazė">
 <!ENTITY gutil.menu.blogger "Blogger">
+<!ENTITY gutil.menu.bloggerindraft "Blogger in Draft">
 <!ENTITY gutil.menu.blogsearch "Blog paieška">
 <!ENTITY gutil.menu.bookmarks "Žymos">
 <!ENTITY gutil.menu.books "Knygų paieška">
 <!ENTITY gutil.menu.calendar "Kalendorius">
 <!ENTITY gutil.menu.catalogs "Katalogai">
 <!ENTITY gutil.menu.checkout "Checkout">
+<!ENTITY gutil.menu.chevron "Expand">
 <!ENTITY gutil.menu.code "Kodas">
 <!ENTITY gutil.menu.codesearch "Kodo paieška">
 <!ENTITY gutil.menu.coop "Co-op">
@@ -68,20 +70,18 @@
 <!ENTITY gutil.menu.warehouse "3D Dirbtuvė">
 <!ENTITY gutil.menu.wbt "Administratoriaus priemonės">
 
-<!ENTITY gutil.options.discover "Item options(use with care)">
+
 <!ENTITY gutil.options.checkuncheckall "Check/uncheck all items">
-<!ENTITY gutil.options.enablechevron "Enable chevron">
-<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
-
-<!ENTITY gutil.menu.chevron "Expand">
-
+<!ENTITY gutil.options.discover "Item options(use with care)">
 <!ENTITY gutil.options.domain "Įveskite domeno vardą į laukelį žemiau">
+<!ENTITY gutil.options.enablechevron "Enable chevron">
 <!ENTITY gutil.options.hidebutton "Slėpti GUtil! mygtuką">
 <!ENTITY gutil.options.hidemenu "Slėpti GUtil! meniu">
 <!ENTITY gutil.options.hosted "Google Apps Domenas">
 <!ENTITY gutil.options.menuvisibility "Meniu elementų rodymas">
 <!ENTITY gutil.options.securedgmail "Naudoti saugų GMail susijungimą (https)">
 <!ENTITY gutil.options.settings "Nustatymai">
+<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
 <!ENTITY gutil.options.title "GUtil! nustatymai">
 <!ENTITY gutil.options.warning "Naudokite tik jei žinote, ką darote!">
 
