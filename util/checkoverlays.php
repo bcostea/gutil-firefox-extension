@@ -7,7 +7,7 @@ This file class translation and check missing translation too :)
 if($manifest = fopen("../chrome.manifest","r")) {
 	while (!feof($manifest)) {
 		$line = stream_get_line($manifest, 1000000, "\n");
-		if(preg_match('@locale\s+gutil\s+([^-]+\-[^\s]+)\s+jar:chrome/gutil.jar!((/[^/]+)+)$@',$line,$matches)) {
+		if(preg_match('@^.*([\w]{2}-[\w]{2}).*!(.*)$@',$line,$matches)) {
 			$files[$matches[1]] = rtrim($matches[2]);
 		}
 	}

@@ -1,4 +1,4 @@
-﻿<!ENTITY gutil.main.label "Google">
+<!ENTITY gutil.main.label "Google">
 <!ENTITY gutil.main.options "Настройки...">
 
 
@@ -12,12 +12,14 @@
 <!ENTITY gutil.menu.archives "Archive Search">
 <!ENTITY gutil.menu.base "Base (на англ.)">
 <!ENTITY gutil.menu.blogger "Блоггер (на англ.)">
+<!ENTITY gutil.menu.bloggerindraft "Blogger in Draft">
 <!ENTITY gutil.menu.blogsearch "Поиск по блогам">
 <!ENTITY gutil.menu.bookmarks "Закладки">
 <!ENTITY gutil.menu.books "Поиск по книгам (на англ.)">
 <!ENTITY gutil.menu.calendar "Календарь">
 <!ENTITY gutil.menu.catalogs "Catalogs">
 <!ENTITY gutil.menu.checkout "Checkout">
+<!ENTITY gutil.menu.chevron "Expand">
 <!ENTITY gutil.menu.code "Код (на англ.)">
 <!ENTITY gutil.menu.codesearch "Code Search">
 <!ENTITY gutil.menu.coop "Coop">
@@ -68,20 +70,18 @@
 <!ENTITY gutil.menu.warehouse "3D Warehouse">
 <!ENTITY gutil.menu.wbt "Инструменты для веб-мастеров">
 
-<!ENTITY gutil.options.discover "Item options(use with care)">
+
 <!ENTITY gutil.options.checkuncheckall "Check/uncheck all items">
-<!ENTITY gutil.options.enablechevron "Enable chevron">
-<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
-
-<!ENTITY gutil.menu.chevron "Expand">
-
+<!ENTITY gutil.options.discover "Item options(use with care)">
 <!ENTITY gutil.options.domain "Впишите имя домена в поле внизу.">
+<!ENTITY gutil.options.enablechevron "Enable chevron">
 <!ENTITY gutil.options.hidebutton "Не показывать кнопку GUtil!">
 <!ENTITY gutil.options.hidemenu "Не показывать меню GUtil!">
 <!ENTITY gutil.options.hosted "Домен для Google Apps">
 <!ENTITY gutil.options.menuvisibility "Показывать в меню:">
 <!ENTITY gutil.options.securedgmail "Использовать защищенное соединение (https) для GMail">
 <!ENTITY gutil.options.settings "Настройки">
+<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
 <!ENTITY gutil.options.title "Настройки Google Utilities!">
 <!ENTITY gutil.options.warning "Используйте эту настройку ТОЛЬКО если вы знаете, что делаете!">
 

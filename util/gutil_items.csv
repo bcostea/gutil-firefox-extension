@@ -8,6 +8,7 @@ archives;"&gutil.menu.archives;";Archive Search;http://news.google.com/archivese
 base;"&gutil.menu.base;";Base;http://base.google.com/;chrome://gutil/skin/img/base.png
 blogsearch;"&gutil.menu.blogsearch;";Blog Search;http://www.google.com/blogsearch;chrome://gutil/skin/img/search.png
 blogger;"&gutil.menu.blogger;";Blogger;http://www.blogger.com/;chrome://gutil/skin/img/blogger.png
+bloggerindraft;"&gutil.menu.bloggerindraft;";"Blogger in Draft";http://draft.blogger.com/;chrome://gutil/skin/img/bloggerindraft.png
 bookmarks;"&gutil.menu.bookmarks;";Bookmarks;http://www.google.com/bookmarks;chrome://gutil/skin/img/bookmarks.png
 books;"&gutil.menu.books;";Books;http://books.google.com/;chrome://gutil/skin/img/books.png
 calendar;"&gutil.menu.calendar;";Calendar;"runCalendar();";chrome://gutil/skin/img/calendar.png
