@@ -30,6 +30,7 @@ var elements=new Array(
             "gmail",
             "groups",
             "hello",
+	    "health",
             "history",
             "igoogle",
             "imagelabeler",
@@ -49,6 +50,7 @@ var elements=new Array(
             "pack",
             "pagecreator",
             "patents",
+	    "phonebook",
             "picasaweb",
             "productsearch",
             "reader",
@@ -59,6 +61,7 @@ var elements=new Array(
             "sets",
             "sketchup",
             "ssearch",
+	    "store",
             "suggest",
             "translate",
             "transit",
@@ -123,7 +126,10 @@ function toggleGutilElement(elementName, elementObject)
 function checkOption(checkBoxId, checked)
 {
     var theCheckBox = document.getElementById(checkBoxId);
-    theCheckBox.setAttribute("checked",checked);
+    if(theCheckBox)    
+	theCheckBox.setAttribute("checked",checked);
+    else
+	alert(checkBoxId);
 }
 
 /*************************************************************************************************/

@@ -70,6 +70,10 @@
 <!ENTITY gutil.menu.warehouse "3D Warehouse">
 <!ENTITY gutil.menu.wbt "Инструменты для веб-мастеров">
 
+<!ENTITY gutil.menu.health "Health">
+<!ENTITY gutil.menu.store "Store">
+<!ENTITY gutil.menu.phonebook "Phonebook">
+
 
 <!ENTITY gutil.options.checkuncheckall "Check/uncheck all items">
 <!ENTITY gutil.options.discover "Item options(use with care)">
