@@ -30,6 +30,7 @@ var elements=new Array(
             "gmail",
             "groups",
             "hello",
+	    "health",
             "history",
             "igoogle",
             "imagelabeler",
@@ -49,6 +50,7 @@ var elements=new Array(
             "pack",
             "pagecreator",
             "patents",
+	    "phonebook",
             "picasaweb",
             "productsearch",
             "reader",
@@ -59,6 +61,7 @@ var elements=new Array(
             "sets",
             "sketchup",
             "ssearch",
+	    "store",
             "suggest",
             "transit",
             "translate",
@@ -267,7 +270,7 @@ function runiGoogle()
  
 }
 /***********************************************************************************************************/
-// special request - hosted & calnedar
+// special request - hosted & calendar
 function runCalendar()
 {
    var pref = Components.classes["@mozilla.org/preferences-service;1"]
@@ -322,7 +325,10 @@ function hideElements()
         else
         {
             document.getElementById("gutil_menuitem_" + elements[i]).removeAttribute("hidden");
-            document.getElementById("gutil_toolbaritem_" + elements[i]).removeAttribute("hidden");
+	    if(document.getElementById("gutil_toolbaritem_" + elements[i]))
+            	document.getElementById("gutil_toolbaritem_" + elements[i]).removeAttribute("hidden");
+	    else
+		alert(elements[i]);	
         }
         
     }
