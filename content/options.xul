@@ -23,9 +23,6 @@
                 <label value="Bogdan Alexandru Costea &lt;bogdan@gridpulse.com&gt;"/>
             </hbox>
             <hbox>
-                <label value="chtitux &lt;chtitux@gmail.com&gt;"/>
-            </hbox>
-            <hbox>
                 <description onclick="visitHomePage()" class="text-link">http://www.gridpulse.com/gutil/</description>
             </hbox>
             <groupbox pack="top" orient="vertical">
@@ -159,9 +156,6 @@
 		<vbox oncommand='toggleGutilElement("gutil.menu.groups","menuHideCheckboxgroups");'>
 		<checkbox id="menuHideCheckboxgroups" label="&gutil.menu.groups;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.hello","menuHideCheckboxhello");'>
-		<checkbox id="menuHideCheckboxhello" label="&gutil.menu.hello;"/>
-		</vbox>
 		<vbox oncommand='toggleGutilElement("gutil.menu.health","menuHideCheckboxhealth");'>
 		<checkbox id="menuHideCheckboxhealth" label="&gutil.menu.health;"/>
 		</vbox>
@@ -197,9 +191,6 @@
 		</vbox>
 		<vbox oncommand='toggleGutilElement("gutil.menu.movies","menuHideCheckboxmovies");'>
 		<checkbox id="menuHideCheckboxmovies" label="&gutil.menu.movies;"/>
-		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.mtrends","menuHideCheckboxmtrends");'>
-		<checkbox id="menuHideCheckboxmtrends" label="&gutil.menu.mtrends;"/>
 		</vbox>
 		<vbox oncommand='toggleGutilElement("gutil.menu.musicsearch","menuHideCheckboxmusicsearch");'>
 		<checkbox id="menuHideCheckboxmusicsearch" label="&gutil.menu.musicsearch;"/>
@@ -249,8 +240,14 @@
 		<vbox oncommand='toggleGutilElement("gutil.menu.sets","menuHideCheckboxsets");'>
 		<checkbox id="menuHideCheckboxsets" label="&gutil.menu.sets;"/>
 		</vbox>
+        <vbox oncommand='toggleGutilElement("gutil.menu.sites","menuHideCheckboxsites");'>
+		<checkbox id="menuHideCheckboxsites" label="&gutil.menu.sites;"/>
+		</vbox>
 		<vbox oncommand='toggleGutilElement("gutil.menu.sketchup","menuHideCheckboxsketchup");'>
 		<checkbox id="menuHideCheckboxsketchup" label="&gutil.menu.sketchup;"/>
+		</vbox>
+		<vbox oncommand='toggleGutilElement("gutil.menu.sky","menuHideCheckboxsky");'>
+		<checkbox id="menuHideCheckboxsky" label="&gutil.menu.sky;"/>
 		</vbox>
 		<vbox oncommand='toggleGutilElement("gutil.menu.ssearch","menuHideCheckboxssearch");'>
 		<checkbox id="menuHideCheckboxssearch" label="&gutil.menu.ssearch;"/>
@@ -267,11 +264,14 @@
 		<vbox oncommand='toggleGutilElement("gutil.menu.translate","menuHideCheckboxtranslate");'>
 		<checkbox id="menuHideCheckboxtranslate" label="&gutil.menu.translate;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.trends","menuHideCheckboxtrends");'>
+        <vbox oncommand='toggleGutilElement("gutil.menu.trends","menuHideCheckboxtrends");'>
 		<checkbox id="menuHideCheckboxtrends" label="&gutil.menu.trends;"/>
 		</vbox>
 		<vbox oncommand='toggleGutilElement("gutil.menu.video","menuHideCheckboxvideo");'>
 		<checkbox id="menuHideCheckboxvideo" label="&gutil.menu.video;"/>
+		</vbox>		
+        <vbox oncommand='toggleGutilElement("gutil.menu.youtube","menuHideCheckboxyoutube");'>
+		<checkbox id="menuHideCheckboxyoutube" label="&gutil.menu.youtube;"/>
 		</vbox>
 		<vbox oncommand='toggleGutilElement("gutil.menu.warehouse","menuHideCheckboxwarehouse");'>
 		<checkbox id="menuHideCheckboxwarehouse" label="&gutil.menu.warehouse;"/>
