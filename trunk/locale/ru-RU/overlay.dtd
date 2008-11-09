@@ -32,7 +32,6 @@
 <!ENTITY gutil.menu.finance "Финансовая информация (на англ.)">
 <!ENTITY gutil.menu.gmail "Gmail">
 <!ENTITY gutil.menu.groups "Группы">
-<!ENTITY gutil.menu.hello "Hello (на англ.)">
 <!ENTITY gutil.menu.history "Web History">
 <!ENTITY gutil.menu.igoogle "iGoogle">
 <!ENTITY gutil.menu.image "Картинки">
@@ -44,7 +43,6 @@
 <!ENTITY gutil.menu.mars "Карта Марса (на англ.)">
 <!ENTITY gutil.menu.moon "Карта Луны (на англ.)">
 <!ENTITY gutil.menu.movies "Сеансы фильма">
-<!ENTITY gutil.menu.mtrends "Хит-парад (на англ.)">
 <!ENTITY gutil.menu.musicsearch "Music Search">
 <!ENTITY gutil.menu.news "Новости">
 <!ENTITY gutil.menu.notebook "Блокнот (на англ.)">
@@ -60,16 +58,19 @@
 <!ENTITY gutil.menu.scholar "Поиск по статьям (на англ.)">
 <!ENTITY gutil.menu.search "Поиск в Интернете">
 <!ENTITY gutil.menu.sets "Sets">
+<!ENTITY gutil.menu.sites "Sites">
 <!ENTITY gutil.menu.sketchup "Sketchup (на англ.)">
+<!ENTITY gutil.menu.sky "Sky">
 <!ENTITY gutil.menu.ssearch "Поиск по областям (на англ.)">
 <!ENTITY gutil.menu.suggest "Поиск с предложениями">
 <!ENTITY gutil.menu.transit "Transit">
 <!ENTITY gutil.menu.translate "Переводчик">
 <!ENTITY gutil.menu.trends "Trends">
 <!ENTITY gutil.menu.video "Видео (на англ.)">
+<!ENTITY gutil.menu.youtube "YouTube">
+
 <!ENTITY gutil.menu.warehouse "3D Warehouse">
 <!ENTITY gutil.menu.wbt "Инструменты для веб-мастеров">
-
 <!ENTITY gutil.menu.health "Health">
 <!ENTITY gutil.menu.store "Store">
 <!ENTITY gutil.menu.phonebook "Phonebook">

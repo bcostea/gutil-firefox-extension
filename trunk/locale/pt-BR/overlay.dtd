@@ -1,0 +1,98 @@
+<!ENTITY gutil.main.label "GUtil!">
+<!ENTITY gutil.main.options "Opções...">
+
+<!ENTITY gutil.menu.health "Saúde">
+<!ENTITY gutil.menu.store "Loja">
+<!ENTITY gutil.menu.phonebook "Lista Telefônica">
+
+<!ENTITY gutil.menu.acc "Minha Conta do Google">
+<!ENTITY gutil.menu.adsense "Sentido do Anúncio">
+<!ENTITY gutil.menu.adwords "Palavras do Anúncio">
+<!ENTITY gutil.menu.alerts "Alertas">
+<!ENTITY gutil.menu.analytics "Analítica">
+<!ENTITY gutil.menu.appd "Apps para o seu domínio">
+<!ENTITY gutil.menu.appen "Motor do App">
+<!ENTITY gutil.menu.archives "Pesquisa de Arquivo">
+<!ENTITY gutil.menu.base "Base">
+<!ENTITY gutil.menu.blogger "Blogger">
+<!ENTITY gutil.menu.bloggerindraft "Blogger no esboço">
+<!ENTITY gutil.menu.blogsearch "Pesquisa de Blog">
+<!ENTITY gutil.menu.bookmarks "Favoritos">
+<!ENTITY gutil.menu.books "Livros">
+<!ENTITY gutil.menu.calendar "Calendário">
+<!ENTITY gutil.menu.catalogs "Catálogos">
+<!ENTITY gutil.menu.checkout "Verificação Geral">
+<!ENTITY gutil.menu.chevron "Expandir">
+<!ENTITY gutil.menu.code "Código">
+<!ENTITY gutil.menu.codesearch "Pesquisa de Código">
+<!ENTITY gutil.menu.coop "Cooperativa">
+<!ENTITY gutil.menu.dice "Dados">
+<!ENTITY gutil.menu.directory "Diretório">
+<!ENTITY gutil.menu.docs "Documentos e Planilhas">
+<!ENTITY gutil.menu.earth "Terra">
+<!ENTITY gutil.menu.experimental "Experimental">
+<!ENTITY gutil.menu.feedburner "Feedburner">
+<!ENTITY gutil.menu.finance "Finanças">
+<!ENTITY gutil.menu.gmail "Gmail">
+<!ENTITY gutil.menu.groups "Grupos">
+<!ENTITY gutil.menu.history "Histórico da Web">
+<!ENTITY gutil.menu.igoogle "iGoogle">
+<!ENTITY gutil.menu.image "Pesquisa de Imagem">
+<!ENTITY gutil.menu.imagelabeler "Rotulador de Imagem">
+<!ENTITY gutil.menu.labs "Labs">
+<!ENTITY gutil.menu.linuxrepo "Repositórios de software do linux">
+<!ENTITY gutil.menu.local "Local (Mapas)">
+<!ENTITY gutil.menu.maps "Mapas">
+<!ENTITY gutil.menu.mars "Marte">
+<!ENTITY gutil.menu.moon "Lua">
+<!ENTITY gutil.menu.movies "Filmes">
+<!ENTITY gutil.menu.musicsearch "Pesquisa de Música">
+<!ENTITY gutil.menu.news "Notícias">
+<!ENTITY gutil.menu.notebook "Notebook">
+<!ENTITY gutil.menu.orkut "orkut">
+<!ENTITY gutil.menu.pack "Pacote">
+<!ENTITY gutil.menu.pagecreator "Criador da Página">
+<!ENTITY gutil.menu.patents "Pesquisa de Patente">
+<!ENTITY gutil.menu.picasaweb "Álbuns do Picasa na Web">
+<!ENTITY gutil.menu.productsearch "Pesquisa de Produtos">
+<!ENTITY gutil.menu.reader "Leitor">
+<!ENTITY gutil.menu.relatedlinks "Lincks Relacionados">
+<!ENTITY gutil.menu.ridefinder "Localizador de Passeios">
+<!ENTITY gutil.menu.scholar "Escolar">
+<!ENTITY gutil.menu.search "Pesquisa">
+<!ENTITY gutil.menu.sets "Configurações">
+<!ENTITY gutil.menu.sites "Sites">
+<!ENTITY gutil.menu.sky "Sky">
+<!ENTITY gutil.menu.sketchup "Planejar">
+<!ENTITY gutil.menu.ssearch "Pesquisa Especial">
+<!ENTITY gutil.menu.suggest "Sugerir">
+<!ENTITY gutil.menu.transit "Trânsito">
+<!ENTITY gutil.menu.translate "Ferramentas de Idiomas (Tradução)">
+<!ENTITY gutil.menu.trends "Tendências">
+<!ENTITY gutil.menu.video "Video">
+<!ENTITY gutil.menu.youtube "YouTube">
+
+<!ENTITY gutil.menu.warehouse "Armazém">
+<!ENTITY gutil.menu.wbt "Ferramentas do Webmaster">
+
+
+<!ENTITY gutil.menu.health "Saúde">
+<!ENTITY gutil.menu.store "Lojas">
+<!ENTITY gutil.menu.phonebook "Lista Telefônica">
+
+
+<!ENTITY gutil.options.checkuncheckall "Verificar/Desmarcar todos os itens">
+<!ENTITY gutil.options.discover "Opções do Item (use com cuidado)">
+<!ENTITY gutil.options.domain "Insira o nome de domínio na caixa abaixo.">
+<!ENTITY gutil.options.enablechevron "Ativar chevron">
+<!ENTITY gutil.options.hidebutton "Ocultar o Botão GUtil!">
+<!ENTITY gutil.options.hidemenu "Ocultar o Manú GUtil!">
+<!ENTITY gutil.options.hosted "Domínio do Google Apps">
+<!ENTITY gutil.options.menuvisibility "Visibilidade do Menú ítemMenu item">
+<!ENTITY gutil.options.securedgmail "Usar conexão segura para o GMail (https)">
+<!ENTITY gutil.options.settings "Configurações">
+<!ENTITY gutil.options.swapbuttons "Trocar botões esquerdo e direito do mouse?">
+<!ENTITY gutil.options.title "Opções do Google Utilities!">
+<!ENTITY gutil.options.warning "Por favor, use isso apenas se você souber o que está fazendo!">
+
+

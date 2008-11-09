@@ -32,7 +32,6 @@
 <!ENTITY gutil.menu.finance "Finansai">
 <!ENTITY gutil.menu.gmail "Gmail">
 <!ENTITY gutil.menu.groups "Grupės">
-<!ENTITY gutil.menu.hello "Hello">
 <!ENTITY gutil.menu.history "Interneto retrospektyva">
 <!ENTITY gutil.menu.igoogle "iGoogle">
 <!ENTITY gutil.menu.image "Vaizdų paieška">
@@ -44,7 +43,6 @@
 <!ENTITY gutil.menu.mars "Marsas">
 <!ENTITY gutil.menu.moon "Mėnulis">
 <!ENTITY gutil.menu.movies "Filmai">
-<!ENTITY gutil.menu.mtrends "Populiariausia muzika">
 <!ENTITY gutil.menu.musicsearch "Muzikos paieška">
 <!ENTITY gutil.menu.news "Naujienos">
 <!ENTITY gutil.menu.notebook "Užrašai">
@@ -60,13 +58,17 @@
 <!ENTITY gutil.menu.scholar "Mokykla">
 <!ENTITY gutil.menu.search "Paieška">
 <!ENTITY gutil.menu.sets "Rinkiniai">
+<!ENTITY gutil.menu.sites "Sites">
 <!ENTITY gutil.menu.sketchup "Sketchup">
+<!ENTITY gutil.menu.sky "Sky">
 <!ENTITY gutil.menu.ssearch "Specialioji paieška">
 <!ENTITY gutil.menu.suggest "Pasiūlymai">
 <!ENTITY gutil.menu.transit "Tranzitas">
 <!ENTITY gutil.menu.translate "Kalbos įrankiai (Vertimas)">
 <!ENTITY gutil.menu.trends "Kryptys">
 <!ENTITY gutil.menu.video "Video">
+<!ENTITY gutil.menu.youtube "YouTube">
+
 <!ENTITY gutil.menu.warehouse "3D Dirbtuvė">
 <!ENTITY gutil.menu.wbt "Administratoriaus priemonės">
 

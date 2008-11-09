@@ -6,7 +6,7 @@ var elements=new Array(
             "alerts",
             "analytics",
             "appd",
-	    "appen",
+	        "appen",
             "archives",
             "base",
             "blogsearch",
@@ -25,12 +25,11 @@ var elements=new Array(
             "docs",
             "earth",
             "experimental",
-	    "feedburner",
+	        "feedburner",
             "finance",
             "gmail",
             "groups",
-            "hello",
-	    "health",
+            "health",
             "history",
             "igoogle",
             "imagelabeler",
@@ -42,7 +41,6 @@ var elements=new Array(
             "mars",
             "moon",
             "movies",
-            "mtrends",
             "musicsearch",
             "news",
             "notebook",
@@ -50,7 +48,7 @@ var elements=new Array(
             "pack",
             "pagecreator",
             "patents",
-	    "phonebook",
+	        "phonebook",
             "picasaweb",
             "productsearch",
             "reader",
@@ -59,14 +57,17 @@ var elements=new Array(
             "scholar",
             "search",
             "sets",
+            "sites",
             "sketchup",
+            "sky",
             "ssearch",
-	    "store",
+	        "store",
             "suggest",
             "transit",
             "translate",
             "trends",
             "video",
+            "youtube",
             "warehouse",
             "wbt",
             "acc",
@@ -389,6 +390,12 @@ function gutilExecute(URL, event)
             
             closeMenus(event.target);
         break;
+        default:
+            if(!swapped)
+                getBrowser().selectedTab = getBrowser().addTab(URL);
+            else        
+                gBrowser.loadURI(URL);
+        break;
     }
     
     //this means the chevron functionality has been used
@@ -411,35 +418,6 @@ function executeChevron()
             document.getElementById("gutil_toolbaritem_" + elements[i]).removeAttribute("hidden");
     }
     watchOutForChevronAction=true;
-}
-
-
-/***********************************************************************************************************/
-//tan ta daaa
-// TODO: remember to cleanly remove this on next version
-// FIXME: remove this in next version (3.0)
-function newInstallRunOnce()
-{
-    var pref = Components.classes["@mozilla.org/preferences-service;1"]
-            .getService(Components.interfaces.nsIPrefBranch);
-    var isthisthefirstrun;
-
-        try{
-            isthisthefirstrun = pref.getBoolPref("gutil.main.firstrun");
-        }
-        catch(e){
-            pref.setBoolPref("gutil.main.firstrun", true);
-        }
-        
-    isthisthefirstrun = pref.getBoolPref("gutil.main.firstrun");
-    //alert(isthisthefirstrun.toString());
-    if(isthisthefirstrun.toString()!="false")
-    {
-        //alert("in if" + isthisthefirstrun.toString());
-        getBrowser().selectedTab = getBrowser().addTab("http://www.gridpulse.com/gutil/update.html");
-    }
-     
-     pref.setBoolPref("gutil.main.firstrun", false);
 }
 
 /***********************************************************************************************************/

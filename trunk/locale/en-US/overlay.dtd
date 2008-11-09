@@ -35,7 +35,6 @@
 <!ENTITY gutil.menu.finance "Finance">
 <!ENTITY gutil.menu.gmail "Gmail">
 <!ENTITY gutil.menu.groups "Groups">
-<!ENTITY gutil.menu.hello "Hello">
 <!ENTITY gutil.menu.history "Web History">
 <!ENTITY gutil.menu.igoogle "iGoogle">
 <!ENTITY gutil.menu.image "Image Search">
@@ -47,7 +46,6 @@
 <!ENTITY gutil.menu.mars "Mars">
 <!ENTITY gutil.menu.moon "Moon">
 <!ENTITY gutil.menu.movies "Movies">
-<!ENTITY gutil.menu.mtrends "Music Trends">
 <!ENTITY gutil.menu.musicsearch "Music Search">
 <!ENTITY gutil.menu.news "News">
 <!ENTITY gutil.menu.notebook "Notebook">
@@ -63,13 +61,16 @@
 <!ENTITY gutil.menu.scholar "Scholar">
 <!ENTITY gutil.menu.search "Search">
 <!ENTITY gutil.menu.sets "Sets">
+<!ENTITY gutil.menu.sites "Sites">
 <!ENTITY gutil.menu.sketchup "Sketchup">
+<!ENTITY gutil.menu.sky "Sky">
 <!ENTITY gutil.menu.ssearch "Special Search">
 <!ENTITY gutil.menu.suggest "Suggest">
 <!ENTITY gutil.menu.transit "Transit">
 <!ENTITY gutil.menu.translate "Language Tools (Translate)">
 <!ENTITY gutil.menu.trends "Trends">
 <!ENTITY gutil.menu.video "Video">
+<!ENTITY gutil.menu.youtube "YouTube">
 <!ENTITY gutil.menu.warehouse "Warehouse">
 <!ENTITY gutil.menu.wbt "Webmaster Tools">
 

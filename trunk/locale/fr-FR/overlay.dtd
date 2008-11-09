@@ -32,7 +32,6 @@
 <!ENTITY gutil.menu.finance "Finance">
 <!ENTITY gutil.menu.gmail "Gmail">
 <!ENTITY gutil.menu.groups "Groupes">
-<!ENTITY gutil.menu.hello "Hello">
 <!ENTITY gutil.menu.history "Historique Web">
 <!ENTITY gutil.menu.igoogle "iGoogle">
 <!ENTITY gutil.menu.image "Recherche d'Images">
@@ -44,7 +43,6 @@
 <!ENTITY gutil.menu.mars "Mars">
 <!ENTITY gutil.menu.moon "Lune">
 <!ENTITY gutil.menu.movies "Films">
-<!ENTITY gutil.menu.mtrends "Tendances Musique">
 <!ENTITY gutil.menu.musicsearch "Recherche de musique">
 <!ENTITY gutil.menu.news "Actualité">
 <!ENTITY gutil.menu.notebook "Bloc-notes">
@@ -60,13 +58,17 @@
 <!ENTITY gutil.menu.scholar "Scholar">
 <!ENTITY gutil.menu.search "Recherche">
 <!ENTITY gutil.menu.sets "Sets">
+<!ENTITY gutil.menu.sites "Sites">
 <!ENTITY gutil.menu.sketchup "Sketchup">
+<!ENTITY gutil.menu.sky "Sky">
 <!ENTITY gutil.menu.ssearch "Recherche spéciale">
 <!ENTITY gutil.menu.suggest "Suggest">
 <!ENTITY gutil.menu.transit "Transit">
 <!ENTITY gutil.menu.translate "Outils linguistiques (Traduction)">
 <!ENTITY gutil.menu.trends "Tendances">
 <!ENTITY gutil.menu.video "Vidéo">
+<!ENTITY gutil.menu.youtube "YouTube">
+
 <!ENTITY gutil.menu.warehouse "Banque d'images 3D">
 <!ENTITY gutil.menu.wbt "Outils pour les Webmasters">
 
