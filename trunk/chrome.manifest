@@ -6,7 +6,6 @@ locale	gutil	fr-FR	jar:chrome/gutil.jar!/locale/fr-FR/
 locale  gutil   lt-LT   jar:chrome/gutil.jar!/locale/lt-LT/
 locale	gutil	ro-RO	jar:chrome/gutil.jar!/locale/ro-RO/
 locale	gutil	ru-RU	jar:chrome/gutil.jar!/locale/ru-RU/
-locale	gutil	pt-BR	jar:chrome/gutil.jar!/locale/pt-BR/
 
 skin	gutil	classic/1.0	jar:chrome/gutil.jar!/skin/
 style	chrome://global/content/customizeToolbar.xul	chrome://gutil/skin/gutil.css

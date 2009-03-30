@@ -1,6 +1,10 @@
 <!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Nustatymai...">
 
+<!ENTITY gutil.menu.moderator "Moderator">
+<!ENTITY gutil.menu.inquotes "In Quotes">
+<!ENTITY gutil.menu.voice "Voice">
+
 
 <!ENTITY gutil.menu.acc "Mano Google paskyra">
 <!ENTITY gutil.menu.adsense "Adsense">
@@ -17,7 +21,6 @@
 <!ENTITY gutil.menu.bookmarks "Žymos">
 <!ENTITY gutil.menu.books "Knygų paieška">
 <!ENTITY gutil.menu.calendar "Kalendorius">
-<!ENTITY gutil.menu.catalogs "Katalogai">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.chevron "Expand">
 <!ENTITY gutil.menu.code "Kodas">
@@ -53,8 +56,6 @@
 <!ENTITY gutil.menu.picasaweb "Picasa žiniatinklio albumai">
 <!ENTITY gutil.menu.productsearch "Produktų paieška">
 <!ENTITY gutil.menu.reader "Skaitytuvė">
-<!ENTITY gutil.menu.relatedlinks "Susijusios nuorodos">
-<!ENTITY gutil.menu.ridefinder "Transporto paieška">
 <!ENTITY gutil.menu.scholar "Mokykla">
 <!ENTITY gutil.menu.search "Paieška">
 <!ENTITY gutil.menu.sets "Rinkiniai">

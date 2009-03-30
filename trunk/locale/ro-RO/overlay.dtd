@@ -1,6 +1,10 @@
 <!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Opţiuni...">
 
+<!ENTITY gutil.menu.moderator "Moderator">
+<!ENTITY gutil.menu.inquotes "Citate">
+<!ENTITY gutil.menu.voice "Voce">
+
 
 <!ENTITY gutil.menu.acc "Contul Google">
 <!ENTITY gutil.menu.adsense "Adsense">
@@ -17,7 +21,6 @@
 <!ENTITY gutil.menu.bookmarks "Bookmarks">
 <!ENTITY gutil.menu.books "Books">
 <!ENTITY gutil.menu.calendar "Calendar">
-<!ENTITY gutil.menu.catalogs "Catalogs">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.chevron "Descoperă">
 <!ENTITY gutil.menu.code "Code">
@@ -53,8 +56,6 @@
 <!ENTITY gutil.menu.picasaweb "Picasa Web Albums">
 <!ENTITY gutil.menu.productsearch "Product Search">
 <!ENTITY gutil.menu.reader "Reader">
-<!ENTITY gutil.menu.relatedlinks "Related Links">
-<!ENTITY gutil.menu.ridefinder "Ride Finder">
 <!ENTITY gutil.menu.scholar "Scholar">
 <!ENTITY gutil.menu.search "Caută">
 <!ENTITY gutil.menu.sets "Sets">

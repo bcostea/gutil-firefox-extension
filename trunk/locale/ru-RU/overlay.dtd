@@ -1,5 +1,9 @@
-<!ENTITY gutil.main.label "Google">
+<!ENTITY gutil.main.label "Google Утилиты">
 <!ENTITY gutil.main.options "Настройки...">
+
+<!ENTITY gutil.menu.moderator "Moderator">
+<!ENTITY gutil.menu.inquotes "In Quotes">
+<!ENTITY gutil.menu.voice "Voice">
 
 
 <!ENTITY gutil.menu.acc "Мой аккаунт">
@@ -17,20 +21,19 @@
 <!ENTITY gutil.menu.bookmarks "Закладки">
 <!ENTITY gutil.menu.books "Поиск по книгам (на англ.)">
 <!ENTITY gutil.menu.calendar "Календарь">
-<!ENTITY gutil.menu.catalogs "Catalogs">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.chevron "Expand">
 <!ENTITY gutil.menu.code "Код (на англ.)">
-<!ENTITY gutil.menu.codesearch "Code Search">
+<!ENTITY gutil.menu.codesearch "Поиск кода">
 <!ENTITY gutil.menu.coop "Coop">
-<!ENTITY gutil.menu.dice "Dice">
+<!ENTITY gutil.menu.dice "Кубиком">
 <!ENTITY gutil.menu.directory "Каталог">
 <!ENTITY gutil.menu.docs "Документы и электронные таблицы">
 <!ENTITY gutil.menu.earth "Earth (на англ.)">
 <!ENTITY gutil.menu.experimental "Experimental">
 <!ENTITY gutil.menu.feedburner "Feedburner">
 <!ENTITY gutil.menu.finance "Финансовая информация (на англ.)">
-<!ENTITY gutil.menu.gmail "Gmail">
+<!ENTITY gutil.menu.gmail "GMail">
 <!ENTITY gutil.menu.groups "Группы">
 <!ENTITY gutil.menu.history "Web History">
 <!ENTITY gutil.menu.igoogle "iGoogle">
@@ -53,8 +56,6 @@
 <!ENTITY gutil.menu.picasaweb "Picasa">
 <!ENTITY gutil.menu.productsearch "Product Search (на англ.)">
 <!ENTITY gutil.menu.reader "Reader (на англ.)">
-<!ENTITY gutil.menu.relatedlinks "Related Links">
-<!ENTITY gutil.menu.ridefinder "Ride Finder">
 <!ENTITY gutil.menu.scholar "Поиск по статьям (на англ.)">
 <!ENTITY gutil.menu.search "Поиск в Интернете">
 <!ENTITY gutil.menu.sets "Sets">
@@ -76,17 +77,17 @@
 <!ENTITY gutil.menu.phonebook "Phonebook">
 
 
-<!ENTITY gutil.options.checkuncheckall "Check/uncheck all items">
-<!ENTITY gutil.options.discover "Item options(use with care)">
+<!ENTITY gutil.options.checkuncheckall "Установить / снять все">
+<!ENTITY gutil.options.discover "Пункт вариантов (использовать с осторожностью)">
 <!ENTITY gutil.options.domain "Впишите имя домена в поле внизу.">
-<!ENTITY gutil.options.enablechevron "Enable chevron">
+<!ENTITY gutil.options.enablechevron "Включить шевронных">
 <!ENTITY gutil.options.hidebutton "Не показывать кнопку GUtil!">
 <!ENTITY gutil.options.hidemenu "Не показывать меню GUtil!">
 <!ENTITY gutil.options.hosted "Домен для Google Apps">
 <!ENTITY gutil.options.menuvisibility "Показывать в меню:">
 <!ENTITY gutil.options.securedgmail "Использовать защищенное соединение (https) для GMail">
 <!ENTITY gutil.options.settings "Настройки">
-<!ENTITY gutil.options.swapbuttons "Swap left and right mouse buttons?">
+<!ENTITY gutil.options.swapbuttons "Поменять левую и правую кнопки мыши?">
 <!ENTITY gutil.options.title "Настройки Google Utilities!">
 <!ENTITY gutil.options.warning "Используйте эту настройку ТОЛЬКО если вы знаете, что делаете!">
 

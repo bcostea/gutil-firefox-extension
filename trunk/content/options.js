@@ -1,5 +1,5 @@
-//cheaper this way ;)
-// FIXME: change this to a nice configurable object in next version(3.0)
+// cheaper this way
+// FIXME: change this to a nice configurable object in next version (3.0)
 var elements=new Array(
             "adsense",
             "adwords",
@@ -15,7 +15,6 @@ var elements=new Array(
             "bookmarks",
             "books",
             "calendar",
-            "catalogs",
             "checkout",
             "code",
             "codesearch",
@@ -29,16 +28,18 @@ var elements=new Array(
             "finance",
             "gmail",
             "groups",
-	        "health",
+            "health",
             "history",
             "igoogle",
             "imagelabeler",
             "image",
+            "inquotes",
             "labs",
             "linuxrepo",
             "local",
             "maps",
             "mars",
+            "moderator",
             "moon",
             "movies",
             "musicsearch",
@@ -52,8 +53,6 @@ var elements=new Array(
             "picasaweb",
             "productsearch",
             "reader",
-            "relatedlinks",
-            "ridefinder",
             "scholar",
             "search",
             "sets",
@@ -63,18 +62,17 @@ var elements=new Array(
             "ssearch",
 	        "store",
             "suggest",
-            "translate",
             "transit",
+            "translate",
             "trends",
             "video",
+            "voice",
             "youtube",
             "warehouse",
             "wbt",
             "acc"
-            );
-            
-// this is used for the toggleAllItems function
-var booleanToggleAll=true;
+            );            
+
 
 /*************************************************************************************************/
 // Option Dialog entry point
@@ -234,12 +232,14 @@ function  toggleAllItems()
 {
     var pref = Components.classes["@mozilla.org/preferences-service;1"]
         .getService(Components.interfaces.nsIPrefBranch);
-    
+
+    var booleanToggleAll=ggetBoolPref("gutil.menu.adsense");
+    booleanToggleAll=!booleanToggleAll;
+   
     for (i=0;i<elements.length;i++) {
         pref.setBoolPref("gutil.menu." + elements[i], booleanToggleAll)
         checkOption("menuHideCheckbox"+ elements[i], booleanToggleAll);
     }
     
-    booleanToggleAll=!booleanToggleAll;
     return true;
 }
