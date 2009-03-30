@@ -1,6 +1,10 @@
 <!ENTITY gutil.main.label "GUtil!">
 <!ENTITY gutil.main.options "Options...">
 
+<!ENTITY gutil.menu.moderator "Moderator">
+<!ENTITY gutil.menu.inquotes "In Quotes">
+<!ENTITY gutil.menu.voice "Voice">
+
 
 <!ENTITY gutil.menu.acc "Mon compte Google">
 <!ENTITY gutil.menu.adsense "Adsense">
@@ -17,7 +21,6 @@
 <!ENTITY gutil.menu.bookmarks "Favoris">
 <!ENTITY gutil.menu.books "Livres">
 <!ENTITY gutil.menu.calendar "Calendrier">
-<!ENTITY gutil.menu.catalogs "Catalogues">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.chevron "Expand">
 <!ENTITY gutil.menu.code "Code">
@@ -53,8 +56,6 @@
 <!ENTITY gutil.menu.picasaweb "Albums Web Picasa">
 <!ENTITY gutil.menu.productsearch "Recherche de produits">
 <!ENTITY gutil.menu.reader "Reader">
-<!ENTITY gutil.menu.relatedlinks "Liens relatifs">
-<!ENTITY gutil.menu.ridefinder "Ride Finder">
 <!ENTITY gutil.menu.scholar "Scholar">
 <!ENTITY gutil.menu.search "Recherche">
 <!ENTITY gutil.menu.sets "Sets">

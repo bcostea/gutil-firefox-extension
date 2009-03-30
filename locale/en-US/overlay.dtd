@@ -20,7 +20,6 @@
 <!ENTITY gutil.menu.bookmarks "Bookmarks">
 <!ENTITY gutil.menu.books "Books">
 <!ENTITY gutil.menu.calendar "Calendar">
-<!ENTITY gutil.menu.catalogs "Catalogs">
 <!ENTITY gutil.menu.checkout "Checkout">
 <!ENTITY gutil.menu.chevron "Expand">
 <!ENTITY gutil.menu.code "Code">
@@ -37,6 +36,7 @@
 <!ENTITY gutil.menu.groups "Groups">
 <!ENTITY gutil.menu.history "Web History">
 <!ENTITY gutil.menu.igoogle "iGoogle">
+<!ENTITY gutil.menu.inquotes "In Quotes">
 <!ENTITY gutil.menu.image "Image Search">
 <!ENTITY gutil.menu.imagelabeler "Image Labeler">
 <!ENTITY gutil.menu.labs "Labs">
@@ -44,6 +44,7 @@
 <!ENTITY gutil.menu.local "Local (Maps)">
 <!ENTITY gutil.menu.maps "Maps">
 <!ENTITY gutil.menu.mars "Mars">
+<!ENTITY gutil.menu.moderator "Moderator">
 <!ENTITY gutil.menu.moon "Moon">
 <!ENTITY gutil.menu.movies "Movies">
 <!ENTITY gutil.menu.musicsearch "Music Search">
@@ -56,8 +57,6 @@
 <!ENTITY gutil.menu.picasaweb "Picasa Web Albums">
 <!ENTITY gutil.menu.productsearch "Product Search">
 <!ENTITY gutil.menu.reader "Reader">
-<!ENTITY gutil.menu.relatedlinks "Related Links">
-<!ENTITY gutil.menu.ridefinder "Ride Finder">
 <!ENTITY gutil.menu.scholar "Scholar">
 <!ENTITY gutil.menu.search "Search">
 <!ENTITY gutil.menu.sets "Sets">
@@ -70,6 +69,7 @@
 <!ENTITY gutil.menu.translate "Language Tools (Translate)">
 <!ENTITY gutil.menu.trends "Trends">
 <!ENTITY gutil.menu.video "Video">
+<!ENTITY gutil.menu.voice "Voice">
 <!ENTITY gutil.menu.youtube "YouTube">
 <!ENTITY gutil.menu.warehouse "Warehouse">
 <!ENTITY gutil.menu.wbt "Webmaster Tools">
