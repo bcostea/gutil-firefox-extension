@@ -1,245 +1,124 @@
-// cheaper this way
-// FIXME: change this to a nice configurable object in next version (3.0)
-var elements=new Array(
-            "adsense",
-            "adwords",
-            "alerts",
-            "analytics",
-            "appd",
-	        "appen",
-            "archives",
-            "base",
-            "blogsearch",
-            "blogger",
-            "bloggerindraft",
-            "bookmarks",
-            "books",
-            "calendar",
-            "checkout",
-            "code",
-            "codesearch",
-            "coop",
-            "dice",
-            "directory",
-            "docs",
-            "earth",
-            "experimental",
-	        "feedburner",
-            "finance",
-            "gmail",
-            "groups",
-            "health",
-            "history",
-            "igoogle",
-            "imagelabeler",
-            "image",
-            "inquotes",
-            "labs",
-            "linuxrepo",
-            "local",
-            "maps",
-            "mars",
-            "moderator",
-            "moon",
-            "movies",
-            "musicsearch",
-            "news",
-            "notebook",
-            "orkut",
-            "pack",
-            "pagecreator",
-            "patents",
-	        "phonebook",
-            "picasaweb",
-            "productsearch",
-            "reader",
-            "scholar",
-            "search",
-            "sets",
-            "sites",
-            "sketchup",
-            "sky",
-            "ssearch",
-	        "store",
-            "suggest",
-            "transit",
-            "translate",
-            "trends",
-            "video",
-            "voice",
-            "youtube",
-            "warehouse",
-            "wbt",
-            "acc"
-            );            
+if (!com) var com = {};
+if (!com.gridpulse) com.gridpulse = {};
+if (!com.gridpulse.gutil) com.gridpulse.gutil = {};
 
-
-/*************************************************************************************************/
-// Option Dialog entry point
-function startup()
-{
-   for (i=0;i<elements.length;i++)   
+com.gridpulse.gutil.OptionsDialog = {
+    startup: function ()
     {
-      var check = ggetBoolPref("gutil.menu." + elements[i]);
-      checkOption("menuHideCheckbox"+ elements[i],check);
-    }
 
-    var check = ggetBoolPref("gutil.menu.hidden");
-    checkOption("menuHideCheckbox",check);
-    
-    check = ggetBoolPref("gutil.button.hidden");
-    checkOption("buttonHideCheckbox",check);
-    
-    check = ggetBoolPref("gutil.menu.gmailhttps");
-    checkOption("gmailSecuredCheckbox",check);
-    
-    check = ggetBoolPref("gutil.menu.chevron");
-    checkOption("chevronCheckbox",check);
-    
-    check = false;
-    check = ggetBoolPref("gutil.options.swapbuttons");
-    checkOption("swapButtonsCheckbox",check);
-    
-    var hg = document.getElementById("hostedDomain");
-    var pref = Components.classes["@mozilla.org/preferences-service;1"]
-        .getService(Components.interfaces.nsIPrefBranch);
-        hg.value=
-            pref.getCharPref("gutil.menu.hosted.domain","");
-    
-}
+        var gutil = com.gridpulse.gutil;
 
-
-/*************************************************************************************************/
-// Toggles the preference in the config registry (bool value from elementObject)
-function toggleGutilElement(elementName, elementObject)
-{
-    var objectCheckbox = document.getElementById(elementObject);
-    var pref = Components.classes["@mozilla.org/preferences-service;1"]
-			.getService(Components.interfaces.nsIPrefBranch);
-    pref.setBoolPref(elementName, objectCheckbox.checked);
-}
-
-
-/*************************************************************************************************/
-// Just sets the 'checked' attribute to 'checked' value
-function checkOption(checkBoxId, checked)
-{
-    var theCheckBox = document.getElementById(checkBoxId);
-    if(theCheckBox)    
-	theCheckBox.setAttribute("checked",checked);
-    else
-	alert(checkBoxId);
-}
-
-/*************************************************************************************************/
-// Loads the extension home page in a new tab
-function visitHomePage()
-{
-    var parentWindow = null;
-    var url          = "http://www.gridpulse.com/gutil/";
-
-    // If there is a parent window or a grand parent window
-    if(window.opener)
-    {
-        if(window.opener.opener)
+        for (var i = 0; i < gutil.SERVICES.length; i++)
         {
-            parentWindow = window.opener.opener;
+            var currentItemName = gutil.SERVICES[i];
+            var itemVisible = gutil.Preferences.getBooleanPreferenceWithDefault(gutil.Constants.MENU_PREFIX + "." + currentItemName);
+            gutil.OptionsDialog.checkOption("menuHideCheckbox" + currentItemName, itemVisible);
         }
-        else
-        {
-            parentWindow = window.opener;
-        }
-    }
 
-    // If a parent window was found open the homepage in a new tab and set that tab as selected
-    if(parentWindow)
+        var optionChecked = gutil.Preferences.getBooleanPreference(gutil.Constants.MENU_PREFIX + ".hidden");
+        gutil.OptionsDialog.checkOption("menuHideCheckbox", optionChecked);
+
+        optionChecked = gutil.Preferences.getBooleanPreference("gutil.button.hidden");
+        gutil.OptionsDialog.checkOption("buttonHideCheckbox", optionChecked);
+
+        optionChecked = gutil.Preferences.getBooleanPreference(gutil.Constants.MENU_PREFIX + ".gmailhttps");
+        gutil.OptionsDialog.checkOption("gmailSecuredCheckbox", optionChecked);
+
+        optionChecked = gutil.Preferences.getBooleanPreference(gutil.Constants.MENU_PREFIX + ".chevron");
+        gutil.OptionsDialog.checkOption("chevronCheckbox", optionChecked);
+
+        optionChecked = false;
+
+        optionChecked = gutil.Preferences.getBooleanPreferenceWithDefault("gutil.options.swapbuttons");
+        gutil.OptionsDialog.checkOption("swapButtonsCheckbox", optionChecked);
+
+        var hostedDomainAddress = document.getElementById("hostedDomain");
+        hostedDomainAddress.value = gutil.Preferences.getCharacterPreference("gutil.menu.hosted.domain");
+
+    },
+    toggleGutilElement:function (elementName, elementObject)
     {
-        var newTab = parentWindow.getBrowser().addTab(url);
-        parentWindow.getBrowser().selectedTab = newTab;
+        var objectCheckbox = document.getElementById(elementObject);
+        com.gridpulse.gutil.Preferences.setBooleanPreference(elementName, objectCheckbox.checked);
+    },
+
+    checkOption:function(checkBoxId, checked)
+    {
+        var itemCheckbox = document.getElementById(checkBoxId);
+        if (itemCheckbox)
+            itemCheckbox.setAttribute("checked", checked);
+    },
+
+    visitHomePage:function()
+    {
+        var parentWindow = null;
+        var url = "http://www.gridpulse.com/gutil/";
+
+        // If there is a parent window or a grand parent window
+        if (window.opener)
+        {
+            if (window.opener.opener)
+            {
+                parentWindow = window.opener.opener;
+            }
+            else
+            {
+                parentWindow = window.opener;
+            }
+        }
+
+        // If a parent window was found open the homepage in a new tab and set that tab as selected
+        if (parentWindow)
+        {
+            parentWindow.getBrowser().selectedTab = parentWindow.getBrowser().addTab(url);
+            window.close();
+        }
+    },
+
+
+    /**************************************************************************************************/
+    // Notifies the observers
+    optionOk:function ()
+    {
+
+        var observerService = com.gridpulse.gutil.GutilObserver.getObserverService();
+
+        var menuHideCheckbox = document.getElementById("menuHideCheckbox");
+        var buttonHideCheckbox = document.getElementById("buttonHideCheckbox");
+        var hg = document.getElementById("hostedDomain");
+
+        if (menuHideCheckbox.checked)
+        {
+            observerService.notifyObservers(null, com.gridpulse.gutil.Constants.HIDE_MENU_EVENT, "1");
+        } else {
+            observerService.notifyObservers(null, com.gridpulse.gutil.Constants.HIDE_MENU_EVENT, "0");
+        }
+
+        if (buttonHideCheckbox.checked)
+        {
+            observerService.notifyObservers(null, com.gridpulse.gutil.Constants.HIDE_BUTTON_EVENT, "1");
+        } else {
+            observerService.notifyObservers(null, com.gridpulse.gutil.Constants.HIDE_BUTTON_EVENT, "0");
+        }
+
+        com.gridpulse.gutil.Preferences.setCharacterPreference(com.gridpulse.gutil.Constants.MENU_PREFIX + ".hosted.domain", hg.value);
+
+        observerService.notifyObservers(null, com.gridpulse.gutil.Constants.REFRESH_ALL_EVENT, "0");
+
         window.close();
-    }
-}
-/**************************************************************************************************/
-// Checks config registry for given key. If it doesn't exist it creates it with default value 'true'
-function ggetBoolPref(prefName)
-{
-    var pref = Components.classes["@mozilla.org/preferences-service;1"]
-        .getService(Components.interfaces.nsIPrefBranch);
-    
-    var ret=true;
-    try{
-        ret = pref.getBoolPref(prefName);
-    }
-    catch(e){
-        if(prefName=="gutil.options.swapbuttons")
-        {
-            //this really has to default to false, so that we don't disturb the user's habits and feel
-            pref.setBoolPref(prefName, false);
-            ret=false;
+    },
+    toggleAllItems:function()
+    {
+
+        var booleanToggleAll = com.gridpulse.gutil.Preferences.getBooleanPreferenceWithDefault(com.gridpulse.gutil.Constants.MENU_PREFIX + "." + com.gridpulse.gutil.SERVICES[0]);
+        booleanToggleAll = !booleanToggleAll;
+
+        for (var i = 0; i < com.gridpulse.gutil.SERVICES.length; i++) {
+            var currentItem = com.gridpulse.gutil.SERVICES[i];
+            com.gridpulse.gutil.Preferences.setBooleanPreference(com.gridpulse.gutil.Constants.MENU_PREFIX + "." + currentItem, booleanToggleAll);
+            com.gridpulse.gutil.OptionsDialog.checkOption("menuHideCheckbox" + currentItem, booleanToggleAll);
         }
-        else
-            pref.setBoolPref(prefName, true);
-    }
-    
-    // alert(prefName + " " + ret);
-    return ret;
-}
-/**************************************************************************************************/
-// Notifies the observers 
-function optionOk()
-{
 
-    var menuHideCheckbox = document.getElementById("menuHideCheckbox");
-    var buttonHideCheckbox = document.getElementById("buttonHideCheckbox");
-    var hg = document.getElementById("hostedDomain");
-
-    if(menuHideCheckbox.checked)
-    {
-        Components.classes["@mozilla.org/observer-service;1"]
-	        .getService(Components.interfaces.nsIObserverService)
-   	            .notifyObservers(null, "gutil:hide-menu", "1");   
-    } else {
-        Components.classes["@mozilla.org/observer-service;1"]
-	        .getService(Components.interfaces.nsIObserverService)
-   	            .notifyObservers(null, "gutil:hide-menu", "0");   
+        return true;
     }
-    
-    if(buttonHideCheckbox.checked)
-    {
-        Components.classes["@mozilla.org/observer-service;1"]
-	        .getService(Components.interfaces.nsIObserverService)
-   	            .notifyObservers(null, "gutil:hide-button", "1");   
-    } else {
-        Components.classes["@mozilla.org/observer-service;1"]
-	        .getService(Components.interfaces.nsIObserverService)
-   	            .notifyObservers(null, "gutil:hide-button", "0");   
-    }
-    
-    var pref = Components.classes["@mozilla.org/preferences-service;1"]
-        .getService(Components.interfaces.nsIPrefBranch);
-    pref.setCharPref("gutil.menu.hosted.domain",hg.value);
-    
-    Components.classes["@mozilla.org/observer-service;1"]
-	    .getService(Components.interfaces.nsIObserverService)
-   	        .notifyObservers(null, "gutil:refresh-elements", "0");   
-            
-    window.close();
-}
-
-/* ************ */
-// Make All the services visible
-function  toggleAllItems()
-{
-    var pref = Components.classes["@mozilla.org/preferences-service;1"]
-        .getService(Components.interfaces.nsIPrefBranch);
-
-    var booleanToggleAll=ggetBoolPref("gutil.menu.adsense");
-    booleanToggleAll=!booleanToggleAll;
-   
-    for (i=0;i<elements.length;i++) {
-        pref.setBoolPref("gutil.menu." + elements[i], booleanToggleAll)
-        checkOption("menuHideCheckbox"+ elements[i], booleanToggleAll);
-    }
-    
-    return true;
-}
+};

@@ -25,6 +25,7 @@
 <!ENTITY gutil.menu.chevron "Expandir">
 <!ENTITY gutil.menu.code "Código">
 <!ENTITY gutil.menu.codesearch "Pesquisa de Código">
+<!ENTITY gutil.menu.contact "Contact manager">
 <!ENTITY gutil.menu.coop "Cooperativa">
 <!ENTITY gutil.menu.dice "Dados">
 <!ENTITY gutil.menu.directory "Diretório">
@@ -68,6 +69,7 @@
 <!ENTITY gutil.menu.suggest "Sugerir">
 <!ENTITY gutil.menu.transit "Trânsito">
 <!ENTITY gutil.menu.translate "Ferramentas de Idiomas (Tradução)">
+<!ENTITY gutil.menu.translatortk "Translator toolkit">
 <!ENTITY gutil.menu.trends "Tendências">
 <!ENTITY gutil.menu.video "Video">
 <!ENTITY gutil.menu.youtube "YouTube">

@@ -25,6 +25,7 @@
 <!ENTITY gutil.menu.chevron "Expand">
 <!ENTITY gutil.menu.code "Kodas">
 <!ENTITY gutil.menu.codesearch "Kodo paieška">
+<!ENTITY gutil.menu.contact "Contact manager">
 <!ENTITY gutil.menu.coop "Co-op">
 <!ENTITY gutil.menu.dice "Mesti kauliuką">
 <!ENTITY gutil.menu.directory "Katalogas">
@@ -66,6 +67,7 @@
 <!ENTITY gutil.menu.suggest "Pasiūlymai">
 <!ENTITY gutil.menu.transit "Tranzitas">
 <!ENTITY gutil.menu.translate "Kalbos įrankiai (Vertimas)">
+<!ENTITY gutil.menu.translatortk "Translator toolkit">
 <!ENTITY gutil.menu.trends "Kryptys">
 <!ENTITY gutil.menu.video "Video">
 <!ENTITY gutil.menu.youtube "YouTube">
