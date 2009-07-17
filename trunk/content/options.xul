@@ -4,9 +4,12 @@
 
 <window class="dialog"
         title="&gutil.options.title;"
-        onload="sizeToContent(); startup();"
+        onload="sizeToContent(); com.gridpulse.gutil.OptionsDialog.startup();"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
+    <script type="application/x-javascript" src="chrome://gutil/content/services.js"/>
+    <script type="application/x-javascript" src="chrome://gutil/content/preferences.js"/>
+    <script type="application/x-javascript" src="chrome://gutil/content/gutil.js"/>
     <script type="application/x-javascript" src="chrome://gutil/content/options.js"/>
 
     <hbox>
@@ -23,27 +26,27 @@
                 <label value="Bogdan Alexandru Costea &lt;bogdan@gridpulse.com&gt;"/>
             </hbox>
             <hbox>
-                <description onclick="visitHomePage()" class="text-link">http://www.gridpulse.com/gutil/</description>
+                <description onclick="com.gridpulse.gutil.OptionsDialog.visitHomePage()" class="text-link">http://www.gridpulse.com/gutil/</description>
             </hbox>
             <groupbox pack="top" orient="vertical">
                 <caption label="&gutil.options.settings;"/>
-                <vbox oncommand='toggleGutilElement("gutil.menu.hidden","menuHideCheckbox");'>
+                <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.hidden","menuHideCheckbox");'>
                     <checkbox id="menuHideCheckbox" label="&gutil.options.hidemenu;"/>
                 </vbox>
 
-                <vbox oncommand='toggleGutilElement("gutil.button.hidden","buttonHideCheckbox");'>
+                <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.button.hidden","buttonHideCheckbox");'>
                     <checkbox id="buttonHideCheckbox" label="&gutil.options.hidebutton;"/>
                 </vbox>
 
-                <vbox oncommand='toggleGutilElement("gutil.menu.gmailhttps","gmailSecuredCheckbox");'>
+                <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.gmailhttps","gmailSecuredCheckbox");'>
                     <checkbox id="gmailSecuredCheckbox" label="&gutil.options.securedgmail;"/>
                 </vbox>
                 
                 
-                <vbox oncommand='toggleGutilElement("gutil.options.swapbuttons","swapButtonsCheckbox");'>
+                <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.options.swapbuttons","swapButtonsCheckbox");'>
                     <checkbox id="swapButtonsCheckbox" label="&gutil.options.swapbuttons;"/>
                 </vbox>
-                <vbox oncommand='toggleGutilElement("gutil.menu.chevron","chevronCheckbox");'>
+                <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.chevron","chevronCheckbox");'>
                     <checkbox id="chevronCheckbox" label="&gutil.options.enablechevron;"/>
                 </vbox>
                 
@@ -63,7 +66,7 @@
             <groupbox pack="top" orient="vertical">
                 <caption label="&gutil.options.discover;"/>
                 <vbox>
-                     <button label="&gutil.options.checkuncheckall;" oncommand="toggleAllItems();"/>
+                     <button label="&gutil.options.checkuncheckall;" oncommand="com.gridpulse.gutil.OptionsDialog.toggleAllItems();"/>
                 </vbox>
             </groupbox>
         </vbox>
@@ -72,214 +75,220 @@
         <!-- ###################################################################### -->
         <groupbox pack="top" orient="vertical" style='overflow: auto;height:350px;'>
             <caption label="&gutil.options.menuvisibility;"/>
-		<vbox oncommand='toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.adsense","menuHideCheckboxadsense");'>
 			<checkbox id="menuHideCheckboxadsense" label="&gutil.menu.adsense;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.adwords","menuHideCheckboxadwords");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.adwords","menuHideCheckboxadwords");'>
 			<checkbox id="menuHideCheckboxadwords" label="&gutil.menu.adwords;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.alerts","menuHideCheckboxalerts");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.alerts","menuHideCheckboxalerts");'>
 			<checkbox id="menuHideCheckboxalerts" label="&gutil.menu.alerts;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.analytics","menuHideCheckboxanalytics");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.analytics","menuHideCheckboxanalytics");'>
 			<checkbox id="menuHideCheckboxanalytics" label="&gutil.menu.analytics;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.appd","menuHideCheckboxappd");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.appd","menuHideCheckboxappd");'>
 			<checkbox id="menuHideCheckboxappd" label="&gutil.menu.appd;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.appen","menuHideCheckboxappen");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.appen","menuHideCheckboxappen");'>
 			<checkbox id="menuHideCheckboxappen" label="&gutil.menu.appen;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.archives","menuHideCheckboxarchives");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.archives","menuHideCheckboxarchives");'>
 			<checkbox id="menuHideCheckboxarchives" label="&gutil.menu.archives;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.base","menuHideCheckboxbase");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.base","menuHideCheckboxbase");'>
 			<checkbox id="menuHideCheckboxbase" label="&gutil.menu.base;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.blogsearch","menuHideCheckboxblogsearch");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.blogsearch","menuHideCheckboxblogsearch");'>
 			<checkbox id="menuHideCheckboxblogsearch" label="&gutil.menu.blogsearch;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.blogger","menuHideCheckboxblogger");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.blogger","menuHideCheckboxblogger");'>
 			<checkbox id="menuHideCheckboxblogger" label="&gutil.menu.blogger;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.bloggerindraft","menuHideCheckboxbloggerindraft");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.bloggerindraft","menuHideCheckboxbloggerindraft");'>
 			<checkbox id="menuHideCheckboxbloggerindraft" label="&gutil.menu.bloggerindraft;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.bookmarks","menuHideCheckboxbookmarks");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.bookmarks","menuHideCheckboxbookmarks");'>
 			<checkbox id="menuHideCheckboxbookmarks" label="&gutil.menu.bookmarks;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.books","menuHideCheckboxbooks");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.books","menuHideCheckboxbooks");'>
 			<checkbox id="menuHideCheckboxbooks" label="&gutil.menu.books;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.calendar","menuHideCheckboxcalendar");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.calendar","menuHideCheckboxcalendar");'>
 			<checkbox id="menuHideCheckboxcalendar" label="&gutil.menu.calendar;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.checkout","menuHideCheckboxcheckout");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.checkout","menuHideCheckboxcheckout");'>
 			<checkbox id="menuHideCheckboxcheckout" label="&gutil.menu.checkout;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.code","menuHideCheckboxcode");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.code","menuHideCheckboxcode");'>
 			<checkbox id="menuHideCheckboxcode" label="&gutil.menu.code;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.codesearch","menuHideCheckboxcodesearch");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.codesearch","menuHideCheckboxcodesearch");'>
 		<checkbox id="menuHideCheckboxcodesearch" label="&gutil.menu.codesearch;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.coop","menuHideCheckboxcoop");'>
+        <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.contact","menuHideCheckboxcontact");'>
+		<checkbox id="menuHideCheckboxcontact" label="&gutil.menu.contact;"/>
+		</vbox>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.coop","menuHideCheckboxcoop");'>
 		<checkbox id="menuHideCheckboxcoop" label="&gutil.menu.coop;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.dice","menuHideCheckboxdice");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.dice","menuHideCheckboxdice");'>
 		<checkbox id="menuHideCheckboxdice" label="&gutil.menu.dice;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.directory","menuHideCheckboxdirectory");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.directory","menuHideCheckboxdirectory");'>
 		<checkbox id="menuHideCheckboxdirectory" label="&gutil.menu.directory;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.docs","menuHideCheckboxdocs");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.docs","menuHideCheckboxdocs");'>
 		<checkbox id="menuHideCheckboxdocs" label="&gutil.menu.docs;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.earth","menuHideCheckboxearth");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.earth","menuHideCheckboxearth");'>
 		<checkbox id="menuHideCheckboxearth" label="&gutil.menu.earth;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.experimental","menuHideCheckboxexperimental");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.experimental","menuHideCheckboxexperimental");'>
 		<checkbox id="menuHideCheckboxexperimental" label="&gutil.menu.experimental;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.feedburner","menuHideCheckboxfeedburner");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.feedburner","menuHideCheckboxfeedburner");'>
 			<checkbox id="menuHideCheckboxfeedburner" label="&gutil.menu.feedburner;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.finance","menuHideCheckboxfinance");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.finance","menuHideCheckboxfinance");'>
 		<checkbox id="menuHideCheckboxfinance" label="&gutil.menu.finance;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.gmail","menuHideCheckboxgmail");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.gmail","menuHideCheckboxgmail");'>
 		<checkbox id="menuHideCheckboxgmail" label="&gutil.menu.gmail;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.groups","menuHideCheckboxgroups");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.groups","menuHideCheckboxgroups");'>
 		<checkbox id="menuHideCheckboxgroups" label="&gutil.menu.groups;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.health","menuHideCheckboxhealth");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.health","menuHideCheckboxhealth");'>
 		<checkbox id="menuHideCheckboxhealth" label="&gutil.menu.health;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.history","menuHideCheckboxhistory");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.history","menuHideCheckboxhistory");'>
 		<checkbox id="menuHideCheckboxhistory" label="&gutil.menu.history;"/>
 		</vbox>
-        <vbox oncommand='toggleGutilElement("gutil.menu.inquotes","menuHideCheckboxinquotes");'>
+        <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.inquotes","menuHideCheckboxinquotes");'>
 		<checkbox id="menuHideCheckboxinquotes" label="&gutil.menu.inquotes;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.igoogle","menuHideCheckboxigoogle");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.igoogle","menuHideCheckboxigoogle");'>
 		<checkbox id="menuHideCheckboxigoogle" label="&gutil.menu.igoogle;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.imagelabeler","menuHideCheckboximagelabeler");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.imagelabeler","menuHideCheckboximagelabeler");'>
 		<checkbox id="menuHideCheckboximagelabeler" label="&gutil.menu.imagelabeler;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.image","menuHideCheckboximage");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.image","menuHideCheckboximage");'>
 		<checkbox id="menuHideCheckboximage" label="&gutil.menu.image;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.labs","menuHideCheckboxlabs");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.labs","menuHideCheckboxlabs");'>
 		<checkbox id="menuHideCheckboxlabs" label="&gutil.menu.labs;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.linuxrepo","menuHideCheckboxlinuxrepo");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.linuxrepo","menuHideCheckboxlinuxrepo");'>
 		<checkbox id="menuHideCheckboxlinuxrepo" label="&gutil.menu.linuxrepo;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.local","menuHideCheckboxlocal");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.local","menuHideCheckboxlocal");'>
 		<checkbox id="menuHideCheckboxlocal" label="&gutil.menu.local;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.maps","menuHideCheckboxmaps");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.maps","menuHideCheckboxmaps");'>
 		<checkbox id="menuHideCheckboxmaps" label="&gutil.menu.maps;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.mars","menuHideCheckboxmars");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.mars","menuHideCheckboxmars");'>
 		<checkbox id="menuHideCheckboxmars" label="&gutil.menu.mars;"/>
 		</vbox>
-        <vbox oncommand='toggleGutilElement("gutil.menu.moderator","menuHideCheckboxmoderator");'>
+        <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.moderator","menuHideCheckboxmoderator");'>
 		<checkbox id="menuHideCheckboxmoderator" label="&gutil.menu.moderator;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.moon","menuHideCheckboxmoon");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.moon","menuHideCheckboxmoon");'>
 		<checkbox id="menuHideCheckboxmoon" label="&gutil.menu.moon;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.movies","menuHideCheckboxmovies");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.movies","menuHideCheckboxmovies");'>
 		<checkbox id="menuHideCheckboxmovies" label="&gutil.menu.movies;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.musicsearch","menuHideCheckboxmusicsearch");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.musicsearch","menuHideCheckboxmusicsearch");'>
 		<checkbox id="menuHideCheckboxmusicsearch" label="&gutil.menu.musicsearch;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.news","menuHideCheckboxnews");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.news","menuHideCheckboxnews");'>
 		<checkbox id="menuHideCheckboxnews" label="&gutil.menu.news;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.notebook","menuHideCheckboxnotebook");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.notebook","menuHideCheckboxnotebook");'>
 		<checkbox id="menuHideCheckboxnotebook" label="&gutil.menu.notebook;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.orkut","menuHideCheckboxorkut");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.orkut","menuHideCheckboxorkut");'>
 		<checkbox id="menuHideCheckboxorkut" label="&gutil.menu.orkut;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.pack","menuHideCheckboxpack");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.pack","menuHideCheckboxpack");'>
 		<checkbox id="menuHideCheckboxpack" label="&gutil.menu.pack;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.pagecreator","menuHideCheckboxpagecreator");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.pagecreator","menuHideCheckboxpagecreator");'>
 		<checkbox id="menuHideCheckboxpagecreator" label="&gutil.menu.pagecreator;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.patents","menuHideCheckboxpatents");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.patents","menuHideCheckboxpatents");'>
 		<checkbox id="menuHideCheckboxpatents" label="&gutil.menu.patents;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.phonebook","menuHideCheckboxphonebook");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.phonebook","menuHideCheckboxphonebook");'>
 		<checkbox id="menuHideCheckboxphonebook" label="&gutil.menu.phonebook;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.picasaweb","menuHideCheckboxpicasaweb");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.picasaweb","menuHideCheckboxpicasaweb");'>
 		<checkbox id="menuHideCheckboxpicasaweb" label="&gutil.menu.picasaweb;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.productsearch","menuHideCheckboxproductsearch");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.productsearch","menuHideCheckboxproductsearch");'>
 		<checkbox id="menuHideCheckboxproductsearch" label="&gutil.menu.productsearch;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.reader","menuHideCheckboxreader");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.reader","menuHideCheckboxreader");'>
 		<checkbox id="menuHideCheckboxreader" label="&gutil.menu.reader;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.scholar","menuHideCheckboxscholar");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.scholar","menuHideCheckboxscholar");'>
 		<checkbox id="menuHideCheckboxscholar" label="&gutil.menu.scholar;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.search","menuHideCheckboxsearch");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.search","menuHideCheckboxsearch");'>
 		<checkbox id="menuHideCheckboxsearch" label="&gutil.menu.search;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.sets","menuHideCheckboxsets");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.sets","menuHideCheckboxsets");'>
 		<checkbox id="menuHideCheckboxsets" label="&gutil.menu.sets;"/>
 		</vbox>
-        <vbox oncommand='toggleGutilElement("gutil.menu.sites","menuHideCheckboxsites");'>
+        <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.sites","menuHideCheckboxsites");'>
 		<checkbox id="menuHideCheckboxsites" label="&gutil.menu.sites;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.sketchup","menuHideCheckboxsketchup");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.sketchup","menuHideCheckboxsketchup");'>
 		<checkbox id="menuHideCheckboxsketchup" label="&gutil.menu.sketchup;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.sky","menuHideCheckboxsky");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.sky","menuHideCheckboxsky");'>
 		<checkbox id="menuHideCheckboxsky" label="&gutil.menu.sky;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.ssearch","menuHideCheckboxssearch");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.ssearch","menuHideCheckboxssearch");'>
 		<checkbox id="menuHideCheckboxssearch" label="&gutil.menu.ssearch;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.store","menuHideCheckboxstore");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.store","menuHideCheckboxstore");'>
 		<checkbox id="menuHideCheckboxstore" label="&gutil.menu.store;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.suggest","menuHideCheckboxsuggest");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.suggest","menuHideCheckboxsuggest");'>
 		<checkbox id="menuHideCheckboxsuggest" label="&gutil.menu.suggest;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.transit","menuHideCheckboxtransit");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.transit","menuHideCheckboxtransit");'>
 		<checkbox id="menuHideCheckboxtransit" label="&gutil.menu.transit;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.translate","menuHideCheckboxtranslate");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.translate","menuHideCheckboxtranslate");'>
 		<checkbox id="menuHideCheckboxtranslate" label="&gutil.menu.translate;"/>
+		</vbox>		
+        <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.translatortk","menuHideCheckboxtranslatortk");'>
+		<checkbox id="menuHideCheckboxtranslatortk" label="&gutil.menu.translatortk;"/>
 		</vbox>
-        <vbox oncommand='toggleGutilElement("gutil.menu.trends","menuHideCheckboxtrends");'>
+        <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.trends","menuHideCheckboxtrends");'>
 		<checkbox id="menuHideCheckboxtrends" label="&gutil.menu.trends;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.video","menuHideCheckboxvideo");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.video","menuHideCheckboxvideo");'>
 		<checkbox id="menuHideCheckboxvideo" label="&gutil.menu.video;"/>
 		</vbox>
-        <vbox oncommand='toggleGutilElement("gutil.menu.voice","menuHideCheckboxvoice");'>
+        <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.voice","menuHideCheckboxvoice");'>
 		<checkbox id="menuHideCheckboxvoice" label="&gutil.menu.voice;"/>
 		</vbox>		
-        <vbox oncommand='toggleGutilElement("gutil.menu.youtube","menuHideCheckboxyoutube");'>
+        <vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.youtube","menuHideCheckboxyoutube");'>
 		<checkbox id="menuHideCheckboxyoutube" label="&gutil.menu.youtube;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.warehouse","menuHideCheckboxwarehouse");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.warehouse","menuHideCheckboxwarehouse");'>
 		<checkbox id="menuHideCheckboxwarehouse" label="&gutil.menu.warehouse;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.wbt","menuHideCheckboxwbt");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.wbt","menuHideCheckboxwbt");'>
 		<checkbox id="menuHideCheckboxwbt" label="&gutil.menu.wbt;"/>
 		</vbox>
-		<vbox oncommand='toggleGutilElement("gutil.menu.acc","menuHideCheckboxacc");'>
+		<vbox oncommand='com.gridpulse.gutil.OptionsDialog.toggleGutilElement("gutil.menu.acc","menuHideCheckboxacc");'>
 		<checkbox id="menuHideCheckboxacc" label="&gutil.menu.acc;"/>
 		</vbox>
           </groupbox>
@@ -289,7 +298,7 @@
     <separator class="groove"/>
     <hbox>
         <vbox align="end" pack="end">
-            <button label="Ok" oncommand="optionOk();"/>
+            <button label="Ok" oncommand="com.gridpulse.gutil.OptionsDialog.optionOk();"/>
         </vbox>
     </hbox>
 </window>

@@ -25,6 +25,7 @@
 <!ENTITY gutil.menu.chevron "Expand">
 <!ENTITY gutil.menu.code "Код (на англ.)">
 <!ENTITY gutil.menu.codesearch "Поиск кода">
+<!ENTITY gutil.menu.contact "Contact manager">
 <!ENTITY gutil.menu.coop "Coop">
 <!ENTITY gutil.menu.dice "Кубиком">
 <!ENTITY gutil.menu.directory "Каталог">
@@ -66,6 +67,7 @@
 <!ENTITY gutil.menu.suggest "Поиск с предложениями">
 <!ENTITY gutil.menu.transit "Transit">
 <!ENTITY gutil.menu.translate "Переводчик">
+<!ENTITY gutil.menu.translatortk "Translator toolkit">
 <!ENTITY gutil.menu.trends "Trends">
 <!ENTITY gutil.menu.video "Видео (на англ.)">
 <!ENTITY gutil.menu.youtube "YouTube">

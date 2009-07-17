@@ -1,425 +1,220 @@
-// cheaper this way
-// FIXME: change this to a nice configurable object in next version (3.0)
-var elements=new Array(
-            "adsense",
-            "adwords",
-            "alerts",
-            "analytics",
-            "appd",
-	        "appen",
-            "archives",
-            "base",
-            "blogsearch",
-            "blogger",
-            "bloggerindraft",
-            "bookmarks",
-            "books",
-            "calendar",
-            "checkout",
-            "code",
-            "codesearch",
-            "coop",
-            "dice",
-            "directory",
-            "docs",
-            "earth",
-            "experimental",
-	        "feedburner",
-            "finance",
-            "gmail",
-            "groups",
-            "health",
-            "history",
-            "igoogle",
-            "imagelabeler",
-            "image",
-            "inquotes",
-            "labs",
-            "linuxrepo",
-            "local",
-            "maps",
-            "mars",
-            "moderator",
-            "moon",
-            "movies",
-            "musicsearch",
-            "news",
-            "notebook",
-            "orkut",
-            "pack",
-            "pagecreator",
-            "patents",
-	        "phonebook",
-            "picasaweb",
-            "productsearch",
-            "reader",
-            "scholar",
-            "search",
-            "sets",
-            "sites",
-            "sketchup",
-            "sky",
-            "ssearch",
-	        "store",
-            "suggest",
-            "transit",
-            "translate",
-            "trends",
-            "video",
-            "voice",
-            "youtube",
-            "warehouse",
-            "wbt",
-            "acc",
-            // dirty lazy hack for chevron
-            "chevron"
-            );
-            
-//global marker to check for chevron action
-var watchOutForChevronAction=false;
+if (!com) var com = {};
+if (!com.gridpulse) com.gridpulse = {};
+if (!com.gridpulse.gutil) com.gridpulse.gutil = {};
 
+com.gridpulse.gutil.Constants = {
+    MENU_ID : "gutil-menu",
+    BUTTON_ID: "gutil-button",
 
-/************************************************************************************************************************/
-// Callable from below 
-var gutilMain = {
- buttonSetup : function(){
- 
-    	var toolbox = document.getElementById("navigator-toolbox");
-    	var toolboxDocument = toolbox.ownerDocument;
-        
-        //check for the button
-    	var hasButton = false;
-    	for (var i = 0; i < toolbox.childNodes.length; ++i) {
-    	    var toolbar = toolbox.childNodes[i];
-    	    if (toolbar.localName == "toolbar" && toolbar.getAttribute("customizable")=="true") {
-    			
-    		if(toolbar.currentSet.indexOf("gutil-button")>-1)
-    			hasButton = true;	
-    	    }
-    	}
-    		
-        // ups, the button is not added - add the button ( dont worry, if it's hidden in the prefs, we wont show it!!)
-    	if(!hasButton){
-    		
-    	  for (var i = 0; i < toolbox.childNodes.length; ++i) {
-    	    toolbar = toolbox.childNodes[i];
-    	    if (toolbar.localName == "toolbar" &&  toolbar.getAttribute("customizable")=="true" && toolbar.id=="nav-bar") {
-    					
-    	   	var newSet = "";
-    	   	var child = toolbar.firstChild;
-    	   	while(child){
-    		   	   
-   	   	   
-    	   	   if(!hasButton && child.id=="urlbar-container"){
-    		      newSet += "gutil-button,";
-    	   	      hasButton = true;
-    		   }
-    
-    		   newSet += child.id+",";
-    		   child = child.nextSibling;
-    		}
-    		
-    		newSet = newSet.substring(0, newSet.length-1);
-    		toolbar.currentSet = newSet;
-    		
-    		toolbar.setAttribute("currentset", newSet);
-    		toolboxDocument.persist(toolbar.id, "currentset");
-    		BrowserToolboxCustomizeDone(true)
-    		break; 
-    	    }
-    	  }
-    	}
-        
-     //has the user hidden our menu?
-     if(gutilMain.isMenuHidden()){
-          var menu = document.getElementById("gutil-menu");
-          menu.setAttribute("hidden", true);
-     }
-     
-    //has the user hidden our button?
-     if(gutilMain.isButtonHidden()){
-          var menu = document.getElementById("gutil-button");
-          menu.setAttribute("hidden", true);
-     }
-        
-     //add observers
-     var os = Components.classes["@mozilla.org/observer-service;1"]
-                                     .getService(Components.interfaces.nsIObserverService);
-     os.addObserver(gutilObserver, "gutil:hide-menu", false);
-     os.addObserver(gutilObserver, "gutil:hide-button", false);
-     os.addObserver(gutilObserver, "gutil:refresh-elements", false);
+    HIDE_MENU_EVENT: "gutil:hide-menu",
+    HIDE_BUTTON_EVENT: "gutil:hide-button",
+    REFRESH_ALL_EVENT: "gutil:refresh-elements",
+    MENU_PREFIX:"gutil.menu",
+    TOOLBAR_PREFIX:"gutil.toolbar",
+    MENU_ITEM_PREFIX: "gutil_menuitem_",
+    TOOLBAR_ITEM_PREFIX: "gutil_toolbaritem_"
+};
 
+com.gridpulse.gutil.ButtonActions = {
+    firstButtonAction:function(URL, buttonsAreSwapped) {
+        if (!buttonsAreSwapped)
+            getBrowser().selectedTab = getBrowser().addTab(URL);
+        else
+            gBrowser.loadURI(URL);
+    },
+    secondButtonAction:function(URL) {
+        getBrowser().addTab(URL);
+    },
+    thirdButtonAction:function(URL, swapped) {
+        if (swapped)
+            getBrowser().selectedTab = getBrowser().addTab(URL);
+        else
+            gBrowser.loadURI(URL);
+    }
+};
 
-    hideElements();
-     },
+com.gridpulse.gutil.Gutil = {
+    chevronActive:false,
 
-isMenuHidden : function(){
-   
-     var pref = Components.classes["@mozilla.org/preferences-service;1"]
-			.getService(Components.interfaces.nsIPrefBranch);
-     try{
-       var bool = pref.getBoolPref("gutil.menu.hidden");
-       if(bool)
-	 return true;
-     }
-     catch(e){
-        pref.setBoolPref("gutil.menu.hidden", false);
-     }
-   
-   return false;
-   },
+    getGMailURL:function ()
+    {
+        try {
+            var urlPrefix = "http://";
+            var isHTTPS = com.gridpulse.gutil.Preferences.getBooleanPreference("gutil.menu.gmailhttps");
 
-isButtonHidden : function(){
-   
-     var pref = Components.classes["@mozilla.org/preferences-service;1"]
-			.getService(Components.interfaces.nsIPrefBranch);
-     try{
-       var bool = pref.getBoolPref("gutil.button.hidden");
-       if(bool)
-	 return true;
-     }
-     catch(e){
-        pref.setBoolPref("gutil.button.hidden", false);
-     }
-   
-   return false;
-   }
-
-}
-/***************************************************************************************************/
-// This are the Observers fired from the option dialog
-var gutilObserver = {
-  observe : function(aSubject, aTopic, aData)
-  {
-  
-     switch(aTopic)
-     {
-        case "gutil:hide-menu":
-            var menu = document.getElementById("gutil-menu");
-            if(menu)
-            {
-                if(aData=="1")
-                {
-                    menu.setAttribute("hidden", true);
-                }
-                else
-                {
-                    menu.removeAttribute("hidden");
-                }
-            }   
-        break;
-        
-        case "gutil:hide-button":
-            var button = document.getElementById("gutil-button");
-            if(button)
-            {
-                if(aData=="1")
-                {
-   	                button.setAttribute("hidden", true);
-   	            }
-   	            else
-                {
-   	                button.removeAttribute("hidden");
-   	            }
-   	        }   
-        break;
-        
-        case "gutil:refresh-elements":
-            hideElements();
-        break;
-     }     
-  }
-}
-
-/***********************************************************************************************************/
-// special request - gmail on https + hosted
-function runGMail()
-{
-   var pref = Components.classes["@mozilla.org/preferences-service;1"]
-			.getService(Components.interfaces.nsIPrefBranch);
-     try{
-       var bool = pref.getBoolPref("gutil.menu.gmailhttps");
-     
-         if(bool)
-           {
-                if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) return 'https://mail.google.com/hosted/' + pref.getCharPref("gutil.menu.hosted.domain","");
-                else return 'https://mail.google.com/';
-           }else
-           {
-               if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) return 'http://mail.google.com/hosted/' + pref.getCharPref("gutil.menu.hosted.domain","");
-                else return 'http://mail.google.com/';
-          }
-    
+            if (isHTTPS)
+                urlPrefix = "https://";
+            return getAppsEnabledURL(urlPrefix + 'mail.google.com/', urlPrefix + 'mail.google.com/hosted/');
         }
-       catch(e)
-       {
-               pref.setBoolPref("gutil.menu.gmailhttps", false);
-                return 'http://mail.google.com/';
-        }
-}
-/***********************************************************************************************************/
-// special request - hosted & partnerpages
-function runiGoogle()
-{
-   var pref = Components.classes["@mozilla.org/preferences-service;1"]
-			.getService(Components.interfaces.nsIPrefBranch);
-        if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) {
-		return 'http://partnerpage.google.com/' + pref.getCharPref("gutil.menu.hosted.domain","");
-        } else {
-		return 'http://www.google.com/ig';
-        }
- 
-}
-/***********************************************************************************************************/
-// special request - hosted & calendar
-function runCalendar()
-{
-   var pref = Components.classes["@mozilla.org/preferences-service;1"]
-			.getService(Components.interfaces.nsIPrefBranch);
-        if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) {
-		return 'http://www.google.com/calendar/a/' + pref.getCharPref("gutil.menu.hosted.domain","");
-        } else {
-		return 'http://www.google.com/calendar/';
-        }
- 
-}
-
-/***********************************************************************************************************/
-// special request - apps for your domain, with domain
-// since 2.3.1
-function runApps()
-{
-   var pref = Components.classes["@mozilla.org/preferences-service;1"]
-			.getService(Components.interfaces.nsIPrefBranch);
-        if(pref.getCharPref("gutil.menu.hosted.domain","").length>1) {
-		return 'http://www.google.com/a/' + pref.getCharPref("gutil.menu.hosted.domain","");
-        } else {
-		return 'http://www.google.com/a/';
-        }
- 
-}
-
-/***********************************************************************************************************/
-// hide elements that have been checked off from options dialog
-function hideElements()
-{
-    var pref = Components.classes["@mozilla.org/preferences-service;1"]
-        .getService(Components.interfaces.nsIPrefBranch);
-
-   for (i=0;i<elements.length;i++)   
-   {
-        var visible=true;
-        try{
-            visible = pref.getBoolPref("gutil.menu."+elements[i]);
-        }
-        catch(e){
-            pref.setBoolPref("gutil.menu."+elements[i], true);
-        }
-        
-        //alert("set " + elements[i] + " " + visible);
-        if(!visible)
+        catch(e)
         {
-            document.getElementById("gutil_menuitem_" + elements[i]).setAttribute("hidden",true);
-            document.getElementById("gutil_toolbaritem_" + elements[i]).setAttribute("hidden",true);
+            com.gridpulse.gutil.Preferences.setBooleanPreference("gutil.menu.gmailhttps", false);
+            return 'http://mail.google.com/';
+        }
+    },
 
+    getIGoogleURL:function()
+    {
+        return com.gridpulse.gutil.Gutil.getAppsEnabledURL("http://www.google.com/ig","http://partnerpage.google.com/");
+    },
+
+    getCalendarURL:function ()
+    {
+        return com.gridpulse.gutil.Gutil.getAppsEnabledURL("http://www.google.com/calendar/", "http://www.google.com/calendar/a/");
+    },
+    getAppsURL:function()
+    {
+        return com.gridpulse.gutil.Gutil.getAppsEnabledURL("http://www.google.com/a/", "http://www.google.com/a/");
+    },
+    
+    getAppsEnabledURL:function(URL, APPS_URL){
+        var appsDomain = com.gridpulse.gutil.Preferences.getGoogleAppsDomain();
+        
+        if (appsDomain.length > 1) {
+            return APPS_URL + appsDomain;
+        } else {
+            return URL;
+        }
+    },
+
+    refreshElementVisibility:function()
+    {
+        for (var i = 0; i < com.gridpulse.gutil.SERVICES.length; i++)
+        {
+            var visible = true;
+            var currentItemName = com.gridpulse.gutil.SERVICES[i];
+
+            try {
+                visible = com.gridpulse.gutil.Preferences.getBooleanPreference(com.gridpulse.gutil.Constants.MENU_PREFIX + "." + currentItemName);
+            }
+            catch(e) {
+                com.gridpulse.gutil.Preferences.setBooleanPreference(com.gridpulse.gutil.Constants.MENU_PREFIX + "." + currentItemName, true);
+            }
+
+            if (!visible)
+            {
+                com.gridpulse.gutil.Gutil.hideElement(com.gridpulse.gutil.Constants.MENU_ITEM_PREFIX + currentItemName);
+                com.gridpulse.gutil.Gutil.hideElement(com.gridpulse.gutil.Constants.TOOLBAR_ITEM_PREFIX + currentItemName);
+            }
+            else
+            {
+                com.gridpulse.gutil.Gutil.showElement(com.gridpulse.gutil.Constants.MENU_ITEM_PREFIX + currentItemName);
+                com.gridpulse.gutil.Gutil.showElement(com.gridpulse.gutil.Constants.TOOLBAR_ITEM_PREFIX + currentItemName);
+            }
+        }
+    },
+
+    hideElement:function(elementName) {
+        com.gridpulse.gutil.Gutil.setItemVisible(document.getElementById(elementName), false);
+    },
+
+    showElement:function(elementName) {
+        com.gridpulse.gutil.Gutil.setItemVisible(document.getElementById(elementName), true);
+    },
+    setItemVisible:function(element, visible) {
+        if (visible)
+        {
+            element.removeAttribute("hidden");
         }
         else
         {
-            document.getElementById("gutil_menuitem_" + elements[i]).removeAttribute("hidden");
-	    if(document.getElementById("gutil_toolbaritem_" + elements[i]))
-            	document.getElementById("gutil_toolbaritem_" + elements[i]).removeAttribute("hidden");
-	    else
-		alert(elements[i]);	
+            element.setAttribute("hidden", true);
         }
+    },
+
+    logger:function (message) {
+      var consoleService = Components.classes["@mozilla.org/consoleservice;1"].getService(Components.interfaces.nsIConsoleService);
+      consoleService.logStringMessage("GUtil!: " + message);
+    },
+    gutilExecute:function(URL, event)
+    {
+        var swapped = com.gridpulse.gutil.Preferences.getBooleanPreferenceWithDefault("gutil.options.swapbuttons");
         
-    }
+        var selectedItemName = event.target.id;
+        selectedItemName = selectedItemName.replace(com.gridpulse.gutil.Constants.MENU_ITEM_PREFIX, "");
+        selectedItemName = selectedItemName.replace(com.gridpulse.gutil.Constants.TOOLBAR_ITEM_PREFIX, "");
 
-}
+        if (selectedItemName == 'gmail')
+        {
+            URL = com.gridpulse.gutil.Gutil.getGMailURL();
+        }
+        if (selectedItemName == 'igoogle')
+        {
+            URL = com.gridpulse.gutil.Gutil.getIGoogleURL();
+        }
+        if (selectedItemName == 'calendar')
+        {
+            URL = com.gridpulse.gutil.Gutil.getCalendarURL();
+        }
+        if (selectedItemName == 'appd')
+        {
+            URL = com.gridpulse.gutil.Gutil.getAppsURL();
+        }
 
+        switch (event.button) {
+            case 0:
+                com.gridpulse.gutil.ButtonActions.firstButtonAction(URL, swapped);
+                break;
+            case 1:
+                com.gridpulse.gutil.ButtonActions.secondButtonAction(URL);
+                // from utilityOverlay.js, line 197 - good to know
+                closeMenus(event.target);
+                break;
+            case 2:
+                com.gridpulse.gutil.ButtonActions.thirdButtonAction(URL, swapped);
+                closeMenus(event.target);
+                break;
+            default:
+                com.gridpulse.gutil.ButtonActions.firstButtonAction(URL, swapped);
+                break;
+        }
 
-/***********************************************************************************************************/
-//launch item
-//introduced in 2.1
+        //this means the chevron functionality has been used
+        if (com.gridpulse.gutil.Gutil.chevronActive)
+        {
+            com.gridpulse.gutil.Gutil.chevronActive = false;
+            com.gridpulse.gutil.Gutil.refreshElementVisibility();
+        }
+    },
 
-function gutilExecute(URL, event)
-{
-    var pref = Components.classes["@mozilla.org/preferences-service;1"]
-        .getService(Components.interfaces.nsIPrefBranch);
-    var swapped=false;
-    
-    try{
-        swapped = pref.getBoolPref("gutil.options.swapbuttons");
-    }
-    catch(e){
-        pref.setBoolPref("gutil.options.swapbuttons", false);
-    }
-    
-
-    if(event.target.id == 'gutil_toolbaritem_gmail' || event.target.id == 'gutil_menuitem_gmail')
+    executeChevron:function ()
     {
-        URL = runGMail();
-    } else if (event.target.id == 'gutil_toolbaritem_igoogle' || event.target.id == 'gutil_menuitem_igoogle')
-    {
-        URL = runiGoogle();
-    } else if (event.target.id == 'gutil_toolbaritem_calendar' || event.target.id == 'gutil_menuitem_calendar')
-    {
-        URL = runCalendar();
-    }else if (event.target.id == 'gutil_toolbaritem_appd' || event.target.id == 'gutil_menuitem_appd')
-    {
-        URL = runApps();
+        for (var i = 0; i < com.gridpulse.gutil.SERVICES.length; i++)
+        {
+            var currentItemName = com.gridpulse.gutil.SERVICES[i];
+            com.gridpulse.gutil.Gutil.showElement(com.gridpulse.gutil.Constants.MENU_ITEM_PREFIX + currentItemName);
+            com.gridpulse.gutil.Gutil.showElement(com.gridpulse.gutil.Constants.TOOLBAR_ITEM_PREFIX + currentItemName);
+        }
+        com.gridpulse.gutil.Gutil.chevronActive = true;
     }
+};
 
-    switch(event.button)
+com.gridpulse.gutil.GutilObserver = {
+    getObserverService:function(){
+        return Components.classes["@mozilla.org/observer-service;1"].getService(Components.interfaces.nsIObserverService);
+    },
+    observe : function(subject, topic, data)
     {
-        case 0:
-            if(!swapped)
-                getBrowser().selectedTab = getBrowser().addTab(URL);
-            else        
-                gBrowser.loadURI(URL);
-        break;
-        case 1:
-            getBrowser().addTab(URL);
-            // from utilityOverlay.js, line 197 - good to know
-            closeMenus(event.target);
-        break;
-        case 2:
-            if(swapped)
-                getBrowser().selectedTab = getBrowser().addTab(URL);
-            else        
-                gBrowser.loadURI(URL);
-            
-            closeMenus(event.target);
-        break;
-        default:
-            if(!swapped)
-                getBrowser().selectedTab = getBrowser().addTab(URL);
-            else        
-                gBrowser.loadURI(URL);
-        break;
-    }
-    
-    //this means the chevron functionality has been used
-    if(watchOutForChevronAction)
-    {
-        watchOutForChevronAction=false;
-        //restoring elements
-        hideElements();
-    }
-}
+        switch (topic) {
+            case com.gridpulse.gutil.Constants.HIDE_MENU_EVENT:
+                var menu = document.getElementById(com.gridpulse.gutil.Constants.MENU_ID);
+                if (menu)
+                {
+                    com.gridpulse.gutil.Gutil.setItemVisible(menu, data == "0");
+                }
+                break;
 
-/***********************************************************************************************************/
-//chevron action
-//introduced in 2.1.9
-function executeChevron()
-{
-  for (i=0;i<elements.length;i++)   
-   {
-            document.getElementById("gutil_menuitem_" + elements[i]).removeAttribute("hidden");
-            document.getElementById("gutil_toolbaritem_" + elements[i]).removeAttribute("hidden");
-    }
-    watchOutForChevronAction=true;
-}
+            case com.gridpulse.gutil.Constants.HIDE_BUTTON_EVENT:
+                var button = document.getElementById(com.gridpulse.gutil.Constants.BUTTON_ID);
+                if (button)
+                {
+                    com.gridpulse.gutil.Gutil.setItemVisible(button, data == "0");
+                }
+                break;
 
-/***********************************************************************************************************/
-// start it up
-window.addEventListener("load", gutilMain.buttonSetup, false);
+            case com.gridpulse.gutil.Constants.REFRESH_ALL_EVENT:
+                com.gridpulse.gutil.Gutil.refreshElementVisibility();
+                break;
+        }
+    }
+};
