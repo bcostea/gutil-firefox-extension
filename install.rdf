@@ -6,10 +6,11 @@
   
     <em:id>{9a3fa4df-b5e1-4520-a207-ec1c32ea9fb0}</em:id>
     <em:name>GUtil!</em:name>
-    <em:version>2.4.1</em:version>
+    <em:version>2.4.2</em:version>
     <em:description>Google® Utilities in your Firefox Menu and Toolbar</em:description>
     <em:creator>Bogdan Costea</em:creator> 
     <em:contributor>chtitux</em:contributor>
+	<em:contributor>frigi</em:contributor>
     <em:iconURL>chrome://gutil/skin/img/gutil_32.png</em:iconURL>
 
     <!-- optional items -->
@@ -21,7 +22,7 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>1.5</em:minVersion>
-        <em:maxVersion>3.5.*</em:maxVersion>
+        <em:maxVersion>3.6.*</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>
